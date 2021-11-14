@@ -2,11 +2,11 @@
 //  CatTableViewController.swift
 //  New-Cat-Viewer
 //
-//  Created by Lagrange1813 on 2021/11/11.
+//  Created by 张维熙 on 2021/11/14.
 //
 
-import SnapKit
 import UIKit
+import SnapKit
 
 class CatTableViewController: UITableViewController {
     override func viewDidLoad() {
@@ -14,7 +14,7 @@ class CatTableViewController: UITableViewController {
         self.title = "猫猫查看器"
         self.tableView?.register(UITableViewCell.self, forCellReuseIdentifier: self.cellIdentifier)
     }
-
+    
     var cats: [Cat] = [
         Cat(name: "这是第1张猫猫", step: "这是第1张猫猫", image: "001"),
         Cat(name: "这是第2张猫猫", step: "这是第2张猫猫", image: "002"),
@@ -28,7 +28,7 @@ class CatTableViewController: UITableViewController {
     enum Section {
         case all
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cats.count
     }

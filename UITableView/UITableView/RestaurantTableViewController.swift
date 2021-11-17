@@ -16,6 +16,9 @@ class RestaurantTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.dataSource = dataSource
+        
         var snapshot = NSDiffableDataSourceSnapshot<Section, String>()
         snapshot.appendSections([.all])
         snapshot.appendItems(restaurantNames, toSection: .all)

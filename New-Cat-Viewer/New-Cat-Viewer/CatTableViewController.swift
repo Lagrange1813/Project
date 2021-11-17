@@ -5,16 +5,16 @@
 //  Created by 张维熙 on 2021/11/14.
 //
 
-import UIKit
 import SnapKit
+import UIKit
 
 class CatTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "猫猫查看器"
-        self.tableView?.register(UITableViewCell.self, forCellReuseIdentifier: self.cellIdentifier)
+        title = "猫猫查看器"
+        tableView?.register(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
     }
-    
+
     var cats: [Cat] = [
         Cat(name: "这是第1张猫猫", step: "这是第1张猫猫", image: "001"),
         Cat(name: "这是第2张猫猫", step: "这是第2张猫猫", image: "002"),
@@ -28,7 +28,7 @@ class CatTableViewController: UITableViewController {
     enum Section {
         case all
     }
-    
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cats.count
     }
@@ -37,7 +37,14 @@ class CatTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier)! as UITableViewCell
 
         cell.textLabel?.text = cats[indexPath.row].name
+        cell.imageView?.image = UIImage(named: cats[indexPath.row].image)
 
         return cell
+    }
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let viewController = ImageViewController()
+        viewController.imageName = cats[indexPath.row].image
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }

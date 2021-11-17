@@ -9,17 +9,19 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
     var window: UIWindow?
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+        self.window = UIWindow(frame: UIScreen.main.bounds)
         
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.makeKeyAndVisible()
-        window?.backgroundColor = .systemBackground
-        window?.rootViewController = CatTableViewController()
+        let mainViewController = CatTableViewController()
+        let navigationController = UINavigationController(rootViewController: mainViewController)
         
+        self.window?.rootViewController = navigationController
+        
+        self.window?.backgroundColor = .systemBackground
+        self.window?.makeKeyAndVisible()
+       
         return true
     }
 }
-

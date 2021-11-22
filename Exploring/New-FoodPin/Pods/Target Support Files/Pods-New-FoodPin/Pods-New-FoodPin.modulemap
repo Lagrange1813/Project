@@ -1,0 +1,6 @@
+framework module Pods_New_FoodPin {
+  umbrella header "Pods-New-FoodPin-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,13 +9,23 @@ import SnapKit
 import UIKit
 
 class ViewController: UIViewController {
-    let plane = Plane(frame: CGRect())
+    var collision: UICollisionBehavior!
+    var animtor: UIDynamicAnimator!
+    var push: UIPushBehavior!
+    
+    let plane = UIImageView()
+    var time = Date()
+    var location = [Double]()
+    var cnt = 0
+    var loseFlag = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureBackground()
         configureController()
         configurePlane()
+        fetchLocation()
+        configureEnemy()
     }
 
     override var shouldAutorotate: Bool {
@@ -48,16 +58,21 @@ class ViewController: UIViewController {
         view.addSubview(upButton)
         view.addSubview(downButton)
         view.addSubview(fireButton)
+        
+        animtor = UIDynamicAnimator(referenceView: view)
+        collision = UICollisionBehavior()
     }
     
     func configurePlane() {
-        let height = view.frame.height/2
+        let plane_width = 50.0
+        let plane_height = 50.0
+        let x = view.frame.size.height * 0.75 * 0.5
+        let y = view.frame.size.height/2.0 - plane_height/2.0
+        
+        plane.image = UIImage(named: "shuttle")
+        plane.frame = CGRect(x: x, y: y, width: plane_width, height: plane_height)
+        
         view.addSubview(plane)
-        plane.snp.makeConstraints { make in
-            make.size.equalTo(CGSize(width: 50, height: 50))
-            make.centerY.equalToSuperview()
-            make.centerX.equalTo(view.snp.leading).offset(0.75 * height)
-        }
     }
     
     @objc func controlPlaneUP() {
@@ -79,30 +94,90 @@ class ViewController: UIViewController {
     }
     
     @objc func controlPlaneFire() {
-        let location_y = plane.frame.origin.y + plane.frame.height/2
-        let x = plane.frame.origin.x + plane.frame.width + 10
-        print(x)
-        let y = plane.frame.origin.y + plane.frame.height/2
-        print(y)
-        
-        let newTorpedo = Torpedo(frame: CGRect())
-        
-        view.addSubview(newTorpedo)
-        newTorpedo.snp.makeConstraints { make in
-            make.size.equalTo(CGSize(width: 20, height:20))
-            make.centerX.equalTo(x)
-            make.centerY.equalTo(y)
+        let current = Date()
+//        print(current.timeIntervalSince1970)
+        if current.timeIntervalSince1970 - time.timeIntervalSince1970 > 0.2 {
+            time = current
+            
+            
+            let torpedo_width = 20.0
+            let torpedo_height = 20.0
+            let x = plane.frame.origin.x + plane.frame.width + 10.0
+            let y = plane.frame.origin.y + plane.frame.height/2.0 - torpedo_height/2.0
+//            print((x, y))
+            
+            let newTorpedo = UIImageView()
+            newTorpedo.image = UIImage(named: "torpedo")
+            newTorpedo.frame = CGRect(x: x, y: y, width: torpedo_width, height: torpedo_height)
+            
+            view.addSubview(newTorpedo)
+            
+            push = UIPushBehavior(items: [newTorpedo], mode: .instantaneous)
+            push.setAngle(0, magnitude: 1.0)
+            animtor.addBehavior(push)
+            
+            collision.addItem(newTorpedo)
         }
-        
-        UIView.animate(withDuration: 0, delay: 0.0, options: [], animations: {
-            newTorpedo.center.x += 1
-        },completion: {_ in
-            UIView.animate(withDuration: 1, delay: 0.5, options: [], animations: {
-                newTorpedo.center.x += self.view.frame.width
-            },completion: nil)
-        })
-        
     }
     
+    func fetchLocation() {
+        let y = plane.frame.origin.y + plane.frame.height/2.0
+        location.append(y)
+        for x in 1 ... 10 {
+            let currentUP = y + CGFloat(x) * plane.frame.height
+            let currentDo = y - CGFloat(x) * plane.frame.height
+            if currentDo > 0 {
+                location.append(currentDo)
+            }
+            if currentUP < view.frame.height {
+                location.append(currentUP)
+            }
+        }
+        location.sort()
+//        print(location)
+    }
     
+    func configureEnemy() {
+        let alien = UIImageView()
+        let width = view.frame.width - 100.0
+        alien.image = UIImage(named: "alien2")
+        alien.frame = CGRect(x: width, y: 137.5 - 20.0, width: 50.0, height: 40.0)
+        view.addSubview(alien)
+        
+        collision.addItem(alien)
+        collision.translatesReferenceBoundsIntoBoundary = false
+        collision.collisionMode = .everything
+        collision.collisionDelegate = self
+        collision.addBoundary(withIdentifier: "upside" as NSCopying,
+                              from: CGPoint(x: 0, y: 0),
+                              to: CGPoint(x: 10000, y: 0))
+        collision.addBoundary(withIdentifier: "downside" as NSCopying,
+                              from: CGPoint(x: 0, y: view.frame.height),
+                              to: CGPoint(x: 10000, y: view.frame.height))
+        collision.addBoundary(withIdentifier: "back" as NSCopying,
+                              from: CGPoint(x: 0, y: 0),
+                              to: CGPoint(x: 0, y: view.frame.height))
+        collision.addBoundary(withIdentifier: "front" as NSCopying,
+                              from: CGPoint(x: 1000, y: 0),
+                              to: CGPoint(x: 1000, y: view.frame.height))
+        animtor.addBehavior(collision)
+        
+        let enemyPush = UIPushBehavior(items: [alien], mode: .continuous)
+        enemyPush.setAngle(Double.pi, magnitude: 0.1)
+        animtor.addBehavior(enemyPush)
+    }
+}
+
+extension ViewController: UICollisionBehaviorDelegate {
+    func collisionBehavior(_ behavior: UICollisionBehavior, beganContactFor item: UIDynamicItem, withBoundaryIdentifier identifier: NSCopying?, at p: CGPoint) {
+        print("It wall ")
+        if identifier as! String == "back" {
+            controlPlaneFire()
+        }
+    }
+    
+    func collisionBehavior(_ behavior: UICollisionBehavior, beganContactFor item1: UIDynamicItem, with item2: UIDynamicItem, at p: CGPoint) {
+        cnt += 1
+        print(cnt)
+    }
 }

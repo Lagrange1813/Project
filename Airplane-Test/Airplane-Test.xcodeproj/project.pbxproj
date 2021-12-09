@@ -12,9 +12,6 @@
 		7A584E4327586FCD00B2AFCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A584E4227586FCD00B2AFCF /* ViewController.swift */; };
 		7A584E4827586FD000B2AFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A584E4727586FD000B2AFCF /* Assets.xcassets */; };
 		7A584E4B27586FD000B2AFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A584E4927586FD000B2AFCF /* LaunchScreen.storyboard */; };
-		7A584E5A2758BCCF00B2AFCF /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A584E592758BCCE00B2AFCF /* Plane.swift */; };
-		7A584E5E2758CF5800B2AFCF /* ButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A584E5D2758CF5800B2AFCF /* ButtonController.swift */; };
-		7A922B0D2758D2B700C4301C /* Torpedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A922B0C2758D2B700C4301C /* Torpedo.swift */; };
 		969E2544EE3804AC8EC8F3F9 /* Pods_Airplane_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6D8B138D08A86309A93D23 /* Pods_Airplane_Test.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,9 +25,6 @@
 		7A584E4A27586FD000B2AFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A584E4C27586FD000B2AFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A584E5227586FF100B2AFCF /* Airplane-Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Airplane-Test.entitlements"; sourceTree = "<group>"; };
-		7A584E592758BCCE00B2AFCF /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
-		7A584E5D2758CF5800B2AFCF /* ButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonController.swift; sourceTree = "<group>"; };
-		7A922B0C2758D2B700C4301C /* Torpedo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torpedo.swift; sourceTree = "<group>"; };
 		7E6D8B138D08A86309A93D23 /* Pods_Airplane_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Airplane_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9309E8C5B5944574CF954EEB /* Pods-Airplane-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airplane-Test.release.xcconfig"; path = "Target Support Files/Pods-Airplane-Test/Pods-Airplane-Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,9 +77,6 @@
 				7A584E4727586FD000B2AFCF /* Assets.xcassets */,
 				7A584E4927586FD000B2AFCF /* LaunchScreen.storyboard */,
 				7A584E4C27586FD000B2AFCF /* Info.plist */,
-				7A584E592758BCCE00B2AFCF /* Plane.swift */,
-				7A584E5D2758CF5800B2AFCF /* ButtonController.swift */,
-				7A922B0C2758D2B700C4301C /* Torpedo.swift */,
 			);
 			path = "Airplane-Test";
 			sourceTree = "<group>";
@@ -215,9 +206,6 @@
 			files = (
 				7A584E4327586FCD00B2AFCF /* ViewController.swift in Sources */,
 				7A584E3F27586FCD00B2AFCF /* AppDelegate.swift in Sources */,
-				7A584E5E2758CF5800B2AFCF /* ButtonController.swift in Sources */,
-				7A922B0D2758D2B700C4301C /* Torpedo.swift in Sources */,
-				7A584E5A2758BCCF00B2AFCF /* Plane.swift in Sources */,
 				7A584E4127586FCD00B2AFCF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

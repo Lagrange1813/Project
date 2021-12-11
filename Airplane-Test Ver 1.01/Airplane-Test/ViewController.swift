@@ -23,14 +23,16 @@ class ViewController: UIViewController {
     var score: UILabel!
     var loseFlag = false
     var fireFlag = false
-    var startButton: UIButton!
+//    var startButton: UIButton!
     var gameView: UIView!
+    var startView: UIView!
+    var rankView: UIView!
     var result: UIView!
     var loseCnt = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureStartButton()
+        configureStartView()
     }
 
     override var shouldAutorotate: Bool { false }

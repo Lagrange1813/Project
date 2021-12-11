@@ -9,16 +9,20 @@ import SnapKit
 import UIKit
 
 class ViewController: UIViewController {
+    // 初始化变量
     var collision: UICollisionBehavior!
-    var animtor: UIDynamicAnimator!
+    var animator: UIDynamicAnimator!
     var push: UIPushBehavior!
-    
+
     let plane = UIImageView()
     var time = Date()
+    var torpedo: UIImageView!
     var location = [Double]()
     var cnt = 0
+    var score: UILabel!
     var loseFlag = false
-    
+    var fireFlag = false
+
     override func viewDidLoad() {
         super.viewDidLoad()
         configureBackground()
@@ -29,52 +33,60 @@ class ViewController: UIViewController {
     }
 
     override var shouldAutorotate: Bool {
-        return false
+        false
     }
 
+    // 配置背景和其他基础项
     func configureBackground() {
         UIDevice.current.setValue(UIInterfaceOrientation.landscapeRight.rawValue, forKey: "orientation")
         view.backgroundColor = .black
+        score = UILabel(frame: CGRect(x: view.frame.width - 40, y: 20, width: 20, height: 20))
+        score.text = "0"
+        score.textColor = .white
+        view.addSubview(score)
     }
-    
+
+    // 配置控制器
     func configureController() {
-        let height = view.frame.height/2
+        let height = view.frame.height / 2
         let width = view.frame.width
-        
+
         let upButton = UIButton(frame: CGRect(x: 0, y: 0, width: height, height: height))
         upButton.setImage(UIImage(systemName: "arrowtriangle.up.circle"), for: .normal)
         upButton.setImage(UIImage(systemName: "arrowtriangle.up.circle.fill"), for: .highlighted)
         upButton.addTarget(self, action: #selector(controlPlaneUP), for: .touchDown)
-        
+
         let downButton = UIButton(frame: CGRect(x: 0, y: height, width: height, height: height))
         downButton.setImage(UIImage(systemName: "arrowtriangle.down.circle"), for: .normal)
         downButton.setImage(UIImage(systemName: "arrowtriangle.down.circle.fill"), for: .highlighted)
         downButton.addTarget(self, action: #selector(controlPlaneDown), for: .touchUpInside)
-        
+
         let fireButton = UIButton(frame: CGRect(x: width - height, y: height, width: height, height: height))
         fireButton.setImage(UIImage(systemName: "atom"), for: .normal)
         fireButton.addTarget(self, action: #selector(controlPlaneFire), for: .touchUpInside)
-        
+
         view.addSubview(upButton)
         view.addSubview(downButton)
         view.addSubview(fireButton)
-        
-        animtor = UIDynamicAnimator(referenceView: view)
+
+        animator = UIDynamicAnimator(referenceView: view)
         collision = UICollisionBehavior()
+        
     }
-    
+
+    // 配置飞机
     func configurePlane() {
         let plane_width = 50.0
         let plane_height = 50.0
         let x = view.frame.size.height * 0.75 * 0.5
-        let y = view.frame.size.height/2.0 - plane_height/2.0
-        
+        let y = view.frame.size.height / 2.0 - plane_height / 2.0
+
         plane.image = UIImage(named: "shuttle")
         plane.frame = CGRect(x: x, y: y, width: plane_width, height: plane_height)
-        
+
         view.addSubview(plane)
     }
-    
+
     @objc func controlPlaneUP() {
         if plane.frame.origin.y > 0 {
             UIView.animate(withDuration: 0.33, delay: 0.0, options: [], animations: {
@@ -82,7 +94,7 @@ class ViewController: UIViewController {
             }, completion: nil)
         }
     }
-    
+
     @objc func controlPlaneDown() {
         let current = plane.frame.origin.y + plane.frame.height
         let limit = view.frame.height
@@ -92,38 +104,41 @@ class ViewController: UIViewController {
             }, completion: nil)
         }
     }
-    
+
     @objc func controlPlaneFire() {
         let current = Date()
 //        print(current.timeIntervalSince1970)
-        if current.timeIntervalSince1970 - time.timeIntervalSince1970 > 0.2 {
+        let newTorpedo = UIImageView()
+        torpedo = newTorpedo
+        fireFlag = true
+        if current.timeIntervalSince1970 - time.timeIntervalSince1970 > 0.3 {
             time = current
-            
-            
+
             let torpedo_width = 20.0
             let torpedo_height = 20.0
             let x = plane.frame.origin.x + plane.frame.width + 10.0
-            let y = plane.frame.origin.y + plane.frame.height/2.0 - torpedo_height/2.0
+            let y = plane.frame.origin.y + plane.frame.height / 2.0 - torpedo_height / 2.0
 //            print((x, y))
-            
-            let newTorpedo = UIImageView()
-            newTorpedo.image = UIImage(named: "torpedo")
-            newTorpedo.frame = CGRect(x: x, y: y, width: torpedo_width, height: torpedo_height)
-            
-            view.addSubview(newTorpedo)
-            
+
+            torpedo.image = UIImage(named: "torpedo")
+            torpedo.frame = CGRect(x: x, y: y, width: torpedo_width, height: torpedo_height)
+
+            view.addSubview(torpedo)
+
             push = UIPushBehavior(items: [newTorpedo], mode: .instantaneous)
             push.setAngle(0, magnitude: 1.0)
-            animtor.addBehavior(push)
+            animator.addBehavior(push)
+
+            collision.addItem(torpedo)
             
-            collision.addItem(newTorpedo)
         }
     }
-    
+
+    // （暂时无用）获取飞机位置
     func fetchLocation() {
-        let y = plane.frame.origin.y + plane.frame.height/2.0
+        let y = plane.frame.origin.y + plane.frame.height / 2.0
         location.append(y)
-        for x in 1 ... 10 {
+        for x in 1...10 {
             let currentUP = y + CGFloat(x) * plane.frame.height
             let currentDo = y - CGFloat(x) * plane.frame.height
             if currentDo > 0 {
@@ -134,50 +149,57 @@ class ViewController: UIViewController {
             }
         }
         location.sort()
-//        print(location)
     }
-    
+
+    // 配置 Alien
     func configureEnemy() {
         let alien = UIImageView()
         let width = view.frame.width - 100.0
         alien.image = UIImage(named: "alien2")
         alien.frame = CGRect(x: width, y: 137.5 - 20.0, width: 50.0, height: 40.0)
         view.addSubview(alien)
-        
+
         collision.addItem(alien)
         collision.translatesReferenceBoundsIntoBoundary = false
         collision.collisionMode = .everything
         collision.collisionDelegate = self
         collision.addBoundary(withIdentifier: "upside" as NSCopying,
-                              from: CGPoint(x: 0, y: 0),
-                              to: CGPoint(x: 10000, y: 0))
+                from: CGPoint(x: 0, y: 0),
+                to: CGPoint(x: 10000, y: 0))
         collision.addBoundary(withIdentifier: "downside" as NSCopying,
-                              from: CGPoint(x: 0, y: view.frame.height),
-                              to: CGPoint(x: 10000, y: view.frame.height))
+                from: CGPoint(x: 0, y: view.frame.height),
+                to: CGPoint(x: 10000, y: view.frame.height))
         collision.addBoundary(withIdentifier: "back" as NSCopying,
-                              from: CGPoint(x: 0, y: 0),
-                              to: CGPoint(x: 0, y: view.frame.height))
+                from: CGPoint(x: 0, y: 0),
+                to: CGPoint(x: 0, y: view.frame.height))
         collision.addBoundary(withIdentifier: "front" as NSCopying,
-                              from: CGPoint(x: 1000, y: 0),
-                              to: CGPoint(x: 1000, y: view.frame.height))
-        animtor.addBehavior(collision)
-        
+                from: CGPoint(x: 1000, y: 0),
+                to: CGPoint(x: 1000, y: view.frame.height))
+        animator.addBehavior(collision)
+
         let enemyPush = UIPushBehavior(items: [alien], mode: .continuous)
         enemyPush.setAngle(Double.pi, magnitude: 0.1)
-        animtor.addBehavior(enemyPush)
+        animator.addBehavior(enemyPush)
     }
 }
 
+// 碰撞响应
 extension ViewController: UICollisionBehaviorDelegate {
     func collisionBehavior(_ behavior: UICollisionBehavior, beganContactFor item: UIDynamicItem, withBoundaryIdentifier identifier: NSCopying?, at p: CGPoint) {
-        print("It wall ")
+        if fireFlag {
+            collision.removeItem(torpedo)
+            torpedo.isHidden = true
+        }
         if identifier as! String == "back" {
-            controlPlaneFire()
+            print("lose")
         }
     }
-    
+
     func collisionBehavior(_ behavior: UICollisionBehavior, beganContactFor item1: UIDynamicItem, with item2: UIDynamicItem, at p: CGPoint) {
+        torpedo.isHidden = true
+        collision.removeItem(torpedo)
         cnt += 1
+        score.text = String(cnt)
         print(cnt)
     }
 }

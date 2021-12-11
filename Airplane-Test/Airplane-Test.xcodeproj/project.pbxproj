@@ -11,8 +11,8 @@
 		7A584E4127586FCD00B2AFCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A584E4027586FCD00B2AFCF /* SceneDelegate.swift */; };
 		7A584E4327586FCD00B2AFCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A584E4227586FCD00B2AFCF /* ViewController.swift */; };
 		7A584E4827586FD000B2AFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A584E4727586FD000B2AFCF /* Assets.xcassets */; };
-		7A584E4B27586FD000B2AFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A584E4927586FD000B2AFCF /* LaunchScreen.storyboard */; };
 		969E2544EE3804AC8EC8F3F9 /* Pods_Airplane_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6D8B138D08A86309A93D23 /* Pods_Airplane_Test.framework */; };
+		C6487A68B5A92AE45EE8019E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6487984CECE38870BC44E1D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +22,11 @@
 		7A584E4027586FCD00B2AFCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7A584E4227586FCD00B2AFCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A584E4727586FD000B2AFCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A584E4A27586FD000B2AFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A584E4C27586FD000B2AFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A584E5227586FF100B2AFCF /* Airplane-Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Airplane-Test.entitlements"; sourceTree = "<group>"; };
 		7E6D8B138D08A86309A93D23 /* Pods_Airplane_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Airplane_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9309E8C5B5944574CF954EEB /* Pods-Airplane-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airplane-Test.release.xcconfig"; path = "Target Support Files/Pods-Airplane-Test/Pods-Airplane-Test.release.xcconfig"; sourceTree = "<group>"; };
+		C6487984CECE38870BC44E1D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,8 @@
 				7A584E4027586FCD00B2AFCF /* SceneDelegate.swift */,
 				7A584E4227586FCD00B2AFCF /* ViewController.swift */,
 				7A584E4727586FD000B2AFCF /* Assets.xcassets */,
-				7A584E4927586FD000B2AFCF /* LaunchScreen.storyboard */,
 				7A584E4C27586FD000B2AFCF /* Info.plist */,
+				C64874143D027E4EADBB645C /* StoryBoard */,
 			);
 			path = "Airplane-Test";
 			sourceTree = "<group>";
@@ -88,6 +88,14 @@
 				9309E8C5B5944574CF954EEB /* Pods-Airplane-Test.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C64874143D027E4EADBB645C /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C6487984CECE38870BC44E1D /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A584E4B27586FD000B2AFCF /* LaunchScreen.storyboard in Resources */,
 				7A584E4827586FD000B2AFCF /* Assets.xcassets in Resources */,
+				C6487A68B5A92AE45EE8019E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,17 +219,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7A584E4927586FD000B2AFCF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A584E4A27586FD000B2AFCF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7A584E4D27586FD000B2AFCF /* Debug */ = {

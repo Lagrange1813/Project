@@ -11,11 +11,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//        if UserDefaults.isFirstLaunch() {
-//            // 显示新手指导页
-//            print("第一次启动")
-//            Test.initDB()
-//        }
+        if UserDefaults.isFirstLaunch() {
+            // 显示新手指导页
+            print("第一次启动")
+            SqlOperator.initDB()
+        }
         return true
     }
 

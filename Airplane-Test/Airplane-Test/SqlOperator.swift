@@ -1,5 +1,5 @@
 //
-//  SqlOperation.swift
+//  SqlOperator.swift
 //  Airplane-Test
 //
 //  Created by 张维熙 on 2021/12/11.
@@ -45,14 +45,20 @@ class SqlOperator
         }
         
         // 插入测试数据
-        let rec0 = "INSERT INTO record(score,time) VALUES('100','2021.12.11');"
-        let rec1 = "INSERT INTO record(score,time) VALUES('1000','2021.12.11');"
+        let rec0 = "INSERT INTO record(score,time) VALUES('0','2021-12-1 00:00:00 +0000');"
+        let rec1 = "INSERT INTO record(score,time) VALUES('0','2021-12-1 00:00:00 +0000');"
+        let rec2 = "INSERT INTO record(score,time) VALUES('0','2021-12-1 00:00:00 +0000');"
         if !sqlite.execNoneQuerySQL(sql: rec0)
         {
             sqlite.closeDB()
             return
         }
         if !sqlite.execNoneQuerySQL(sql: rec1)
+        {
+            sqlite.closeDB()
+            return
+        }
+        if !sqlite.execNoneQuerySQL(sql: rec2)
         {
             sqlite.closeDB()
             return
@@ -69,7 +75,7 @@ class SqlOperator
         if !sqlite.openDB() { return }
         
         // 插入数据
-        let date = Date().formatted()
+        let date = Date()
         let record = "INSERT INTO record(score,time) VALUES('\(score)','\(date)');"
         if !sqlite.execNoneQuerySQL(sql: record)
         {
@@ -81,16 +87,17 @@ class SqlOperator
         sqlite.closeDB()
     }
     
-    static func getRecord()
+    static func getRecord() -> [[String: AnyObject]]
     {
         // 获取SQLiteManager的单例对象
         let sqlite = SQLiteManager.shareInstance
+        var queryResult: [[String: AnyObject]]? = nil
         
         // 打开数据库
-        if !sqlite.openDB() { return }
+        if !sqlite.openDB() { return queryResult! }
         
         // 查询所有
-        let queryResult = sqlite.execQuerySQL(sql: "SELECT * FROM record ORDER BY score DESC;")
+        queryResult = sqlite.execQuerySQL(sql: "SELECT * FROM record ORDER BY score DESC;")
         
         print(queryResult!)
         
@@ -101,6 +108,8 @@ class SqlOperator
         
         // 关闭数据库
         sqlite.closeDB()
+        
+        return queryResult!
     }
     
     static func GetID1() -> [AnyObject]

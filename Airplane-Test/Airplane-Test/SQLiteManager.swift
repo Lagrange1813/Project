@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 class SQLiteManager: NSObject {
     private var dbPath: String! // 数据库所存储的文件所在路径
     private var database: OpaquePointer? // 数据库，是一个指针，指向一个结构体

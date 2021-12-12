@@ -16,14 +16,16 @@
 		7A85F7E627649CDC003280CA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85F7E527649CDC003280CA /* Game.swift */; };
 		7A85F7E927649D6A003280CA /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85F7E827649D6A003280CA /* Start.swift */; };
 		7A85F7EB27649DA0003280CA /* Restart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85F7EA27649DA0003280CA /* Restart.swift */; };
-		7A85F8202764C54E003280CA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A85F81F2764C54E003280CA /* libsqlite3.tbd */; };
-		7A85F8222764C568003280CA /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85F8212764C568003280CA /* SQLiteManager.swift */; };
-		7A85F8242764C5A7003280CA /* SqlOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85F8232764C5A7003280CA /* SqlOperator.swift */; };
-		7A85F8262764C61E003280CA /* FirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85F8252764C61E003280CA /* FirstLaunch.swift */; };
+		7A85F82F2764CBF0003280CA /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85F82E2764CBF0003280CA /* SQLiteManager.swift */; };
+		7A85F8312764CC04003280CA /* SqlOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85F8302764CC04003280CA /* SqlOperator.swift */; };
+		7A85F8342764CC13003280CA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A85F8332764CC13003280CA /* libsqlite3.tbd */; };
+		7A85F8392764CD64003280CA /* FirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85F8382764CD64003280CA /* FirstLaunch.swift */; };
 		C6487A68B5A92AE45EE8019E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6487984CECE38870BC44E1D /* LaunchScreen.storyboard */; };
+		CFEB92A0B9DD4723D45E8F29 /* Pods_Airplane_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8072FDABCEDDF4B81B7F6913 /* Pods_Airplane_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70112E8A6760D9F83AEA79DD /* Pods-Airplane-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airplane-Test.debug.xcconfig"; path = "Target Support Files/Pods-Airplane-Test/Pods-Airplane-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		7A584E3B27586FCD00B2AFCF /* Airplane-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airplane-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A584E3E27586FCD00B2AFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A584E4027586FCD00B2AFCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,11 +38,13 @@
 		7A85F7E527649CDC003280CA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		7A85F7E827649D6A003280CA /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
 		7A85F7EA27649DA0003280CA /* Restart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restart.swift; sourceTree = "<group>"; };
-		7A85F81C2764C519003280CA /* Airplane-Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Airplane-Test-Bridging-Header.h"; sourceTree = "<group>"; };
-		7A85F81F2764C54E003280CA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		7A85F8212764C568003280CA /* SQLiteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
-		7A85F8232764C5A7003280CA /* SqlOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqlOperator.swift; sourceTree = "<group>"; };
-		7A85F8252764C61E003280CA /* FirstLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunch.swift; sourceTree = "<group>"; };
+		7A85F82E2764CBF0003280CA /* SQLiteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		7A85F8302764CC04003280CA /* SqlOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqlOperator.swift; sourceTree = "<group>"; };
+		7A85F8332764CC13003280CA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7A85F8352764CCBA003280CA /* Airplane-Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Airplane-Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A85F8382764CD64003280CA /* FirstLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunch.swift; sourceTree = "<group>"; };
+		8072FDABCEDDF4B81B7F6913 /* Pods_Airplane_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Airplane_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF5D68CAD6714F6C9A86400 /* Pods-Airplane-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airplane-Test.release.xcconfig"; path = "Target Support Files/Pods-Airplane-Test/Pods-Airplane-Test.release.xcconfig"; sourceTree = "<group>"; };
 		C6487984CECE38870BC44E1D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,19 +53,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A85F8202764C54E003280CA /* libsqlite3.tbd in Frameworks */,
+				7A85F8342764CC13003280CA /* libsqlite3.tbd in Frameworks */,
+				CFEB92A0B9DD4723D45E8F29 /* Pods_Airplane_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36593885D7159A1CE69488AE /* Frameworks */ = {
+		47AEAC95AD50247C77910764 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7A85F81F2764C54E003280CA /* libsqlite3.tbd */,
+				70112E8A6760D9F83AEA79DD /* Pods-Airplane-Test.debug.xcconfig */,
+				8AF5D68CAD6714F6C9A86400 /* Pods-Airplane-Test.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		7A584E3227586FCD00B2AFCF = {
@@ -69,7 +76,8 @@
 			children = (
 				7A584E3D27586FCD00B2AFCF /* Airplane-Test */,
 				7A584E3C27586FCD00B2AFCF /* Products */,
-				36593885D7159A1CE69488AE /* Frameworks */,
+				7A85F8322764CC13003280CA /* Frameworks */,
+				47AEAC95AD50247C77910764 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,11 +102,11 @@
 				7A85F7E527649CDC003280CA /* Game.swift */,
 				7A85F7E827649D6A003280CA /* Start.swift */,
 				7A85F7EA27649DA0003280CA /* Restart.swift */,
-				7A85F8212764C568003280CA /* SQLiteManager.swift */,
-				7A85F8232764C5A7003280CA /* SqlOperator.swift */,
-				7A85F81C2764C519003280CA /* Airplane-Test-Bridging-Header.h */,
+				7A85F82E2764CBF0003280CA /* SQLiteManager.swift */,
+				7A85F8302764CC04003280CA /* SqlOperator.swift */,
+				7A85F8382764CD64003280CA /* FirstLaunch.swift */,
+				7A85F8352764CCBA003280CA /* Airplane-Test-Bridging-Header.h */,
 				7A584E4C27586FD000B2AFCF /* Info.plist */,
-				7A85F8252764C61E003280CA /* FirstLaunch.swift */,
 			);
 			path = "Airplane-Test";
 			sourceTree = "<group>";
@@ -128,6 +136,15 @@
 			path = Delegate;
 			sourceTree = "<group>";
 		};
+		7A85F8322764CC13003280CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A85F8332764CC13003280CA /* libsqlite3.tbd */,
+				8072FDABCEDDF4B81B7F6913 /* Pods_Airplane_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C64874143D027E4EADBB645C /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A584E4F27586FD000B2AFCF /* Build configuration list for PBXNativeTarget "Airplane-Test" */;
 			buildPhases = (
+				972A42DF70418BDB6FA777BD /* [CP] Check Pods Manifest.lock */,
 				7A584E3727586FCD00B2AFCF /* Sources */,
 				7A584E3827586FCD00B2AFCF /* Frameworks */,
 				7A584E3927586FCD00B2AFCF /* Resources */,
+				337AE191B10BEDBDDA2E35BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,22 +221,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		337AE191B10BEDBDDA2E35BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Airplane-Test/Pods-Airplane-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Airplane-Test/Pods-Airplane-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Airplane-Test/Pods-Airplane-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		972A42DF70418BDB6FA777BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Airplane-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A584E3727586FCD00B2AFCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7A584E4327586FCD00B2AFCF /* ViewController.swift in Sources */,
-				7A85F8262764C61E003280CA /* FirstLaunch.swift in Sources */,
+				7A85F8392764CD64003280CA /* FirstLaunch.swift in Sources */,
 				7A85F7E627649CDC003280CA /* Game.swift in Sources */,
 				7A85F7E927649D6A003280CA /* Start.swift in Sources */,
 				7A584E3F27586FCD00B2AFCF /* AppDelegate.swift in Sources */,
 				7A85F7E427649C40003280CA /* ButtonConfigure.swift in Sources */,
 				7A85F7EB27649DA0003280CA /* Restart.swift in Sources */,
-				7A85F8222764C568003280CA /* SQLiteManager.swift in Sources */,
+				7A85F82F2764CBF0003280CA /* SQLiteManager.swift in Sources */,
+				7A85F8312764CC04003280CA /* SqlOperator.swift in Sources */,
 				7A85F7E227649BEB003280CA /* CollisionConfigure.swift in Sources */,
 				7A584E4127586FCD00B2AFCF /* SceneDelegate.swift in Sources */,
-				7A85F8242764C5A7003280CA /* SqlOperator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +403,7 @@
 		};
 		7A584E5027586FD000B2AFCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70112E8A6760D9F83AEA79DD /* Pods-Airplane-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -366,7 +428,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Airplane-Test-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Airplane-Test/Airplane-Test-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -375,6 +437,7 @@
 		};
 		7A584E5127586FD000B2AFCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF5D68CAD6714F6C9A86400 /* Pods-Airplane-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Airplane-Test-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Airplane-Test/Airplane-Test-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

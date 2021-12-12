@@ -24,6 +24,8 @@ extension ViewController: UICollisionBehaviorDelegate {
                 gameView.isHidden = true
                 gameView.removeFromSuperview()
                 loseResult()
+                SqlOperator.insertRecord(cnt)
+//                SqlOperator.getRecord()
             } else {
                 gameView.removeFromSuperview()
                 gameStart()

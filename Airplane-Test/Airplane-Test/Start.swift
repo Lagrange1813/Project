@@ -70,7 +70,7 @@ extension ViewController {
         
         let x = view.center.x
         let y = view.center.y
-        let width = 400.0
+        let width = 300.0
         let height = 20.0
         
         let resultList = SqlOperator.getRecord()

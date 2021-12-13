@@ -45,9 +45,9 @@ class SqlOperator
         }
         
         // 插入测试数据
-        let rec0 = "INSERT INTO record(score,time) VALUES('0','2021-12-1 00:00:00 +0000');"
-        let rec1 = "INSERT INTO record(score,time) VALUES('0','2021-12-1 00:00:00 +0000');"
-        let rec2 = "INSERT INTO record(score,time) VALUES('0','2021-12-1 00:00:00 +0000');"
+        let rec0 = "INSERT INTO record(score,time) VALUES('0','2021-1-1 00:00');"
+        let rec1 = "INSERT INTO record(score,time) VALUES('0','2021-1-1 00:00');"
+        let rec2 = "INSERT INTO record(score,time) VALUES('0','2021-1-1 00:00');"
         if !sqlite.execNoneQuerySQL(sql: rec0)
         {
             sqlite.closeDB()
@@ -75,7 +75,9 @@ class SqlOperator
         if !sqlite.openDB() { return }
         
         // 插入数据
-        let date = Date()
+        let formatter = DateFormatter()
+        formatter.dateFormat="YYYY-MM-dd HH:mm"
+        let date = formatter.string(from: Date())
         let record = "INSERT INTO record(score,time) VALUES('\(score)','\(date)');"
         if !sqlite.execNoneQuerySQL(sql: record)
         {

@@ -52,5 +52,6 @@ extension ViewController {
             lastTorpedo.isHidden = true
             self.collision.removeItem(lastTorpedo)
         }
+        
     }
 }

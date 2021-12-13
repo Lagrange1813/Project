@@ -46,10 +46,11 @@ extension ViewController {
         torpedo = nil
         configureGameView()
         configureBackground()
-        configureController()
+//        configureController()
+        configureJoyStick()
         configurePlane()
 //        fetchLocation()
-        configureEnemy()
+//        configureEnemy()
     }
     
     @objc func showRank() {

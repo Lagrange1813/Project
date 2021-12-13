@@ -44,31 +44,31 @@ extension ViewController {
     }
 
     // 配置控制器
-    func configureController() {
-        let height = view.frame.height / 2
-        let width = view.frame.width
-
-        let upButton = UIButton(frame: CGRect(x: 0, y: 0, width: height, height: height))
-        upButton.setImage(UIImage(systemName: "arrowtriangle.up.circle"), for: .normal)
-        upButton.setImage(UIImage(systemName: "arrowtriangle.up.circle.fill"), for: .highlighted)
-        upButton.addTarget(self, action: #selector(controlPlaneUP), for: .touchDown)
-
-        let downButton = UIButton(frame: CGRect(x: 0, y: height, width: height, height: height))
-        downButton.setImage(UIImage(systemName: "arrowtriangle.down.circle"), for: .normal)
-        downButton.setImage(UIImage(systemName: "arrowtriangle.down.circle.fill"), for: .highlighted)
-        downButton.addTarget(self, action: #selector(controlPlaneDown), for: .touchUpInside)
-
-        let fireButton = UIButton(frame: CGRect(x: width - height, y: height, width: height, height: height))
-        fireButton.setImage(UIImage(systemName: "atom"), for: .normal)
-        fireButton.addTarget(self, action: #selector(controlPlaneFire), for: .touchUpInside)
-
-        gameView.addSubview(upButton)
-        gameView.addSubview(downButton)
-        gameView.addSubview(fireButton)
-
-        animator = UIDynamicAnimator(referenceView: gameView)
-        collision = UICollisionBehavior()
-    }
+//    func configureController() {
+//        let height = view.frame.height / 2
+//        let width = view.frame.width
+//
+//        let upButton = UIButton(frame: CGRect(x: 0, y: 0, width: height, height: height))
+//        upButton.setImage(UIImage(systemName: "arrowtriangle.up.circle"), for: .normal)
+//        upButton.setImage(UIImage(systemName: "arrowtriangle.up.circle.fill"), for: .highlighted)
+//        upButton.addTarget(self, action: #selector(controlPlaneUP), for: .touchDown)
+//
+//        let downButton = UIButton(frame: CGRect(x: 0, y: height, width: height, height: height))
+//        downButton.setImage(UIImage(systemName: "arrowtriangle.down.circle"), for: .normal)
+//        downButton.setImage(UIImage(systemName: "arrowtriangle.down.circle.fill"), for: .highlighted)
+//        downButton.addTarget(self, action: #selector(controlPlaneDown), for: .touchUpInside)
+//
+//        let fireButton = UIButton(frame: CGRect(x: width - height, y: height, width: height, height: height))
+//        fireButton.setImage(UIImage(systemName: "atom"), for: .normal)
+//        fireButton.addTarget(self, action: #selector(controlPlaneFire), for: .touchUpInside)
+//
+//        gameView.addSubview(upButton)
+//        gameView.addSubview(downButton)
+//        gameView.addSubview(fireButton)
+//
+//        animator = UIDynamicAnimator(referenceView: gameView)
+//        collision = UICollisionBehavior()
+//    }
 
     // 配置飞机
     func configurePlane() {

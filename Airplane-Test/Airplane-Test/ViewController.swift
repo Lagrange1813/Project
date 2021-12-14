@@ -145,5 +145,21 @@ class ViewController: UIViewController {
 
     }
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("Touches Begin")
+    }
+
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("Touches Moved")
+    }
     
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("Touches Ended")
+    }
+    
+    private func resetStick() {
+        joystickView.snp.makeConstraints {
+            $0.center.equalToSuperview()
+        }
+    }
 }

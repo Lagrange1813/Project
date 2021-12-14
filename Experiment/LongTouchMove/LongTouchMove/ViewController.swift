@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     var testView: UIView!
     var timer: Timer!
     var flag = false
@@ -28,8 +27,6 @@ class ViewController: UIViewController {
     }
     
     func configureController() {
-        
-        
         let controller = UIButton(frame: CGRect(x: 250, y: 300, width: 100, height: 50))
         controller.setTitle("controller", for: .normal)
         controller.setTitleColor(.systemBlue, for: .normal)
@@ -45,15 +42,14 @@ class ViewController: UIViewController {
         view.addSubview(controller2)
         
         let catcher = UILongPressGestureRecognizer(target: self, action: #selector(longTouch))
-        controller.addTarget(self, action: #selector(cancelTouch), for: .touchUpInside)
+        catcher.minimumPressDuration = 0.01
         controller.addGestureRecognizer(catcher)
     }
     
     @objc func controlView() {
-        UIView.animate(withDuration: 0.2, delay: 0.0, options: [], animations: {
-            self.testView.center.y += 100
+        UIView.animate(withDuration: 0.4, delay: 0.0, options: [], animations: {
+            self.testView.center.y += 60
         }, completion: nil)
-        print("touchdown")
     }
     
     @objc func resetView() {
@@ -66,18 +62,36 @@ class ViewController: UIViewController {
 //        }
     }
     
-    @objc func longTouch() {
-        print(flag)
-        if !flag {
-            
-            flag = true
+    @objc func longTouch(_ gesture: UILongPressGestureRecognizer) {
+//        print(flag)
+        if gesture.state == UIGestureRecognizer.State.began {
+            print("Long Press")
             timer = Timer(timeInterval: 0.1, repeats: true) { _ in
                 UIView.animate(withDuration: 0.2, delay: 0.0, options: [], animations: {
-                    self.testView.center.y += 10
+                    self.testView.center.y += 30
                 }, completion: nil)
             }
+            RunLoop.current.add(timer, forMode: .default)
+        }
+        if gesture.state == UIGestureRecognizer.State.ended {
+            print("Long Press Ended")
+            timer.invalidate()
         }
         
+//        if !flag {
+//
+//            flag = true
+//            timer = Timer(timeInterval: 0.1, repeats: true) { _ in
+//                UIView.animate(withDuration: 0.2, delay: 0.0, options: [], animations: {
+//                    self.testView.center.y += 10
+//                }, completion: nil)
+//            }
+//            RunLoop.current.add(timer, forMode: .default)
+//        } else {
+//            timer.invalidate()
+//            flag = false
+//        }
+//        print("longtouch")
 //        timer.fire()
 //        Timer.scheduledTimer(withTimeInterval: 0.15, repeats: true) { _ in
 //            UIView.animate(withDuration: 0.2, delay: 0.0, options: [], animations: {
@@ -85,16 +99,34 @@ class ViewController: UIViewController {
 //            }, completion: nil)
 //        }
 //        timer.invalidate()
-        RunLoop.current.add(timer, forMode: .default)
+//        RunLoop.current.add(timer, forMode: .default)
     }
     
-    @objc func cancelTouch() {
-        if let test = timer {
-            test.invalidate()
-            flag = false
-        }
-        print("touchupinside")
-        
-    }
+//    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        print("occurred")
+//        if let test = timer {
+//            test.invalidate()
+//            flag = false
+//        }
+//    }
+//
+//    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        print("occurred")
+//        if let test = timer {
+//            test.invalidate()
+//            flag = false
+//        }
+//    }
+    
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        print("Touches Begin")
+//    }
+//
+//    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        print("Touches Moved")
+//    }
+//
+//    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        print("Touches Ended")
+//    }
 }
-

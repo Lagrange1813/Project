@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[])
 {
-	FILE *wordFile = fopen ("/tmp/words.txt", "r");
+	FILE *wordFile = fopen ("/private/tmp/words.txt", "r");
 	char word[100];
 	
 	while (fgets(word, 100, wordFile))

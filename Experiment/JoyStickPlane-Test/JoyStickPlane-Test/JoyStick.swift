@@ -1,11 +1,11 @@
 //
-//  AnalogStick.swift
-//  Joystick
+//  JoyStick.swift
+//  JoyStickPlane-Test
 //
-//  Created by Dmitriy Mitrophanskiy on 28.09.14.
+//  Created by 张维熙 on 2021/12/21.
 //
-//
-import SpriteKit
+
+import UIKit
 
 //MARK: AnalogJoystickData
 public struct AnalogJoystickData: CustomStringConvertible {
@@ -23,7 +23,7 @@ public struct AnalogJoystickData: CustomStringConvertible {
 }
 
 //MARK: - AnalogJoystickComponent
-open class AnalogJoystickComponent: SKSpriteNode {
+open class AnalogJoystickComponent: UIImageView {
     private var kvoContext = UInt8(1)
     var borderWidth = CGFloat(0) {
         didSet {
@@ -37,7 +37,7 @@ open class AnalogJoystickComponent: SKSpriteNode {
         }
     }
     
-    var image: UIImage? {
+    override open var image: UIImage? {
         didSet {
             redrawTexture()
         }
@@ -45,11 +45,11 @@ open class AnalogJoystickComponent: SKSpriteNode {
     
     var diameter: CGFloat {
         get {
-            return max(size.width, size.height)
+            return max(self.frame.width, self.frame.height)
         }
         
         set(newSize) {
-            size = CGSize(width: newSize, height: newSize)
+            self.frame.size = CGSize(width: newSize, height: newSize)
         }
     }
     
@@ -172,7 +172,7 @@ open class AnalogJoystick: SKNode {
         substrate.zPosition = 0
         addChild(substrate)
         self.stick = stick
-        stick.zPosition = substrate.zPosition 
+        stick.zPosition = substrate.zPosition + 1
         addChild(stick)
         disabled = false
         let velocityLoop = CADisplayLink(target: self, selector: #selector(listen))
@@ -252,5 +252,3 @@ open class AnalogJoystick: SKNode {
         stopHandler?();
     }
 }
-
-typealias 🕹 = AnalogJoystick

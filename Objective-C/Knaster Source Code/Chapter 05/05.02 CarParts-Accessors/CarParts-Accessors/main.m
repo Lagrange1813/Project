@@ -65,20 +65,20 @@
 
 @implementation Car
 
-- (id) init
-{
-	if (self = [super init]) {
-		engine = [Engine new];
-		
-		tires[0] = [Tire new];
-		tires[1] = [Tire new];
-		tires[2] = [Tire new];
-		tires[3] = [Tire new];
-	}
-	
-	return (self);
-	
-} // init
+//- (id) init
+//{
+//	if (self = [super init]) {
+//		engine = [Engine new];
+//
+//		tires[0] = [Tire new];
+//		tires[1] = [Tire new];
+//		tires[2] = [Tire new];
+//		tires[3] = [Tire new];
+//	}
+//
+//	return (self);
+//
+//} // init
 
 
 - (Engine *) engine
@@ -123,6 +123,8 @@
 
 - (void) print
 {
+    NSLog (@"%@", self);
+    
 	NSLog (@"%@", engine);
 	
 	NSLog (@"%@", tires[0]);
@@ -141,14 +143,14 @@ int main (int argc, const char * argv[])
 {
 	Car *car = [Car new];
 	
-	Engine *engine = [Engine new];
-	[car setEngine: engine];
-	
-	for (int i = 0; i < 4; i++) {
-		Tire *tire = [Tire new];
-		
-		[car setTire: tire atIndex: i];
-	}
+//	Engine *engine = [Engine new];
+//	[car setEngine: engine];
+//
+//	for (int i = 0; i < 4; i++) {
+//		Tire *tire = [Tire new];
+//
+//		[car setTire: tire atIndex: i];
+//	}
 	
 	[car print];
 	

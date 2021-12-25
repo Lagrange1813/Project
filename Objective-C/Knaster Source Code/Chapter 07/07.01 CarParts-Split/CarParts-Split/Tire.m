@@ -3,8 +3,7 @@
 
 @implementation Tire
 
-- (NSString *) description
-{
+- (NSString *)description {
     return (@"I am a tire. I last a while");
 } // description
 

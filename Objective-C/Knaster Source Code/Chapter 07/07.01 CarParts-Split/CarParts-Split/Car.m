@@ -10,14 +10,12 @@
 #import "Engine.h"
 #import "Tire.h"
 
-@implementation Car
-{
+@implementation Car {
     Tire *tires[4];
     Engine *engine;
 }
 
-- (id) init
-{
+- (id)init {
     if (self = [super init]) {
         engine = [Engine new];
 
@@ -32,25 +30,20 @@
 } // init
 
 
-- (Engine *) engine
-{
+- (Engine *)engine {
     return (engine);
 } // engine
 
 
-- (void) setEngine: (Engine *) newEngine
-{
+- (void)setEngine:(Engine *)newEngine {
     engine = newEngine;
 } // setEngine
 
 
-- (void) setTire: (Tire *) tire
-         atIndex: (int) index
-{
+- (void)setTire:(Tire *)tire atIndex:(int)index {
     if (index < 0 || index > 3) {
-        NSLog (@"bad index (%d) in setTire:atIndex:",
-               index);
-        exit (1);
+        NSLog(@"bad index (%d) in setTire:atIndex:", index);
+        exit(1);
     }
 
     tires[index] = tire;
@@ -58,12 +51,10 @@
 } // setTire:atIndex:
 
 
-- (Tire *) tireAtIndex: (int) index
-{
+- (Tire *)tireAtIndex:(int)index {
     if (index < 0 || index > 3) {
-        NSLog (@"bad index (%d) in tireAtIndex:",
-               index);
-        exit (1);
+        NSLog(@"bad index (%d) in tireAtIndex:", index);
+        exit(1);
     }
 
     return (tires[index]);
@@ -72,16 +63,14 @@
 
 
 
-- (void) print
-{
-    NSLog (@"%@", engine);
+- (void)print {
+    NSLog(@"%@", engine);
 
-    NSLog (@"%@", tires[0]);
-    NSLog (@"%@", tires[1]);
-    NSLog (@"%@", tires[2]);
-    NSLog (@"%@", tires[3]);
+    NSLog(@"%@", tires[0]);
+    NSLog(@"%@", tires[1]);
+    NSLog(@"%@", tires[2]);
+    NSLog(@"%@", tires[3]);
 
 } // print
 
 @end // Car
-

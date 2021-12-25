@@ -5,7 +5,7 @@
 
 @interface Car : NSObject
 
-- (void) setEngine: (Engine *) newEngine;
+- (void)setEngine:(Engine *)newEngine;
 
 - (Engine *) engine;
 

@@ -139,13 +139,14 @@
 		84CB6B771526B85C002F74E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 1320;
 			};
 			buildConfigurationList = 84CB6B7A1526B85C002F74E1 /* Build configuration list for PBXProject "CarParts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 84CB6B751526B85C002F74E1;

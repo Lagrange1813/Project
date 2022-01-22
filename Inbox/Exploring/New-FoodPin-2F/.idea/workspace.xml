@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80c29643-c0f1-4703-a0d2-1fdac51951db" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/.idea/New-Cat-Viewer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/New-Cat-Viewer.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer/Controller/CatTableVC.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer/Model/CatDataSource.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer/View/CatCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/New-FoodPin.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/barrafina.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/barrafina.imageset/barrafina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/barrafina.imageset/barrafina@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/barrafina.imageset/barrafina@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/bourkestreetbakery.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/bourkestreetbakery.imageset/bourkestreetbakery.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/bourkestreetbakery.imageset/bourkestreetbakery@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/bourkestreetbakery.imageset/bourkestreetbakery@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafedeadend.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafedeadend.imageset/cafedeadend.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafedeadend.imageset/cafedeadend@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafedeadend.imageset/cafedeadend@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafeloisl.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafeloisl.imageset/cafeloisl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafeloisl.imageset/cafeloisl@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafeloisl.imageset/cafeloisl@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafelore.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafelore.imageset/cafelore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafelore.imageset/cafelore@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cafelore.imageset/cafelore@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cask.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cask.imageset/cask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cask.imageset/cask@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/cask.imageset/cask@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/confessional.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/confessional.imageset/confessional.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/confessional.imageset/confessional@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/confessional.imageset/confessional@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/donostia.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/donostia.imageset/donostia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/donostia.imageset/donostia@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/donostia.imageset/donostia@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/fiveleaves.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/fiveleaves.imageset/fiveleaves.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/fiveleaves.imageset/fiveleaves@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/fiveleaves.imageset/fiveleaves@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/forkee.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/forkee.imageset/forkee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/forkee.imageset/forkee@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/forkee.imageset/forkee@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/graham.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/graham.imageset/graham.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/graham.imageset/graham@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/graham.imageset/graham@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/haigh.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/haigh.imageset/haigh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/haigh.imageset/haigh@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/haigh.imageset/haigh@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/homei.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/homei.imageset/homei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/homei.imageset/homei@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/homei.imageset/homei@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/palomino.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/palomino.imageset/palomino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/palomino.imageset/palomino@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/palomino.imageset/palomino@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/petiteoyster.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/petiteoyster.imageset/petiteoyster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/petiteoyster.imageset/petiteoyster@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/petiteoyster.imageset/petiteoyster@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/posatelier.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/posatelier.imageset/posatelier.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/posatelier.imageset/posatelier@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/posatelier.imageset/posatelier@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/royaloak.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/royaloak.imageset/royaloak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/royaloak.imageset/royaloak@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/royaloak.imageset/royaloak@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/teakha.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/teakha.imageset/teakha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/teakha.imageset/teakha@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/teakha.imageset/teakha@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/traif.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/traif.imageset/traif.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/traif.imageset/traif@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/traif.imageset/traif@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/upstate.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/upstate.imageset/upstate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/upstate.imageset/upstate@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/upstate.imageset/upstate@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/waffleandwolf.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/waffleandwolf.imageset/waffleandwolf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/waffleandwolf.imageset/waffleandwolf@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/waffleandwolf.imageset/waffleandwolf@3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/Restaurant.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/RestaurantDataCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/RestaurantFavoriteCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New-FoodPin/RestaurantVC.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/.idea/FoodPin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/.idea/xcode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../FoodPin/FoodPin.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../FoodPin/FoodPin.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin.xcodeproj/project.xcworkspace/xcuserdata/simon.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../FoodPin/FoodPin.xcodeproj/project.xcworkspace/xcuserdata/simon.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/FoodPin.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../FoodPin/FoodPin.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../FoodPin/FoodPin/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin/Controller/RestaurantDetailViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin/Controller/RestaurantTableViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../FoodPin/FoodPin/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin/Model/Restaurant.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin/Model/RestaurantDiffableDataSource.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin/SceneDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../FoodPin/FoodPin/SceneDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin/Storyboard/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin/Storyboard/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodPin/FoodPin/View/RestaurantTableViewCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/New-FoodPin.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/New-FoodPin.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/New-FoodPin.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/New-FoodPin.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/New-FoodPin.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer/Assets.xcassets/AccentColor.colorset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer/Assets.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/New-FoodPin/Assets.xcassets/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/New-FoodPin/StoryBoard/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer/Cat.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer/CatTableViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/New-Cat-Viewer/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Manifest.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Pods.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/Pods-New-Cat-Viewer.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Pods.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/SnapKit.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Pods.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/Constraint.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintAttributes.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintConfig.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintConstantTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintDSL.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintDescription.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintDirectionalInsetTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintDirectionalInsets.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintInsetTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintInsets.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintItem.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintLayoutGuide+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintLayoutGuide.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintLayoutGuideDSL.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintLayoutSupport.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintLayoutSupportDSL.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintMaker.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintMakerEditable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintMakerExtendable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintMakerFinalizable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintMakerPriortizable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintMakerRelatable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintMultiplierTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintOffsetTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintPriority.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintPriorityTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintRelatableTarget.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintRelation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintView+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/ConstraintViewDSL.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/Debugging.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/LayoutConstraint.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/LayoutConstraintItem.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/Typealiases.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/SnapKit/Source/UILayoutSupport+Extensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer-acknowledgements.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer-acknowledgements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer-frameworks-Debug-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer-frameworks-Debug-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer-frameworks-Release-input-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer-frameworks-Release-output-files.xcfilelist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/Pods-New-Cat-Viewer/Pods-New-Cat-Viewer.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/SnapKit/SnapKit-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/SnapKit/SnapKit-dummy.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/SnapKit/SnapKit-prefix.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/SnapKit/SnapKit.debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/SnapKit/SnapKit.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../N-Cat-Viewer/Pods/Target Support Files/SnapKit/SnapKit.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer/Cat.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer/Model/Cat.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer/CatTableViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer/ImageViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../New-Cat-Viewer/New-Cat-Viewer/Controller/ImageVC.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New-Cat-Viewer/Pods/Pods.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../New-Cat-Viewer/Pods/Pods.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_1BB12498-4039-4BEE-BDB3-36948D0463BB" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="214TI0os9kuYVzuXT9TXizZ7wJn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration name="New-FoodPin" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="New-FoodPin" TARGET_NAME="New-FoodPin" CONFIG_NAME="Debug" SCHEME_NAME="New-FoodPin" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="New-FoodPin" RUN_TARGET_NAME="New-FoodPin" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="80c29643-c0f1-4703-a0d2-1fdac51951db" name="变更" comment="" />
+      <created>1637199278673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637199278673</updated>
+      <workItem from="1637199281299" duration="206000" />
+      <workItem from="1637202139604" duration="99000" />
+      <workItem from="1637228333532" duration="82000" />
+      <workItem from="1637228479858" duration="274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

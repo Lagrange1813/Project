@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96a030cf-cc63-4526-8497-a30a0fec014c" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/SceneDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/SceneDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/Objc-Test/Objc-Test/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Objc-Exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objc-Exercise.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objc-Exercise.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objc-Exercise.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objc-Exercise.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objc-Exercise.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/Objc-Exercise.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objc-Exercise.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objc-Exercise/NSObject+XYZPerson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objc-Exercise/NSObject+XYZPerson.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Objc-Exercise/main.m" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_macos_arm64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="AppCode" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="22UX53017blmNld5gI95m754yEY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Objc-Exercise" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Objc-Exercise" TARGET_NAME="Objc-Exercise" CONFIG_NAME="Debug" SCHEME_NAME="Objc-Exercise" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="Objc-Exercise" RUN_TARGET_NAME="Objc-Exercise" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="96a030cf-cc63-4526-8497-a30a0fec014c" name="变更" comment="" />
+      <created>1639892954820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639892954820</updated>
+      <workItem from="1639892956420" duration="1227000" />
+      <workItem from="1639895654109" duration="646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

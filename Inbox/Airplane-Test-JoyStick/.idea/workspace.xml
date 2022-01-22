@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88da9286-2875-4fb2-833a-de09ab768613" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/Airplane-Test/JoyStick.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test/JoyStick.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Experiment/JoyStickPlane-Test/JoyStickPlane-Test/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JoystickTank.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/.idea/03.04 Word-Length-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/Word-Length-1.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/Word-Length-1.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/Word-Length-1.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/Word-Length-1.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.04 Word-Length-1/Word-Length-1.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.06 Word-Length-3/Word-Length-3.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.06 Word-Length-3/Word-Length-3.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.06 Word-Length-3/Word-Length-3.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.06 Word-Length-3/Word-Length-3.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/Word-Length-3.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.06 Word-Length-3/Word-Length-3.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.07 Word-Length-4/Word-Length-4.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.07 Word-Length-4/Word-Length-4.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.07 Word-Length-4/Word-Length-4.xcodeproj/xcshareddata/xcschemes/Word-Length-4.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.07 Word-Length-4/Word-Length-4.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.08 Shapes-Procedural/Shapes-Procedural.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.08 Shapes-Procedural/Shapes-Procedural.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.08 Shapes-Procedural/Shapes-Procedural.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.10 Shapes-Object/Shapes-Object.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.10 Shapes-Object/Shapes-Object.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.10 Shapes-Object/Shapes-Object.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.10 Shapes-Object/Shapes-Object.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.11 Shapes-Object-2/Shapes-Object-2.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.11 Shapes-Object-2/Shapes-Object-2.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.11 Shapes-Object-2/Shapes-Object-2.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 04/04.01 Shapes-Inheritance/Shapes-Inheritance.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 04/04.01 Shapes-Inheritance/Shapes-Inheritance.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 04/04.01 Shapes-Inheritance/Shapes-Inheritance.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 04/04.02 Shapes-Green-Circles/Shapes-Green-Circles.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 04/04.02 Shapes-Green-Circles/Shapes-Green-Circles.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 04/04.02 Shapes-Green-Circles/Shapes-Green-Circles.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 05/05.01 CarParts/CarParts.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 05/05.01 CarParts/CarParts.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 05/05.01 CarParts/CarParts.xcodeproj/xcuserdata/lagrange1813.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Airplane-Test-LongTouch/Airplane-Test.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Airplane-Test-LongTouch/Airplane-Test.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airplane-Test.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Airplane-Test.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airplane-Test.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Airplane-Test.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airplane-Test/Game.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Airplane-Test/Game.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airplane-Test/Start.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Airplane-Test/Start.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airplane-Test/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Airplane-Test/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Experiment/JoyStick/JoyStick.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Experiment/JoyStick/JoyStick.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JoystickTank/JoystickTank.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../JoystickTank/JoystickTank.xcodeproj/project.xcworkspace/xcuserdata/lagrange1813.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JoystickTank/JoystickTank/AnalogJoystick.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../JoystickTank/JoystickTank/AnalogJoystick.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.06 Word-Length-3/Word-Length-3/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../Objective-C/Knaster Source Code/Chapter 03/03.06 Word-Length-3/Word-Length-3/main.m" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_BEDBE231-4105-470C-9693-8D760A1CE9D1" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="AppCode" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="226Adb3PSLRTBtpsbriuDuScW80" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Airplane-Test" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Airplane-Test" TARGET_NAME="Airplane-Test" CONFIG_NAME="Debug" SCHEME_NAME="Airplane-Test" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="Airplane-Test" RUN_TARGET_NAME="Airplane-Test" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="88da9286-2875-4fb2-833a-de09ab768613" name="变更" comment="" />
+      <created>1639147753584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639147753584</updated>
+      <workItem from="1639147755534" duration="412000" />
+      <workItem from="1639148233940" duration="300000" />
+      <workItem from="1639399728823" duration="26000" />
+      <workItem from="1639399757794" duration="188000" />
+      <workItem from="1640089393097" duration="376000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

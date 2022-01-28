@@ -8,26 +8,30 @@
 import SnapKit
 import UIKit
 
-class PureTestView: UIScrollView, UITextViewDelegate {
+class PureTextView: UIScrollView, UITextViewDelegate {
     var title: String?
     var body: String?
     
-    var titleView: UITextView!
-    var bodyView: UITextView!
+    var titleFont: UIFont!
+    var bodyFont: UIFont!
+    
+    var titleView: CustomTextView!
+    var bodyView: CustomTextView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.customize()
+        configureTextView()
+        customize()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        self.customize()
+        configureTextView()
+        customize()
     }
     
-    private func customize() {
-        titleView = UITextView()
-        titleView.font = UIFont.systemFont(ofSize: 20)
+    func configureTextView() {
+        titleView = CustomTextView()
         titleView.backgroundColor = .systemBlue
         titleView.isScrollEnabled = false
         titleView.textAlignment = .center
@@ -41,29 +45,81 @@ class PureTestView: UIScrollView, UITextViewDelegate {
             make.width.equalTo(200)
         }
         
-        bodyView = UITextView()
-        bodyView.font = UIFont.systemFont(ofSize: 15)
+        bodyView = CustomTextView()
         bodyView.backgroundColor = .systemGray
         bodyView.isScrollEnabled = false
-        
-        addSubview(bodyView)
-        
         bodyView.sizeToFit()
+        addSubview(bodyView)
         
         bodyView.snp.makeConstraints { make in
             make.top.equalTo(titleView.snp.bottom)
             make.leading.equalToSuperview()
-//            make.height.equalTo(10000)
-            make.width.equalTo(UIScreen.main.bounds.width)
+            make.width.equalTo(300)
         }
+    }
+    
+    private func configureFont(fontName: String, size: CGFloat) {
+        titleFont = UIFont(name: fontName, size: size)
+        bodyFont = UIFont(name: fontName, size: size)
+    }
+    
+    private func customize() {
+        self.backgroundColor = .white
+        self.indicatorStyle = .black
         
-        contentSize = CGSize(width: self.frame.width, height: titleView.frame.height + 10000)
+        let titleFont = UIFont.systemFont(ofSize: 20)
+        let titleColor = ColorCollection.lightTitleText
+        
+        let titleParagraphStyle: NSMutableParagraphStyle = {
+            let style = NSMutableParagraphStyle()
+            style.paragraphSpacing = 20
+            style.alignment = .center
+            return style
+        }()
+        
+        let titleAttributes: [NSAttributedString.Key: Any] = [
+            .font: titleFont,
+            .foregroundColor: titleColor,
+            .paragraphStyle: titleParagraphStyle
+        ]
+        
+        titleView.typingAttributes = titleAttributes
+        let titleString = NSMutableAttributedString(string: title ?? "请输入标题", attributes: titleAttributes)
+        titleView.attributedText = titleString
+        
+        let bodyFont = UIFont.systemFont(ofSize: 15)
+        let bodyColor = ColorCollection.lightBodyText
+        
+        let bodyParagraphStyle: NSMutableParagraphStyle = {
+            let style = NSMutableParagraphStyle()
+            style.lineSpacing = 7
+            style.paragraphSpacing = 14
+            style.firstLineHeadIndent = 2 * bodyFont.pointSize
+            style.alignment = .justified
+            return style
+        }()
+        
+        let bodyAttributes: [NSAttributedString.Key: Any] = [
+            .font: bodyFont,
+            .foregroundColor: bodyColor,
+            .paragraphStyle: bodyParagraphStyle
+//            .textEffect: NSAttributedString.TextEffectStyle.letterpressStyle
+        ]
+        
+        bodyView.typingAttributes = bodyAttributes
+        let bodyString = NSMutableAttributedString(string: body ?? "请输入正文", attributes: bodyAttributes)
+        bodyView.attributedText = bodyString
+    }
+    
+    
+    func configureText(title: String, body: String) {
+        self.title = title
+        self.body = body
+        self.customize()
     }
     
     func textViewDidChange(_ textView: UITextView) {
         titleView.sizeToFit()
-        print(titleView.frame.height)
-        print(bodyView.frame.height)
     }
     
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {

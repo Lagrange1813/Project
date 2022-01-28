@@ -13,6 +13,8 @@
 		7A5102D627A302F100002C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5102D527A302F100002C01 /* Assets.xcassets */; };
 		7A5102D927A302F100002C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5102D727A302F100002C01 /* LaunchScreen.storyboard */; };
 		7A5102E127A3798500002C01 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5102E027A3798500002C01 /* TestView.swift */; };
+		7A5102E327A3A51C00002C01 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5102E227A3A51C00002C01 /* Extension.swift */; };
+		7A5102E527A3A58900002C01 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5102E427A3A58900002C01 /* CustomTextView.swift */; };
 		B5389AC09F1A1639C2BFDF4C /* Pods_TextViewDOUBLE_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7395EA029E82BC530FA23955 /* Pods_TextViewDOUBLE_Test.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		7A5102D827A302F100002C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A5102DA27A302F100002C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A5102E027A3798500002C01 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		7A5102E227A3A51C00002C01 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7A5102E427A3A58900002C01 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		8CAA23C5F01B380365787571 /* Pods-TextViewDOUBLE-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextViewDOUBLE-Test.debug.xcconfig"; path = "Target Support Files/Pods-TextViewDOUBLE-Test/Pods-TextViewDOUBLE-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		EAE034594FDE3B90CD95DF06 /* Pods-TextViewDOUBLE-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextViewDOUBLE-Test.release.xcconfig"; path = "Target Support Files/Pods-TextViewDOUBLE-Test/Pods-TextViewDOUBLE-Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +74,8 @@
 				7A5102D727A302F100002C01 /* LaunchScreen.storyboard */,
 				7A5102DA27A302F100002C01 /* Info.plist */,
 				7A5102E027A3798500002C01 /* TestView.swift */,
+				7A5102E227A3A51C00002C01 /* Extension.swift */,
+				7A5102E427A3A58900002C01 /* CustomTextView.swift */,
 			);
 			path = "TextViewDOUBLE-Test";
 			sourceTree = "<group>";
@@ -80,7 +86,6 @@
 				8CAA23C5F01B380365787571 /* Pods-TextViewDOUBLE-Test.debug.xcconfig */,
 				EAE034594FDE3B90CD95DF06 /* Pods-TextViewDOUBLE-Test.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,7 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5102E327A3A51C00002C01 /* Extension.swift in Sources */,
 				7A5102E127A3798500002C01 /* TestView.swift in Sources */,
+				7A5102E527A3A58900002C01 /* CustomTextView.swift in Sources */,
 				7A5102D127A302F000002C01 /* ViewController.swift in Sources */,
 				7A5102CD27A302F000002C01 /* AppDelegate.swift in Sources */,
 				7A5102CF27A302F000002C01 /* SceneDelegate.swift in Sources */,

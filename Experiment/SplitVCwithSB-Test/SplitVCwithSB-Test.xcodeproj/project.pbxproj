@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A758BA027BA655300813C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A758B9F27BA655300813C08 /* AppDelegate.swift */; };
-		7A758BA227BA655300813C08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A758BA127BA655300813C08 /* SceneDelegate.swift */; };
-		7A758BA927BA655500813C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A758BA827BA655500813C08 /* Assets.xcassets */; };
-		7A758BAC27BA655500813C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A758BAA27BA655500813C08 /* LaunchScreen.storyboard */; };
-		7A758BB427BA65BF00813C08 /* CustomSplitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A758BB327BA65BF00813C08 /* CustomSplitVC.swift */; };
-		7A758BB627BA882E00813C08 /* ArticleListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A758BB527BA882E00813C08 /* ArticleListVC.swift */; };
-		7A758BB827BA88A500813C08 /* BookListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A758BB727BA88A500813C08 /* BookListVC.swift */; };
-		7A758BBA27BAA00E00813C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A758BB927BAA00E00813C08 /* ViewController.swift */; };
+		7A758BCF27BB948700813C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A758BCE27BB948700813C08 /* AppDelegate.swift */; };
+		7A758BD127BB948700813C08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A758BD027BB948700813C08 /* SceneDelegate.swift */; };
+		7A758BD327BB948700813C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A758BD227BB948700813C08 /* ViewController.swift */; };
+		7A758BD627BB948700813C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A758BD427BB948700813C08 /* Main.storyboard */; };
+		7A758BD827BB948900813C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A758BD727BB948900813C08 /* Assets.xcassets */; };
+		7A758BDB27BB948900813C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A758BD927BB948900813C08 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A758B9C27BA655300813C08 /* SplitVC-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplitVC-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A758B9F27BA655300813C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A758BA127BA655300813C08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A758BA827BA655500813C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A758BAB27BA655500813C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A758BAD27BA655500813C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A758BB327BA65BF00813C08 /* CustomSplitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSplitVC.swift; sourceTree = "<group>"; };
-		7A758BB527BA882E00813C08 /* ArticleListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListVC.swift; sourceTree = "<group>"; };
-		7A758BB727BA88A500813C08 /* BookListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListVC.swift; sourceTree = "<group>"; };
-		7A758BB927BAA00E00813C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A758BCB27BB948700813C08 /* SplitVCwithSB-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SplitVCwithSB-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A758BCE27BB948700813C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A758BD027BB948700813C08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A758BD227BB948700813C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A758BD527BB948700813C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A758BD727BB948900813C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A758BDA27BB948900813C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A758BDC27BB948900813C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A758B9927BA655300813C08 /* Frameworks */ = {
+		7A758BC827BB948700813C08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A758B9327BA655300813C08 = {
+		7A758BC227BB948700813C08 = {
 			isa = PBXGroup;
 			children = (
-				7A758B9E27BA655300813C08 /* SplitVC-Test */,
-				7A758B9D27BA655300813C08 /* Products */,
+				7A758BCD27BB948700813C08 /* SplitVCwithSB-Test */,
+				7A758BCC27BB948700813C08 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7A758B9D27BA655300813C08 /* Products */ = {
+		7A758BCC27BB948700813C08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A758B9C27BA655300813C08 /* SplitVC-Test.app */,
+				7A758BCB27BB948700813C08 /* SplitVCwithSB-Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A758B9E27BA655300813C08 /* SplitVC-Test */ = {
+		7A758BCD27BB948700813C08 /* SplitVCwithSB-Test */ = {
 			isa = PBXGroup;
 			children = (
-				7A758BB327BA65BF00813C08 /* CustomSplitVC.swift */,
-				7A758B9F27BA655300813C08 /* AppDelegate.swift */,
-				7A758BA127BA655300813C08 /* SceneDelegate.swift */,
-				7A758BA827BA655500813C08 /* Assets.xcassets */,
-				7A758BAA27BA655500813C08 /* LaunchScreen.storyboard */,
-				7A758BAD27BA655500813C08 /* Info.plist */,
-				7A758BB527BA882E00813C08 /* ArticleListVC.swift */,
-				7A758BB727BA88A500813C08 /* BookListVC.swift */,
-				7A758BB927BAA00E00813C08 /* ViewController.swift */,
+				7A758BCE27BB948700813C08 /* AppDelegate.swift */,
+				7A758BD027BB948700813C08 /* SceneDelegate.swift */,
+				7A758BD227BB948700813C08 /* ViewController.swift */,
+				7A758BD427BB948700813C08 /* Main.storyboard */,
+				7A758BD727BB948900813C08 /* Assets.xcassets */,
+				7A758BD927BB948900813C08 /* LaunchScreen.storyboard */,
+				7A758BDC27BB948900813C08 /* Info.plist */,
 			);
-			path = "SplitVC-Test";
+			path = "SplitVCwithSB-Test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A758B9B27BA655300813C08 /* SplitVC-Test */ = {
+		7A758BCA27BB948700813C08 /* SplitVCwithSB-Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A758BB027BA655500813C08 /* Build configuration list for PBXNativeTarget "SplitVC-Test" */;
+			buildConfigurationList = 7A758BDF27BB948900813C08 /* Build configuration list for PBXNativeTarget "SplitVCwithSB-Test" */;
 			buildPhases = (
-				7A758B9827BA655300813C08 /* Sources */,
-				7A758B9927BA655300813C08 /* Frameworks */,
-				7A758B9A27BA655300813C08 /* Resources */,
+				7A758BC727BB948700813C08 /* Sources */,
+				7A758BC827BB948700813C08 /* Frameworks */,
+				7A758BC927BB948700813C08 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SplitVC-Test";
-			productName = "SplitVC-Test";
-			productReference = 7A758B9C27BA655300813C08 /* SplitVC-Test.app */;
+			name = "SplitVCwithSB-Test";
+			productName = "SplitVCwithSB-Test";
+			productReference = 7A758BCB27BB948700813C08 /* SplitVCwithSB-Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7A758B9427BA655300813C08 /* Project object */ = {
+		7A758BC327BB948700813C08 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					7A758B9B27BA655300813C08 = {
+					7A758BCA27BB948700813C08 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 7A758B9727BA655300813C08 /* Build configuration list for PBXProject "SplitVC-Test" */;
+			buildConfigurationList = 7A758BC627BB948700813C08 /* Build configuration list for PBXProject "SplitVCwithSB-Test" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,49 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 7A758B9327BA655300813C08;
-			productRefGroup = 7A758B9D27BA655300813C08 /* Products */;
+			mainGroup = 7A758BC227BB948700813C08;
+			productRefGroup = 7A758BCC27BB948700813C08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A758B9B27BA655300813C08 /* SplitVC-Test */,
+				7A758BCA27BB948700813C08 /* SplitVCwithSB-Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A758B9A27BA655300813C08 /* Resources */ = {
+		7A758BC927BB948700813C08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A758BAC27BA655500813C08 /* LaunchScreen.storyboard in Resources */,
-				7A758BA927BA655500813C08 /* Assets.xcassets in Resources */,
+				7A758BDB27BB948900813C08 /* LaunchScreen.storyboard in Resources */,
+				7A758BD827BB948900813C08 /* Assets.xcassets in Resources */,
+				7A758BD627BB948700813C08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A758B9827BA655300813C08 /* Sources */ = {
+		7A758BC727BB948700813C08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A758BBA27BAA00E00813C08 /* ViewController.swift in Sources */,
-				7A758BA027BA655300813C08 /* AppDelegate.swift in Sources */,
-				7A758BB427BA65BF00813C08 /* CustomSplitVC.swift in Sources */,
-				7A758BB627BA882E00813C08 /* ArticleListVC.swift in Sources */,
-				7A758BB827BA88A500813C08 /* BookListVC.swift in Sources */,
-				7A758BA227BA655300813C08 /* SceneDelegate.swift in Sources */,
+				7A758BD327BB948700813C08 /* ViewController.swift in Sources */,
+				7A758BCF27BB948700813C08 /* AppDelegate.swift in Sources */,
+				7A758BD127BB948700813C08 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7A758BAA27BA655500813C08 /* LaunchScreen.storyboard */ = {
+		7A758BD427BB948700813C08 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A758BAB27BA655500813C08 /* Base */,
+				7A758BD527BB948700813C08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A758BD927BB948900813C08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A758BDA27BB948900813C08 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7A758BAE27BA655500813C08 /* Debug */ = {
+		7A758BDD27BB948900813C08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		7A758BAF27BA655500813C08 /* Release */ = {
+		7A758BDE27BB948900813C08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,27 +282,26 @@
 			};
 			name = Release;
 		};
-		7A758BB127BA655500813C08 /* Debug */ = {
+		7A758BE027BB948900813C08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J848DTSBF7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SplitVC-Test/Info.plist";
+				INFOPLIST_FILE = "SplitVCwithSB-Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lagrange1813.SplitVC-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lagrange1813.SplitVCwithSB-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,27 +309,26 @@
 			};
 			name = Debug;
 		};
-		7A758BB227BA655500813C08 /* Release */ = {
+		7A758BE127BB948900813C08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J848DTSBF7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SplitVC-Test/Info.plist";
+				INFOPLIST_FILE = "SplitVCwithSB-Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lagrange1813.SplitVC-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lagrange1813.SplitVCwithSB-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A758B9727BA655300813C08 /* Build configuration list for PBXProject "SplitVC-Test" */ = {
+		7A758BC627BB948700813C08 /* Build configuration list for PBXProject "SplitVCwithSB-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A758BAE27BA655500813C08 /* Debug */,
-				7A758BAF27BA655500813C08 /* Release */,
+				7A758BDD27BB948900813C08 /* Debug */,
+				7A758BDE27BB948900813C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A758BB027BA655500813C08 /* Build configuration list for PBXNativeTarget "SplitVC-Test" */ = {
+		7A758BDF27BB948900813C08 /* Build configuration list for PBXNativeTarget "SplitVCwithSB-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A758BB127BA655500813C08 /* Debug */,
-				7A758BB227BA655500813C08 /* Release */,
+				7A758BE027BB948900813C08 /* Debug */,
+				7A758BE127BB948900813C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7A758B9427BA655300813C08 /* Project object */;
+	rootObject = 7A758BC327BB948700813C08 /* Project object */;
 }

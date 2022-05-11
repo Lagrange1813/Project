@@ -1,0 +1,1515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03811E3B4A9B3BB5696BBD7BBA2713EA /* LKS_PerspectiveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF88047DA1E376D48A12F46914A8A4 /* LKS_PerspectiveLayer.m */; };
+		048AC967262484E89BA9F549919BBC0A /* LookinDisplayItemDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F229A02C4CDF2A0A5EB83B350AE5D0E /* LookinDisplayItemDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0754C66FAD5CC60F7CB29B90E9B84360 /* UIGestureRecognizer+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D3B3EEA3C1CF33B43FAFF545A6B9A /* UIGestureRecognizer+LookinServer.m */; };
+		0BF94AA0077D14AF73CFA3402092A5DC /* UIViewController+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B721CF12C7F69DDBB5E68585BC76B01 /* UIViewController+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C2D17BF155C9799DF20B2F1610966F9 /* LookinConnectionAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 171620B4E3E45BE7FD5B574236BCC42C /* LookinConnectionAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D23294CDA03CF545A45B0334A9F1D6D /* UITextView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBC4C4854BA8C5C1CC26F3D62B94482 /* UITextView+LookinServer.m */; };
+		0DC458AD11C123C5D31B9A032419B2E2 /* LKS_PerspectiveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 499800D3B97F05FA061430A9BB4931BD /* LKS_PerspectiveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E117261C635A5D11D9E36120232C887 /* UIBlurEffect+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B8EABFC09ED2BFE3CE80695B51C6F9 /* UIBlurEffect+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EA20EF425FAB1A346C4F64E373FEA58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		113D28F8D28B4ACF30EF6C78EED6276B /* UIVisualEffectView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9911CCA08D1DFC3E4570054FD0F048B0 /* UIVisualEffectView+LookinServer.m */; };
+		144DA93A55A598F5197F10C729FBDD69 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B559BA6DDB4D9EA37A3BECD5C4DD210 /* UILayoutSupport+Extensions.swift */; };
+		1476F6C30AE5A0C94A8CFF5A2748991E /* LKS_PerspectiveItemLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD131D9C6054D7CD5626CEB726A8A42 /* LKS_PerspectiveItemLayer.m */; };
+		14B70AE27E27E9C2D49D2E3E9D22647A /* LKS_AttrModificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C6686D8A991DDADDBEEB127E25C562F9 /* LKS_AttrModificationHandler.m */; };
+		16343BE26CDF5033F53967839E485F69 /* LKS_AttrModificationPatchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B043AC5F9C2D9D03287FBAB207E8D21 /* LKS_AttrModificationPatchHandler.m */; };
+		1793CF86F28244A8CAB175559106AF23 /* LookinHierarchyFile.h in Headers */ = {isa = PBXBuildFile; fileRef = EE553E26C89B999B9C837725296FBCFC /* LookinHierarchyFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17BE0F4E51B0FB968125F1A520607FD8 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35425503786F096792D4D4C6C54F2EA3 /* ConstraintMultiplierTarget.swift */; };
+		1817D2EF45CBFC7D2EDCA08379EC7758 /* LKS_ObjectRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F39D3CBB8D95884772968B4A06B757E /* LKS_ObjectRegistry.m */; };
+		1DBC652ADBF8CE5D91DA5D79B88A372F /* LookinConnectionAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC46BBF9AB7A7B96C6697B273C371F4 /* LookinConnectionAttachment.m */; };
+		1E1256080858163EDA333AA3C93B13AF /* LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8130E740E7DCC38B40BF1B7352AC7C /* LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E9EEA756F2774D73347F1660EEFE3E9 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18C6C6AE85628FEE9878AC9A2BB604 /* ConstraintView+Extensions.swift */; };
+		25A49586C3FFDB97EB2F8B460289D9F5 /* LKS_PerspectiveHierarchyView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD106D8E597CBA4DD0943409B9555DFA /* LKS_PerspectiveHierarchyView.m */; };
+		274DF0E2BF04F6F4F9F1E70CF513A4F2 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCD5B605FD4C1B57848F3750FD735A9 /* ConstraintLayoutSupportDSL.swift */; };
+		27EF2D6B3D8BF3C973CB52372440D71B /* LKS_LocalInspectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39588E9E2016AEB6B7C7F8B253F6AC91 /* LKS_LocalInspectViewController.m */; };
+		281E9317C60F07C173E6743ACA048E7F /* LookinStaticAsyncUpdateTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEAD2D54F791D43087675F775E695A6 /* LookinStaticAsyncUpdateTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B3B5969C4F22A4FA1850148862F9238 /* LKS_RequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7AFB8A750A2CE4F3503AEFA774A39D /* LKS_RequestHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF0DF94821F0D34834CEDC9AF179797 /* LookinMsgAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDC0CA4E70AA3F04F47F618036B8AB4 /* LookinMsgAttribute.m */; };
+		2E97AEB0E8309008CA533076EA4AA858 /* UIGestureRecognizer+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9F47E1A32275A1E8CC643C025D35C6 /* UIGestureRecognizer+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F93EEC2BA739FFC77C7F72BE38E52D7 /* LKS_PerspectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF3439339F398137F7E8308D9ACF2A /* LKS_PerspectiveViewController.m */; };
+		2FF23B9103373CA713373CD79CCE826B /* UIImage+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD59878AE3FE0F2C86902BECFE03A9 /* UIImage+LookinServer.m */; };
+		324ED3F2423F54079429E00A0220C6C4 /* UITableView+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A3EAEEDC670F86CA2A290276B7CD53 /* UITableView+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		329AA42990F5351A302680586D777CE9 /* LookinConnectionResponseAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9004D8305E1BDD344394F1129EC2D934 /* LookinConnectionResponseAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33E2A39DEB2044A48D9AF859E88A7F29 /* LookinAutoLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 91342AC9D7E3C59FCA11E94C7678FE0A /* LookinAutoLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37AC054C6BBB2030046786AD439A17BF /* LKS_PerspectiveToolbarButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = B46A39F1646474B1595F33D7E4A1B63B /* LKS_PerspectiveToolbarButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		385A638DB850C5625E292272673B6840 /* LKS_ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 120911C16C0262F3012C9CB4B8AD5C01 /* LKS_ConnectionManager.m */; };
+		3B60C02F6E42FD06B128473E00A94224 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A9754130A11FB82926E7FBCAF08301 /* ConstraintLayoutSupport.swift */; };
+		3CD5FAFC746A76D73C3F501734199DFF /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E96C8683658BB59A9B01060804404 /* Typealiases.swift */; };
+		3DEDFA52B3A196F6D3E1F0937617628A /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6356AD094A317AF0FE1A176E2EDD696A /* ConstraintLayoutGuide+Extensions.swift */; };
+		3F0206142FD693C918278219C0F67D49 /* UIVisualEffectView+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DBBEFB382AE9AFF3678F1B62A439CA /* UIVisualEffectView+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F578E03408DCDFA780C342A175B1B25 /* LookinAttrIdentifiers.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A9D3A6118A974E0260A6F103BD2800 /* LookinAttrIdentifiers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		403C9C264790622785C76CCEF72175AB /* CALayer+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 222C6E5E07123DBBFBB102FCE16574CD /* CALayer+Lookin.m */; };
+		40923F83F6316BD09BE17D948FEC859E /* LKS_LocalInspectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F864CDB8A37E282AAE8E38AA1F7F356A /* LKS_LocalInspectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410292528B9C3F710A53EB6F0E83E850 /* LKS_EventHandlerMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 252E053C9A4F5DD433D79EF0F9764EBA /* LKS_EventHandlerMaker.m */; };
+		41A60CCCE9053CDC10A31892397C96BA /* NSArray+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEFD1606330101432038A24858D0F99 /* NSArray+Lookin.m */; };
+		41D5DBA52B641F93FA74055D383BFEAF /* LKS_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CF4506EB6E77A863ED1C83748A374F /* LKS_Helper.m */; };
+		42A93C4A4C47A29779C607280110B868 /* NSString+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E0B8116D1681DF3AAB08567239B15C /* NSString+Lookin.m */; };
+		43642CBC57D851B4139C2669701EBD3B /* UITextField+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = EB33E9F5C72C356000C15FE75092DAD2 /* UITextField+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43863B6D6A0E47B6648BB7B469736EDD /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3367C09D9D3BDBC1350C5F2C12C76A /* LayoutConstraint.swift */; };
+		454E957972B385ECF0A280D5D7253E1A /* LKS_PerspectiveItemLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 463E0CF819594D80D6D1726B1B9D0B1B /* LKS_PerspectiveItemLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4738D9AAC45B0B04FD7CEB849C6F135F /* LKS_AttrGroupsMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 379707A52900B9AAE8051D3E1241C78F /* LKS_AttrGroupsMaker.m */; };
+		49681ECA97871B31798316FB2CACADA2 /* NSArray+Lookin.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDB5280C14230A1E332F3D340E9E7F /* NSArray+Lookin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4973FE438A6137AC1B2F9F5FD637C0F0 /* LKS_PerspectiveHierarchyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7981F1A09D82E44F3AB6EC9D27887E31 /* LKS_PerspectiveHierarchyCell.m */; };
+		4A29FDAB7A26E107CD4DE7A868B19736 /* LookinAttrIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2199866BFA002001A70EBA3E3B4C87 /* LookinAttrIdentifiers.m */; };
+		4A5F39602123A4110F15852401E9DA33 /* Lookin_PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E79C4D626467CF2AF4BC3A44CBCF3497 /* Lookin_PTProtocol.m */; };
+		4BFC1246EB7670A3C240B230824051EB /* LKS_PerspectiveLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4C0E17F1A74796AF80962F6945C080 /* LKS_PerspectiveLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA13A0527BC57DE2C54A0F3B5ED8652 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED588A27CB5536CBF4F6E5532772A349 /* LayoutConstraintItem.swift */; };
+		502363FC4EEDF7BAEB968E18BE19DDA2 /* LKS_MethodTraceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1305F8D364AD1B90EF8E38F6B4986B01 /* LKS_MethodTraceManager.m */; };
+		5126F1CC926C1A0738D99A43601FC404 /* LKS_TraceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 401D85EB20E657C3AB28BE1B0D2CC2A0 /* LKS_TraceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51A4A1046676D304410544EB56732A49 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C3383F4432E9ED30AB912BF24358A /* Constraint.swift */; };
+		590B0184F8A340D6BE2426CBE2726407 /* LKS_LocalInspectPanelLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17694F044C76DB4EFE64376FC44B272A /* LKS_LocalInspectPanelLabelView.m */; };
+		5AEE1FA08BFF107B475979E5CF2C8B58 /* Pods-StackedView-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 501B53AAE5515991699BEAC319AE9F3F /* Pods-StackedView-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0A6E9EFD3896BB196CB66201964921 /* LookinEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D21F8C2B11017B3EB1A2714E8A901266 /* LookinEventHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B4FFAAF661C67295F7ECF33461C59F2 /* LKS_LocalInspectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 931E0C341ACDBB75E731246402D82303 /* LKS_LocalInspectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B9CF3FFC08A102493AE1BCF47C301EF /* LookinAttributesSection.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC873458E9037649E90D1388E79A966 /* LookinAttributesSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E2081FDA36E41E3E5DEA7BD0B3F2C8A /* NSString+Lookin.h in Headers */ = {isa = PBXBuildFile; fileRef = 37CA86BD8B7CEBBE81FA8D3CA980B284 /* NSString+Lookin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E8BA529DFB4529006967624044FEC1C /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C6592034435245217FDB8AAF61839 /* ConstraintViewDSL.swift */; };
+		608DA87B93885E70DD3CD1DF6F2F91CA /* LookinAttributesGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9028A3C999E43213EA2F5B0D9C77ADF8 /* LookinAttributesGroup.m */; };
+		6141333C117515CBB08A9A7BD403CAD2 /* LookinTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 681BD5941061CC5EA28CA4B19C8961D4 /* LookinTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62F299B4704A7C95FB5866C6CDE2E2FD /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7304C1FA87607B6EACB38E7170E9CC59 /* ConstraintOffsetTarget.swift */; };
+		62FBB4F9E6D1BC4D8CFBA680CD560187 /* LKS_ObjectRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B447E5E0674EBF9D5F3B2EE01AA7C67 /* LKS_ObjectRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		640E1EF7D7D8B5E63C6969F69CC9037D /* LookinServerDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D36C5D03B948C8894EA3CD8ED91260E /* LookinServerDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64D9CF748FDC921681A22FC228E48E7E /* LookinMethodTraceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EC6159B25DD84B63E742615371FA65 /* LookinMethodTraceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		684BCC2767ACD18C6296262F72625A75 /* LKS_PerspectiveHierarchyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01197422786875D786996BB9F0EDF59A /* LKS_PerspectiveHierarchyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		690030F3B557B2AA4864525D8513E4AC /* UIViewController+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DE618CDC7DD26E3304D9E837A4EC35 /* UIViewController+LookinServer.m */; };
+		6910EB4B9CD4D3E842F68BEE03A34B54 /* LKS_HierarchyDetailsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFCFF28AE3B1B09ED5E28E140AAEA16 /* LKS_HierarchyDetailsHandler.m */; };
+		6D9E19D696D4EE7D97C6BC96C52222EB /* NSSet+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = C409C18F928AF67FF4DDC341AE188C0D /* NSSet+Lookin.m */; };
+		6DCD22681491D23D8ED8FB924F1B0E57 /* UITableView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8715D1D1F8892774AC08E18912376A10 /* UITableView+LookinServer.m */; };
+		6EE923993B3054322CAA6A6539B97FA7 /* LKS_ExportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 058A943BFE30676D31C4E567335B5AA6 /* LKS_ExportManager.m */; };
+		6FAAC507FC1F2061CDD947F9B96082C6 /* LookinAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0A91460407C27D7534F73FF10BF443 /* LookinAppInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		701C371FFBF87A0C09B2B033D86AA87E /* UIColor+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7EB7C16C6FF495F18681492311A49F /* UIColor+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7261DE4EFF91D2F1D14D480DB1B286CC /* LookinMsgTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC51F5ABAB45D1F7D07410FBCF8616 /* LookinMsgTargetAction.m */; };
+		728B602F49C7F0A218BB33FB56BEA14D /* LKS_PerspectiveViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 084C4765C445D38FAD123E34457C270B /* LKS_PerspectiveViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A369CD11949C5F728006B717F78AB8 /* Lookin_PTUSBHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 5999AC58EEB7FCC226B799BF6E5DF58C /* Lookin_PTUSBHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		744BB44C6E303E126D31836FBF2E9BE7 /* LKS_PerspectiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 917C3A5C4F9324F4EFBAC4AB5390BDEC /* LKS_PerspectiveManager.m */; };
+		7580FAAB1BDA52F5A969E5571D1A5973 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD04D0D1C8E9FAD5920CBAB9BB6282B /* ConstraintAttributes.swift */; };
+		7757D63F2F1B2CE9B2C014D11540D4A6 /* UIColor+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BED2133AE45FBCE8FE40FC36F57F6C8B /* UIColor+LookinServer.m */; };
+		7764AA5F6BBFC6ECE43959923DD007D3 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A80DC64C5E892A6765CD0EAA8DFEA /* ConstraintDirectionalInsetTarget.swift */; };
+		784CC971C67E2E2B60CE847D5A3220E4 /* UIView+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C120E691227B460D2A9179A1080D203 /* UIView+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DC9C9883DF130E3FEFDFAAAE3C49D5 /* LKS_LocalInspectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 176E4B49C700527F1227A901FA2E62D6 /* LKS_LocalInspectManager.m */; };
+		7A886F242E9D28E6F303FAD730C9B3E1 /* LookinAttributesGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = F207BF635F9C7DBFB8030A25D6B346A4 /* LookinAttributesGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FFCE5BD6BF0DF76737B57E2228A15B0 /* UITextView+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F48D6576936A9314E5D643F5BA70D3F /* UITextView+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FFEF21A78F46B8F1632AF470F63451C /* LookinDashboardBlueprint.m in Sources */ = {isa = PBXBuildFile; fileRef = F793A9BA3957623866A50180BA75BF37 /* LookinDashboardBlueprint.m */; };
+		825062025906CE93C5D124E1FD9A811E /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59B919119595FA11BA5DF641C7DCF14 /* ConstraintMakerExtendable.swift */; };
+		8363CA5E16D942E4C79991421B5D92B4 /* LookinObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C874F9485631A1EE8097951B794CAA /* LookinObject.m */; };
+		8449EB1DFD43E222D687D5A8D2088D2D /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF989F73D91C15CACC2E0C11365589 /* ConstraintLayoutGuideDSL.swift */; };
+		84D62BAA1201F3C9641830FFCF24D0A2 /* LookinTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF89210405BFE2A8ACB00F770FC5208 /* LookinTuple.m */; };
+		8B845B5FD55A425B926802D295313650 /* LookinAutoLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 876C4CB70E695C6746E363CC499E13E9 /* LookinAutoLayoutConstraint.m */; };
+		8C6546C1EF4F153DF3795CC6FE189E5B /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2D702F5241492BD40D7C82B4033F9 /* ConstraintInsets.swift */; };
+		8FD9CD608C4EAAFDE6AC7B8B9EF0FF5E /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525C66C9A0E160AA4F0DAD3507BE6BD /* ConstraintDescription.swift */; };
+		8FE9A3D92BEA184BD27AD12196DBF63B /* Lookin_PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D708560F15FD448805814AC2E8A83BC /* Lookin_PTChannel.m */; };
+		90FD5AE525E138A473723FD79AF73273 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840550466C18216C31CDB376ED84AFE7 /* ConstraintDSL.swift */; };
+		92F2DEA6B92CE7A48443522D74B86933 /* LookinMsgTargetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C759BCE3AD76E113E39BF55259158E /* LookinMsgTargetAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		934F78AB232B6A848CEE5446B553224C /* UILabel+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2339353B94F2DBB0A8179AFF4AACFC /* UILabel+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		938BCEFB0FC490D8373677932BC2212D /* LookinAttributeModification.h in Headers */ = {isa = PBXBuildFile; fileRef = 4289BD2AF33858C00378B00BB8A05B95 /* LookinAttributeModification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945DE3FA63E9F350AAC304E42A86F84F /* Pods-StackedView-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCC006CB6E598FA7942138D023E8EA /* Pods-StackedView-Test-dummy.m */; };
+		94D5271C8067112E7EE6C6C84BE02BCA /* LookinDashboardBlueprint.h in Headers */ = {isa = PBXBuildFile; fileRef = EA935FA1A7ABCE50EBF1DA3E09897549 /* LookinDashboardBlueprint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968A4F2A23743B92E2FC071DDF63F941 /* NSSet+Lookin.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDC0400EE135683FE9B27E5FB8AEEC1 /* NSSet+Lookin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968B4874A9F12D67C8B901136C9C8157 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B166DF38ACD06CCB209106EE25832D /* SnapKit-dummy.m */; };
+		99D123362DB5E34BB6554DF86612FAD0 /* LKS_HierarchyDetailsHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = BD51ED9CE8193D88C7AE7779B76F442E /* LKS_HierarchyDetailsHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F754C88A64972A40A9008B0AD52109 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AB8BAE77F8D29DFF9D16754D80580 /* ConstraintDirectionalInsets.swift */; };
+		A4467357581E8345DD348683CC4111AF /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24379597CA106305950E5C1EC07D5F3A /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53D3AF15CE8D348306EF11619C5D166 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89BABD2E4AE621A29FF085CA5A9EBC7 /* ConstraintMakerEditable.swift */; };
+		A7346A12779846B8588353BBCDF68879 /* Lookin_PTPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = E3387CF5E24EC32E56A36D73658DD07B /* Lookin_PTPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A90F277695DB9C1A129FF7FF822584AF /* LKS_AttrModificationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4737E10ADBD90107A88201E218CE3F /* LKS_AttrModificationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A93A14533952DCC5F6B1690C312C7DAF /* Peertalk.h in Headers */ = {isa = PBXBuildFile; fileRef = A10461A697C0F7142165D32A7BB305C7 /* Peertalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9696897369FEA03FC934EACBE1C3876 /* LookinIvarTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = B22036F6494D99FF92FFE91C4279BAF4 /* LookinIvarTrace.m */; };
+		AD6C568E65FD36A3204EBC45BCD11355 /* LookinAttributeModification.m in Sources */ = {isa = PBXBuildFile; fileRef = 392ED2E94B4E8D467F892AA6144CCD32 /* LookinAttributeModification.m */; };
+		ADBA51573963DE2BAA2B944BC9303F85 /* LookinAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CE878D8285EF0DDBCCB3E5218DB55 /* LookinAttribute.m */; };
+		ADE192393CAEBB85F13F0832C3BA26F3 /* LKS_AttrGroupsMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECE4FD4A1E0D2812A81D11E1C69DDDF /* LKS_AttrGroupsMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4CAA981A4765F6EFBA2E3FECA224E00 /* LookinHierarchyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 24587BC1F4266C75C00B56E67B0266AD /* LookinHierarchyFile.m */; };
+		B51697A75840C57795CB11BECD33561D /* LookinHierarchyInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FAC24A9C9D13974A3971F6D9F0AF344 /* LookinHierarchyInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B543FD108C1C6AF6129CB4991553218B /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DC890CDF0C8BE56D8C88DAE02C0A6 /* ConstraintConfig.swift */; };
+		B5B8BF2257F3C2378BE4E68FE500E77C /* LookinWeakContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 416544BDACD94712652536BA80D76B8F /* LookinWeakContainer.m */; };
+		B63CC43E9235A22DE734AEC350F84E5B /* LookinHierarchyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C12DC64C5F98BA184539478A72EAD2 /* LookinHierarchyInfo.m */; };
+		BA0B5D652B7C46A5CBAB8DD5600841C2 /* LookinObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A2DF32D9A9554DBC43A7B729BD6A77EA /* LookinObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC6B5DBAAAE279A7FF669A3DA0506684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BD1BFF9A06BDFC1FDD855487EB54BDA5 /* LKS_AttrModificationPatchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6638238146DCC64850964EF581BCC6 /* LKS_AttrModificationPatchHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD333CDBCF5D2FD55920336FC271DF33 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404C4D14029328827769F16D9EDD0A6E /* ConstraintItem.swift */; };
+		BEBF920FEB959B46A76BAADF22E5CD15 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DF48CA424B64C98384FC8A35C5FAAF /* ConstraintInsetTarget.swift */; };
+		C2F49CCD8CF765D821A65DE9614B0957 /* LookinAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A380E2E838A2029C0CCCD35E2B584439 /* LookinAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C55D49FD96C4BBFF2F1DF6B8CEC991E7 /* LookinDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E2276973C58A5EDFB83879B41372CD /* LookinDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61D3BC32A28A405C934C00039AD2583 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D25991435DB5E69C3845C5BEA01FDB /* ConstraintConstantTarget.swift */; };
+		C73F574BE2137C917E1845A8B740601B /* Lookin_PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5B18E0F974135B2872E8E328188A65 /* Lookin_PTUSBHub.m */; };
+		C86CA6E3BD61E100DF13516CBBAE1337 /* LookinServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F667F2900799D42CED85BA4A86272234 /* LookinServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C905410DDC3788424F5E08A43679F17C /* LKS_RequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0930298C7624FD32E0574D181B4B3D7B /* LKS_RequestHandler.m */; };
+		CA5ED9455F10FFD1D3A2E3F9FE3C8638 /* LKS_PerspectiveDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 127A2B0A519455F5CC05A645B06A6335 /* LKS_PerspectiveDataSource.m */; };
+		CABFD52195604506BAD68054E2CAD0DD /* LookinAttrType.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A832654E55409C421786625B849599 /* LookinAttrType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB194156C900B767B0160AF72EDF354D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA33E3B4105065642170437BFAB742D /* ConstraintMaker.swift */; };
+		CB8BA56F4E6C6921386E9B28B9CCB507 /* LookinStaticAsyncUpdateTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417EFB517F006C1DC60B60CF28FAA2C /* LookinStaticAsyncUpdateTask.m */; };
+		CB8E4BF0D710970BE2CB4C87ED1043E4 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081AAE6997D819545925B1A6A4A18C83 /* ConstraintMakerRelatable.swift */; };
+		CBBD077748392BA773D27728AB4C78EE /* Lookin_PTChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 124010AA2F1EAE55E2119A7AB81487F9 /* Lookin_PTChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA22C9F421C9E8C13009947816D8C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D0E40BF67796421524917B79652F83A9 /* UIView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B260CC821BC2DFA61171351DC62EAC7 /* UIView+LookinServer.m */; };
+		D13D417B236E736EEAE7217B5CE3EC5C /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF70A04512B4111EF85B5A64DD11BFD /* ConstraintMakerFinalizable.swift */; };
+		D1ECD144D947F12B4D9351311E988E1E /* LKS_EventHandlerMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = F03FBE68DA4ED3B1445B15CD46A5F661 /* LKS_EventHandlerMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D22A666FEA2D3D20B082BABAFC37C550 /* LKS_ExportManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4B853A21FA088359082FD115A5DA25 /* LKS_ExportManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D294ABC5FA65CCCAE9ED0068C667C6B7 /* CALayer+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1BB3A6CEB3AC68B72B92FBE6202072 /* CALayer+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2FFAB1EB448EC217DCEE2BD455328FA /* LookinMethodTraceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 84265F0E9A22C0295F830CA2C5FBF229 /* LookinMethodTraceRecord.m */; };
+		D35D2BCE0069B0C7CDE3B7621D63C69C /* UIImage+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = E9ACFF820233FE6B9EF3F0F9098780F6 /* UIImage+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D417AD41278036C34B907FDFA873EDFB /* LKS_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A55ED94733FCCB4D33FC07D9E39507 /* LKS_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D43BD311230D4C9BA635B37C7EFF2F7F /* UILabel+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897E93277EE877020F518A60BBEBE42 /* UILabel+LookinServer.m */; };
+		D4FBC927D9BE85854154D035BC90F9F4 /* UIImageView+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 952B6C19AA1A426181AEFE06383B3096 /* UIImageView+LookinServer.m */; };
+		D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5185A5AC25FA311650FB2743D21D2F2C /* ConstraintRelation.swift */; };
+		D5CDDCBF33CC03592FB786D3F8020E91 /* LookinWeakContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCC7D24ECC0FC44DC53623BF860FC16 /* LookinWeakContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5E45DD66CDCB80B90E87E4D589BE3A2 /* LKS_HierarchyDisplayItemsMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A5568C2520D7E138DBF81569AC6F46 /* LKS_HierarchyDisplayItemsMaker.m */; };
+		D67D6E5A8C67310AE01AD699B2D746EC /* LookinServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9746D102CA6771115F2412FEFA9BBC4 /* LookinServer-dummy.m */; };
+		D8666E74AB90D08409A0868C75644001 /* LookinEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 49636914A83BD3C0FFC7DF216DC92556 /* LookinEventHandler.m */; };
+		D89B48F6B3E6447590AE09C2E15FE5C5 /* LookinIvarTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 6273790F26B23B1EE3196C0B6FC6556F /* LookinIvarTrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8EEE5F53171200B5B41FF30591AE568 /* NSObject+Lookin.m in Sources */ = {isa = PBXBuildFile; fileRef = 845BF2348315C4D1443307EB38603CAA /* NSObject+Lookin.m */; };
+		DA062DFF75D1783B9BC1838E5FB231C9 /* UITextField+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 458ED3A54B0BD368267E225586291441 /* UITextField+LookinServer.m */; };
+		DA7C84FB7CC192CB1C6F7490D3CCB152 /* CALayer+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8185165E3916C0A67B5F4B0FDA6E9DBE /* CALayer+LookinServer.m */; };
+		DBF3D6B15FDEFA5E4DC336B2212E0C28 /* CALayer+Lookin.h in Headers */ = {isa = PBXBuildFile; fileRef = B66F2D021530AC9A30DE60674309EC91 /* CALayer+Lookin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6535767C1011B419A4CFC1D84C7974 /* LKS_TraceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0569B2ACE35F083470F19162CDE302A /* LKS_TraceManager.m */; };
+		DD2F8CFFB101BB67DF911732C4C20F8B /* LKS_PerspectiveDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7EC9E3513C4D2F871028DB83E99211 /* LKS_PerspectiveDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDC450E2D22CCF77A89E59F37D496C8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		DEBFD4BE8A82D4AD4AEBB135C0EB9D6A /* LookinCodingValueType.h in Headers */ = {isa = PBXBuildFile; fileRef = D1026F93C921BB931ABFBDE10CE70313 /* LookinCodingValueType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE380EC285FD378EA455C0FBF612F62 /* LookinDisplayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B18952F5158227820E7FED9E95951CEC /* LookinDisplayItem.m */; };
+		DFF297547CF5DDBA9A99BA9C1E0752B3 /* LKS_HierarchyDisplayItemsMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCD128645B513A842831DB72126631E /* LKS_HierarchyDisplayItemsMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1C9C496941C8445708E2520699AC34D /* LKS_PerspectiveToolbarButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E32FA26027024F07856B5F345573C8 /* LKS_PerspectiveToolbarButtons.m */; };
+		E36244E8BF4AC941E82DAF16DDF4BBC2 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6802D84B4D25351887039A44FFC300 /* ConstraintPriorityTarget.swift */; };
+		E589C990E7292928BE021A763F01F533 /* LookinScreenshotFetchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C51A4A4E721CACE32A1A5750C9578CD6 /* LookinScreenshotFetchManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6078736263A2CF0ED86D9EE62510940 /* LookinDisplayItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF0884AA8058CD0A6548041EF9C20D0 /* LookinDisplayItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6ED30CA68340631C80D4B887FA7E51E /* NSObject+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DC069BBEE917396766D6AA254232C576 /* NSObject+LookinServer.m */; };
+		E7FE920865C876303B95DD89F6A9CD79 /* Lookin_PTProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 98010E3431B207716C3819416F0C4C55 /* Lookin_PTProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8EAADACF3BAE33BDECBC7214EAE9CD2 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EB8C11EC14C090353C612C5BA4B68 /* ConstraintRelatableTarget.swift */; };
+		E997ED14F55883B2C21218BE367C4ED7 /* LookinAttributesSection.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B98073E85B0F6AF484AA3DA9B53A3 /* LookinAttributesSection.m */; };
+		EAC37AB4C5CA15A71B118A4419511793 /* UIBlurEffect+LookinServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7278B36A56135F0FE0BDA9E0AF456D4E /* UIBlurEffect+LookinServer.m */; };
+		EB8750018D86CC6EDC37DB0B1B8FB2BD /* LookinDisplayItemDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = F6650EFA7151EE024B361AC5358CE931 /* LookinDisplayItemDetail.m */; };
+		EC93F5DA0A8454FABCE5ECFB6E89F1D9 /* LookinMsgAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA0EED4B7E0B3A8CA1FDC5B0801E99B /* LookinMsgAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECEE88B7624D9122A8262082EC1CD2EE /* LKS_ConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F268A79E57AC4FBF4EF0F5DEE8CDDDB0 /* LKS_ConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE179D8C4AF4D7BE89C4331C32936B7F /* LKS_MethodTraceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A0A2037C842F5DF395E1172DCE26AE /* LKS_MethodTraceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE6C364198A763EBBF49237035D86439 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06618D378CFFB3197B3419B4949EA272 /* ConstraintLayoutGuide.swift */; };
+		F10586462FB54CEA169A1A7A469A926D /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3FFF24B3A8C060D4A5C4495EE8313D /* Debugging.swift */; };
+		F1CEDEB3B1605A99E18D611CA8947329 /* LKS_PerspectiveHierarchyCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B6E7ED092EA033DF7759FA641BB326 /* LKS_PerspectiveHierarchyCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F24D06C23DAB2F52A30C886A7A8177C7 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DAD19784F4B78217662A792D9258FF /* ConstraintView.swift */; };
+		F2C817C166B2DE613222C41015A586C9 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF74E26EC5BD128A93E90C49ED36870D /* ConstraintMakerPriortizable.swift */; };
+		F343BA4E457FFDB0165492AECAEF0BCC /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AABF71A30210CA3EB5C9B2806FE6CF3 /* ConstraintPriority.swift */; };
+		F3E57DCF1FD7A56820BD9A022938C4ED /* UIImageView+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C5F1E0D388019E8F33622D78CE3958 /* UIImageView+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FB6B3A35A161153E8C57989ABEF0F5 /* LookinConnectionResponseAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2B17AA1E4E8EE204B55EDDCF875B87 /* LookinConnectionResponseAttachment.m */; };
+		F46939A65E58657B645FA69F5077C666 /* NSObject+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0FBC170C9430B3CEECF687963386BD /* NSObject+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6017FCB86175E439D726F03A7051D26 /* NSObject+Lookin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5E3ABBD8950824BE2B847D16110FFE /* NSObject+Lookin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8142E2AFA245DE02D9254BA6DFE72B3 /* LKS_LocalInspectPanelLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = E58C8A21210B412684B05389C3AB3805 /* LKS_LocalInspectPanelLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F985F79B74797C4EE4F89E6ED3710A3F /* LookinAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A862C46834F4D08EE4249CF25B0AEC /* LookinAppInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CADA6E009209ED689997B774B865864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638FEAAFC575BB76BC6AC055CDDA3506;
+			remoteInfo = LookinServer;
+		};
+		98BC5E143B2B471FD8F6B1FE3F9112BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01197422786875D786996BB9F0EDF59A /* LKS_PerspectiveHierarchyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveHierarchyView.h; path = Src/Server/Perspective/LKS_PerspectiveHierarchyView.h; sourceTree = "<group>"; };
+		01A9D3A6118A974E0260A6F103BD2800 /* LookinAttrIdentifiers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttrIdentifiers.h; path = Src/Shared/LookinAttrIdentifiers.h; sourceTree = "<group>"; };
+		058A943BFE30676D31C4E567335B5AA6 /* LKS_ExportManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_ExportManager.m; path = Src/Server/Others/LKS_ExportManager.m; sourceTree = "<group>"; };
+		06618D378CFFB3197B3419B4949EA272 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		081AAE6997D819545925B1A6A4A18C83 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		084C4765C445D38FAD123E34457C270B /* LKS_PerspectiveViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveViewController.h; path = Src/Server/Perspective/LKS_PerspectiveViewController.h; sourceTree = "<group>"; };
+		08DF48CA424B64C98384FC8A35C5FAAF /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		0930298C7624FD32E0574D181B4B3D7B /* LKS_RequestHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_RequestHandler.m; path = Src/Server/Connection/LKS_RequestHandler.m; sourceTree = "<group>"; };
+		0B5E3ABBD8950824BE2B847D16110FFE /* NSObject+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Lookin.h"; path = "Src/Shared/Category/NSObject+Lookin.h"; sourceTree = "<group>"; };
+		0BFCFF28AE3B1B09ED5E28E140AAEA16 /* LKS_HierarchyDetailsHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_HierarchyDetailsHandler.m; path = Src/Server/Connection/RequestHandler/LKS_HierarchyDetailsHandler.m; sourceTree = "<group>"; };
+		0D8130E740E7DCC38B40BF1B7352AC7C /* LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinServer.h; path = Src/Server/LookinServer.h; sourceTree = "<group>"; };
+		0ECE4FD4A1E0D2812A81D11E1C69DDDF /* LKS_AttrGroupsMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_AttrGroupsMaker.h; path = Src/Server/Others/LKS_AttrGroupsMaker.h; sourceTree = "<group>"; };
+		0F1BB3A6CEB3AC68B72B92FBE6202072 /* CALayer+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+LookinServer.h"; path = "Src/Server/Category/CALayer+LookinServer.h"; sourceTree = "<group>"; };
+		120911C16C0262F3012C9CB4B8AD5C01 /* LKS_ConnectionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_ConnectionManager.m; path = Src/Server/Connection/LKS_ConnectionManager.m; sourceTree = "<group>"; };
+		124010AA2F1EAE55E2119A7AB81487F9 /* Lookin_PTChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Lookin_PTChannel.h; path = Src/Shared/Peertalk/Lookin_PTChannel.h; sourceTree = "<group>"; };
+		127A2B0A519455F5CC05A645B06A6335 /* LKS_PerspectiveDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveDataSource.m; path = Src/Server/Perspective/LKS_PerspectiveDataSource.m; sourceTree = "<group>"; };
+		1305F8D364AD1B90EF8E38F6B4986B01 /* LKS_MethodTraceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_MethodTraceManager.m; path = Src/Server/Others/LKS_MethodTraceManager.m; sourceTree = "<group>"; };
+		13CB3031AD2E7EC4AA8849F5E709A4A0 /* Pods-StackedView-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackedView-Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		14E32FA26027024F07856B5F345573C8 /* LKS_PerspectiveToolbarButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveToolbarButtons.m; path = Src/Server/Perspective/LKS_PerspectiveToolbarButtons.m; sourceTree = "<group>"; };
+		15B166DF38ACD06CCB209106EE25832D /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		171620B4E3E45BE7FD5B574236BCC42C /* LookinConnectionAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinConnectionAttachment.h; path = Src/Shared/LookinConnectionAttachment.h; sourceTree = "<group>"; };
+		17694F044C76DB4EFE64376FC44B272A /* LKS_LocalInspectPanelLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_LocalInspectPanelLabelView.m; path = Src/Server/Inspect/LKS_LocalInspectPanelLabelView.m; sourceTree = "<group>"; };
+		176E4B49C700527F1227A901FA2E62D6 /* LKS_LocalInspectManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_LocalInspectManager.m; path = Src/Server/Inspect/LKS_LocalInspectManager.m; sourceTree = "<group>"; };
+		1897E93277EE877020F518A60BBEBE42 /* UILabel+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+LookinServer.m"; path = "Src/Server/Category/UILabel+LookinServer.m"; sourceTree = "<group>"; };
+		198F6512B24532017F7550401A688C72 /* Pods-StackedView-Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackedView-Test-Info.plist"; sourceTree = "<group>"; };
+		1CAF88047DA1E376D48A12F46914A8A4 /* LKS_PerspectiveLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveLayer.m; path = Src/Server/Perspective/LKS_PerspectiveLayer.m; sourceTree = "<group>"; };
+		1D36C5D03B948C8894EA3CD8ED91260E /* LookinServerDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinServerDefines.h; path = Src/Server/Others/LookinServerDefines.h; sourceTree = "<group>"; };
+		214CE878D8285EF0DDBCCB3E5218DB55 /* LookinAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttribute.m; path = Src/Shared/LookinAttribute.m; sourceTree = "<group>"; };
+		222C6E5E07123DBBFBB102FCE16574CD /* CALayer+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+Lookin.m"; path = "Src/Shared/Category/CALayer+Lookin.m"; sourceTree = "<group>"; };
+		22DE618CDC7DD26E3304D9E837A4EC35 /* UIViewController+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LookinServer.m"; path = "Src/Server/Category/UIViewController+LookinServer.m"; sourceTree = "<group>"; };
+		23A55ED94733FCCB4D33FC07D9E39507 /* LKS_Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_Helper.h; path = Src/Server/Others/LKS_Helper.h; sourceTree = "<group>"; };
+		23BA0F8C51E494E0DA34C53916CE2BE2 /* Pods-StackedView-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackedView-Test.release.xcconfig"; sourceTree = "<group>"; };
+		23DAD19784F4B78217662A792D9258FF /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		24379597CA106305950E5C1EC07D5F3A /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		24587BC1F4266C75C00B56E67B0266AD /* LookinHierarchyFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinHierarchyFile.m; path = Src/Shared/LookinHierarchyFile.m; sourceTree = "<group>"; };
+		252E053C9A4F5DD433D79EF0F9764EBA /* LKS_EventHandlerMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_EventHandlerMaker.m; path = Src/Server/Others/LKS_EventHandlerMaker.m; sourceTree = "<group>"; };
+		25664483ABF4DC8EC03E7472AA04333B /* LookinServer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LookinServer; path = LookinServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EDB5280C14230A1E332F3D340E9E7F /* NSArray+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Lookin.h"; path = "Src/Shared/Category/NSArray+Lookin.h"; sourceTree = "<group>"; };
+		2B043AC5F9C2D9D03287FBAB207E8D21 /* LKS_AttrModificationPatchHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_AttrModificationPatchHandler.m; path = Src/Server/Connection/RequestHandler/LKS_AttrModificationPatchHandler.m; sourceTree = "<group>"; };
+		2B3D3B3EEA3C1CF33B43FAFF545A6B9A /* UIGestureRecognizer+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+LookinServer.m"; path = "Src/Server/Category/UIGestureRecognizer+LookinServer.m"; sourceTree = "<group>"; };
+		2C120E691227B460D2A9179A1080D203 /* UIView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LookinServer.h"; path = "Src/Server/Category/UIView+LookinServer.h"; sourceTree = "<group>"; };
+		2DA0EED4B7E0B3A8CA1FDC5B0801E99B /* LookinMsgAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinMsgAttribute.h; path = Src/Shared/Message/LookinMsgAttribute.h; sourceTree = "<group>"; };
+		30D25991435DB5E69C3845C5BEA01FDB /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		31A737D4A99DEF7D175C93D1A4425A3A /* Pods-StackedView-Test */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StackedView-Test"; path = Pods_StackedView_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		327CD2DE05E08F1D238364A701C75DD8 /* Pods-StackedView-Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StackedView-Test-frameworks.sh"; sourceTree = "<group>"; };
+		32E0B8116D1681DF3AAB08567239B15C /* NSString+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Lookin.m"; path = "Src/Shared/Category/NSString+Lookin.m"; sourceTree = "<group>"; };
+		35425503786F096792D4D4C6C54F2EA3 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		35A862C46834F4D08EE4249CF25B0AEC /* LookinAppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAppInfo.m; path = Src/Shared/LookinAppInfo.m; sourceTree = "<group>"; };
+		379707A52900B9AAE8051D3E1241C78F /* LKS_AttrGroupsMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_AttrGroupsMaker.m; path = Src/Server/Others/LKS_AttrGroupsMaker.m; sourceTree = "<group>"; };
+		37A5568C2520D7E138DBF81569AC6F46 /* LKS_HierarchyDisplayItemsMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_HierarchyDisplayItemsMaker.m; path = Src/Server/Others/LKS_HierarchyDisplayItemsMaker.m; sourceTree = "<group>"; };
+		37CA86BD8B7CEBBE81FA8D3CA980B284 /* NSString+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Lookin.h"; path = "Src/Shared/Category/NSString+Lookin.h"; sourceTree = "<group>"; };
+		392ED2E94B4E8D467F892AA6144CCD32 /* LookinAttributeModification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttributeModification.m; path = Src/Shared/LookinAttributeModification.m; sourceTree = "<group>"; };
+		39588E9E2016AEB6B7C7F8B253F6AC91 /* LKS_LocalInspectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_LocalInspectViewController.m; path = Src/Server/Inspect/LKS_LocalInspectViewController.m; sourceTree = "<group>"; };
+		3A7AFB8A750A2CE4F3503AEFA774A39D /* LKS_RequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_RequestHandler.h; path = Src/Server/Connection/LKS_RequestHandler.h; sourceTree = "<group>"; };
+		3CBF989F73D91C15CACC2E0C11365589 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		3DA33E3B4105065642170437BFAB742D /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		3F48D6576936A9314E5D643F5BA70D3F /* UITextView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+LookinServer.h"; path = "Src/Server/Category/UITextView+LookinServer.h"; sourceTree = "<group>"; };
+		401D85EB20E657C3AB28BE1B0D2CC2A0 /* LKS_TraceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_TraceManager.h; path = Src/Server/Others/LKS_TraceManager.h; sourceTree = "<group>"; };
+		404C4D14029328827769F16D9EDD0A6E /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		40B8EABFC09ED2BFE3CE80695B51C6F9 /* UIBlurEffect+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBlurEffect+LookinServer.h"; path = "Src/Server/Category/UIBlurEffect+LookinServer.h"; sourceTree = "<group>"; };
+		416544BDACD94712652536BA80D76B8F /* LookinWeakContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinWeakContainer.m; path = Src/Shared/LookinWeakContainer.m; sourceTree = "<group>"; };
+		4289BD2AF33858C00378B00BB8A05B95 /* LookinAttributeModification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttributeModification.h; path = Src/Shared/LookinAttributeModification.h; sourceTree = "<group>"; };
+		458ED3A54B0BD368267E225586291441 /* UITextField+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+LookinServer.m"; path = "Src/Server/Category/UITextField+LookinServer.m"; sourceTree = "<group>"; };
+		463E0CF819594D80D6D1726B1B9D0B1B /* LKS_PerspectiveItemLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveItemLayer.h; path = Src/Server/Perspective/LKS_PerspectiveItemLayer.h; sourceTree = "<group>"; };
+		49636914A83BD3C0FFC7DF216DC92556 /* LookinEventHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinEventHandler.m; path = Src/Shared/LookinEventHandler.m; sourceTree = "<group>"; };
+		499800D3B97F05FA061430A9BB4931BD /* LKS_PerspectiveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveManager.h; path = Src/Server/Perspective/LKS_PerspectiveManager.h; sourceTree = "<group>"; };
+		4A4C0E17F1A74796AF80962F6945C080 /* LKS_PerspectiveLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveLayer.h; path = Src/Server/Perspective/LKS_PerspectiveLayer.h; sourceTree = "<group>"; };
+		4BFCC006CB6E598FA7942138D023E8EA /* Pods-StackedView-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StackedView-Test-dummy.m"; sourceTree = "<group>"; };
+		4C3FFF24B3A8C060D4A5C4495EE8313D /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		4C4B853A21FA088359082FD115A5DA25 /* LKS_ExportManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_ExportManager.h; path = Src/Server/Others/LKS_ExportManager.h; sourceTree = "<group>"; };
+		4D708560F15FD448805814AC2E8A83BC /* Lookin_PTChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Lookin_PTChannel.m; path = Src/Shared/Peertalk/Lookin_PTChannel.m; sourceTree = "<group>"; };
+		4EF70A04512B4111EF85B5A64DD11BFD /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		4F229A02C4CDF2A0A5EB83B350AE5D0E /* LookinDisplayItemDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinDisplayItemDetail.h; path = Src/Shared/LookinDisplayItemDetail.h; sourceTree = "<group>"; };
+		501B53AAE5515991699BEAC319AE9F3F /* Pods-StackedView-Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StackedView-Test-umbrella.h"; sourceTree = "<group>"; };
+		5185A5AC25FA311650FB2743D21D2F2C /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		56DBBEFB382AE9AFF3678F1B62A439CA /* UIVisualEffectView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIVisualEffectView+LookinServer.h"; path = "Src/Server/Category/UIVisualEffectView+LookinServer.h"; sourceTree = "<group>"; };
+		5999AC58EEB7FCC226B799BF6E5DF58C /* Lookin_PTUSBHub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Lookin_PTUSBHub.h; path = Src/Shared/Peertalk/Lookin_PTUSBHub.h; sourceTree = "<group>"; };
+		5B7EC9E3513C4D2F871028DB83E99211 /* LKS_PerspectiveDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveDataSource.h; path = Src/Server/Perspective/LKS_PerspectiveDataSource.h; sourceTree = "<group>"; };
+		5BFD59878AE3FE0F2C86902BECFE03A9 /* UIImage+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LookinServer.m"; path = "Src/Server/Category/UIImage+LookinServer.m"; sourceTree = "<group>"; };
+		5E2B17AA1E4E8EE204B55EDDCF875B87 /* LookinConnectionResponseAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinConnectionResponseAttachment.m; path = Src/Shared/LookinConnectionResponseAttachment.m; sourceTree = "<group>"; };
+		61C2D702F5241492BD40D7C82B4033F9 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		6273790F26B23B1EE3196C0B6FC6556F /* LookinIvarTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinIvarTrace.h; path = Src/Shared/LookinIvarTrace.h; sourceTree = "<group>"; };
+		62CF4506EB6E77A863ED1C83748A374F /* LKS_Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_Helper.m; path = Src/Server/Others/LKS_Helper.m; sourceTree = "<group>"; };
+		6356AD094A317AF0FE1A176E2EDD696A /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		6417EFB517F006C1DC60B60CF28FAA2C /* LookinStaticAsyncUpdateTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinStaticAsyncUpdateTask.m; path = Src/Shared/LookinStaticAsyncUpdateTask.m; sourceTree = "<group>"; };
+		681BD5941061CC5EA28CA4B19C8961D4 /* LookinTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinTuple.h; path = Src/Shared/LookinTuple.h; sourceTree = "<group>"; };
+		687115C17801ED2554B67FAADDAC4FA7 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		6AABF71A30210CA3EB5C9B2806FE6CF3 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		6ACF3439339F398137F7E8308D9ACF2A /* LKS_PerspectiveViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveViewController.m; path = Src/Server/Perspective/LKS_PerspectiveViewController.m; sourceTree = "<group>"; };
+		6B0EB8C11EC14C090353C612C5BA4B68 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		6B4A80DC64C5E892A6765CD0EAA8DFEA /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Source/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		6EBB6D2FF47E787290AD19E78014E86B /* LookinServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LookinServer.modulemap; sourceTree = "<group>"; };
+		6F0A91460407C27D7534F73FF10BF443 /* LookinAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAppInfo.h; path = Src/Shared/LookinAppInfo.h; sourceTree = "<group>"; };
+		6F0C3383F4432E9ED30AB912BF24358A /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		70C759BCE3AD76E113E39BF55259158E /* LookinMsgTargetAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinMsgTargetAction.h; path = Src/Shared/Message/LookinMsgTargetAction.h; sourceTree = "<group>"; };
+		7278B36A56135F0FE0BDA9E0AF456D4E /* UIBlurEffect+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBlurEffect+LookinServer.m"; path = "Src/Server/Category/UIBlurEffect+LookinServer.m"; sourceTree = "<group>"; };
+		7304C1FA87607B6EACB38E7170E9CC59 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		745EB4440874BFB494E129DA01E3828D /* Pods-StackedView-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StackedView-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7525C66C9A0E160AA4F0DAD3507BE6BD /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		77386BF3E8F84799B8FD9AEC1457EC0B /* LookinServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LookinServer.debug.xcconfig; sourceTree = "<group>"; };
+		78A832654E55409C421786625B849599 /* LookinAttrType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttrType.h; path = Src/Shared/LookinAttrType.h; sourceTree = "<group>"; };
+		7981F1A09D82E44F3AB6EC9D27887E31 /* LKS_PerspectiveHierarchyCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveHierarchyCell.m; path = Src/Server/Perspective/LKS_PerspectiveHierarchyCell.m; sourceTree = "<group>"; };
+		7AD131D9C6054D7CD5626CEB726A8A42 /* LKS_PerspectiveItemLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveItemLayer.m; path = Src/Server/Perspective/LKS_PerspectiveItemLayer.m; sourceTree = "<group>"; };
+		7B559BA6DDB4D9EA37A3BECD5C4DD210 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		7CF0884AA8058CD0A6548041EF9C20D0 /* LookinDisplayItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinDisplayItem.h; path = Src/Shared/LookinDisplayItem.h; sourceTree = "<group>"; };
+		7D2199866BFA002001A70EBA3E3B4C87 /* LookinAttrIdentifiers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttrIdentifiers.m; path = Src/Shared/LookinAttrIdentifiers.m; sourceTree = "<group>"; };
+		7D6802D84B4D25351887039A44FFC300 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		7F39D3CBB8D95884772968B4A06B757E /* LKS_ObjectRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_ObjectRegistry.m; path = Src/Server/Others/LKS_ObjectRegistry.m; sourceTree = "<group>"; };
+		8185165E3916C0A67B5F4B0FDA6E9DBE /* CALayer+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+LookinServer.m"; path = "Src/Server/Category/CALayer+LookinServer.m"; sourceTree = "<group>"; };
+		840550466C18216C31CDB376ED84AFE7 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		84265F0E9A22C0295F830CA2C5FBF229 /* LookinMethodTraceRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinMethodTraceRecord.m; path = Src/Shared/LookinMethodTraceRecord.m; sourceTree = "<group>"; };
+		845BF2348315C4D1443307EB38603CAA /* NSObject+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Lookin.m"; path = "Src/Shared/Category/NSObject+Lookin.m"; sourceTree = "<group>"; };
+		85556D0E25F528141071B9CDB3285FEE /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		864F392293C5854F6A9ADD26B37A6199 /* Pods-StackedView-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StackedView-Test.modulemap"; sourceTree = "<group>"; };
+		86C12DC64C5F98BA184539478A72EAD2 /* LookinHierarchyInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinHierarchyInfo.m; path = Src/Shared/LookinHierarchyInfo.m; sourceTree = "<group>"; };
+		8715D1D1F8892774AC08E18912376A10 /* UITableView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+LookinServer.m"; path = "Src/Server/Category/UITableView+LookinServer.m"; sourceTree = "<group>"; };
+		876C4CB70E695C6746E363CC499E13E9 /* LookinAutoLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAutoLayoutConstraint.m; path = Src/Shared/LookinAutoLayoutConstraint.m; sourceTree = "<group>"; };
+		8B721CF12C7F69DDBB5E68585BC76B01 /* UIViewController+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LookinServer.h"; path = "Src/Server/Category/UIViewController+LookinServer.h"; sourceTree = "<group>"; };
+		8DCC7D24ECC0FC44DC53623BF860FC16 /* LookinWeakContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinWeakContainer.h; path = Src/Shared/LookinWeakContainer.h; sourceTree = "<group>"; };
+		8FAC24A9C9D13974A3971F6D9F0AF344 /* LookinHierarchyInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinHierarchyInfo.h; path = Src/Shared/LookinHierarchyInfo.h; sourceTree = "<group>"; };
+		9004D8305E1BDD344394F1129EC2D934 /* LookinConnectionResponseAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinConnectionResponseAttachment.h; path = Src/Shared/LookinConnectionResponseAttachment.h; sourceTree = "<group>"; };
+		9028A3C999E43213EA2F5B0D9C77ADF8 /* LookinAttributesGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttributesGroup.m; path = Src/Shared/LookinAttributesGroup.m; sourceTree = "<group>"; };
+		91342AC9D7E3C59FCA11E94C7678FE0A /* LookinAutoLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAutoLayoutConstraint.h; path = Src/Shared/LookinAutoLayoutConstraint.h; sourceTree = "<group>"; };
+		917C3A5C4F9324F4EFBAC4AB5390BDEC /* LKS_PerspectiveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveManager.m; path = Src/Server/Perspective/LKS_PerspectiveManager.m; sourceTree = "<group>"; };
+		931E0C341ACDBB75E731246402D82303 /* LKS_LocalInspectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_LocalInspectViewController.h; path = Src/Server/Inspect/LKS_LocalInspectViewController.h; sourceTree = "<group>"; };
+		952B6C19AA1A426181AEFE06383B3096 /* UIImageView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+LookinServer.m"; path = "Src/Server/Category/UIImageView+LookinServer.m"; sourceTree = "<group>"; };
+		96C874F9485631A1EE8097951B794CAA /* LookinObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinObject.m; path = Src/Shared/LookinObject.m; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98010E3431B207716C3819416F0C4C55 /* Lookin_PTProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Lookin_PTProtocol.h; path = Src/Shared/Peertalk/Lookin_PTProtocol.h; sourceTree = "<group>"; };
+		9911CCA08D1DFC3E4570054FD0F048B0 /* UIVisualEffectView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIVisualEffectView+LookinServer.m"; path = "Src/Server/Category/UIVisualEffectView+LookinServer.m"; sourceTree = "<group>"; };
+		9AEAD2D54F791D43087675F775E695A6 /* LookinStaticAsyncUpdateTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinStaticAsyncUpdateTask.h; path = Src/Shared/LookinStaticAsyncUpdateTask.h; sourceTree = "<group>"; };
+		9B260CC821BC2DFA61171351DC62EAC7 /* UIView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LookinServer.m"; path = "Src/Server/Category/UIView+LookinServer.m"; sourceTree = "<group>"; };
+		9B447E5E0674EBF9D5F3B2EE01AA7C67 /* LKS_ObjectRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_ObjectRegistry.h; path = Src/Server/Others/LKS_ObjectRegistry.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2339353B94F2DBB0A8179AFF4AACFC /* UILabel+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+LookinServer.h"; path = "Src/Server/Category/UILabel+LookinServer.h"; sourceTree = "<group>"; };
+		9FD04D0D1C8E9FAD5920CBAB9BB6282B /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		A0569B2ACE35F083470F19162CDE302A /* LKS_TraceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_TraceManager.m; path = Src/Server/Others/LKS_TraceManager.m; sourceTree = "<group>"; };
+		A0FC51F5ABAB45D1F7D07410FBCF8616 /* LookinMsgTargetAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinMsgTargetAction.m; path = Src/Shared/Message/LookinMsgTargetAction.m; sourceTree = "<group>"; };
+		A10461A697C0F7142165D32A7BB305C7 /* Peertalk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Peertalk.h; path = Src/Shared/Peertalk/Peertalk.h; sourceTree = "<group>"; };
+		A2A0A2037C842F5DF395E1172DCE26AE /* LKS_MethodTraceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_MethodTraceManager.h; path = Src/Server/Others/LKS_MethodTraceManager.h; sourceTree = "<group>"; };
+		A2DF32D9A9554DBC43A7B729BD6A77EA /* LookinObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinObject.h; path = Src/Shared/LookinObject.h; sourceTree = "<group>"; };
+		A380E2E838A2029C0CCCD35E2B584439 /* LookinAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttribute.h; path = Src/Shared/LookinAttribute.h; sourceTree = "<group>"; };
+		A54DC890CDF0C8BE56D8C88DAE02C0A6 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		A5E2276973C58A5EDFB83879B41372CD /* LookinDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinDefines.h; path = Src/Shared/LookinDefines.h; sourceTree = "<group>"; };
+		A6155C38A278F662C672E3B33AE32F92 /* Pods-StackedView-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackedView-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		AD106D8E597CBA4DD0943409B9555DFA /* LKS_PerspectiveHierarchyView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_PerspectiveHierarchyView.m; path = Src/Server/Perspective/LKS_PerspectiveHierarchyView.m; sourceTree = "<group>"; };
+		AE6638238146DCC64850964EF581BCC6 /* LKS_AttrModificationPatchHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_AttrModificationPatchHandler.h; path = Src/Server/Connection/RequestHandler/LKS_AttrModificationPatchHandler.h; sourceTree = "<group>"; };
+		AF74E26EC5BD128A93E90C49ED36870D /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		B16E96C8683658BB59A9B01060804404 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		B18952F5158227820E7FED9E95951CEC /* LookinDisplayItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinDisplayItem.m; path = Src/Shared/LookinDisplayItem.m; sourceTree = "<group>"; };
+		B22036F6494D99FF92FFE91C4279BAF4 /* LookinIvarTrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinIvarTrace.m; path = Src/Shared/LookinIvarTrace.m; sourceTree = "<group>"; };
+		B46A39F1646474B1595F33D7E4A1B63B /* LKS_PerspectiveToolbarButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveToolbarButtons.h; path = Src/Server/Perspective/LKS_PerspectiveToolbarButtons.h; sourceTree = "<group>"; };
+		B66F2D021530AC9A30DE60674309EC91 /* CALayer+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+Lookin.h"; path = "Src/Shared/Category/CALayer+Lookin.h"; sourceTree = "<group>"; };
+		B7BB1DA311EA938174639447D87B7C0B /* LookinServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LookinServer-prefix.pch"; sourceTree = "<group>"; };
+		B9746D102CA6771115F2412FEFA9BBC4 /* LookinServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LookinServer-dummy.m"; sourceTree = "<group>"; };
+		B9B6E7ED092EA033DF7759FA641BB326 /* LKS_PerspectiveHierarchyCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_PerspectiveHierarchyCell.h; path = Src/Server/Perspective/LKS_PerspectiveHierarchyCell.h; sourceTree = "<group>"; };
+		BA9F47E1A32275A1E8CC643C025D35C6 /* UIGestureRecognizer+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+LookinServer.h"; path = "Src/Server/Category/UIGestureRecognizer+LookinServer.h"; sourceTree = "<group>"; };
+		BAC873458E9037649E90D1388E79A966 /* LookinAttributesSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttributesSection.h; path = Src/Shared/LookinAttributesSection.h; sourceTree = "<group>"; };
+		BC7EB7C16C6FF495F18681492311A49F /* UIColor+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LookinServer.h"; path = "Src/Server/Category/UIColor+LookinServer.h"; sourceTree = "<group>"; };
+		BD51ED9CE8193D88C7AE7779B76F442E /* LKS_HierarchyDetailsHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_HierarchyDetailsHandler.h; path = Src/Server/Connection/RequestHandler/LKS_HierarchyDetailsHandler.h; sourceTree = "<group>"; };
+		BED2133AE45FBCE8FE40FC36F57F6C8B /* UIColor+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LookinServer.m"; path = "Src/Server/Category/UIColor+LookinServer.m"; sourceTree = "<group>"; };
+		BFCD5B605FD4C1B57848F3750FD735A9 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		BFDC0CA4E70AA3F04F47F618036B8AB4 /* LookinMsgAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinMsgAttribute.m; path = Src/Shared/Message/LookinMsgAttribute.m; sourceTree = "<group>"; };
+		C253F3CA821C70CCC4A1D2DD270054A2 /* LookinServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LookinServer.release.xcconfig; sourceTree = "<group>"; };
+		C409C18F928AF67FF4DDC341AE188C0D /* NSSet+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+Lookin.m"; path = "Src/Shared/Category/NSSet+Lookin.m"; sourceTree = "<group>"; };
+		C46B98073E85B0F6AF484AA3DA9B53A3 /* LookinAttributesSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinAttributesSection.m; path = Src/Shared/LookinAttributesSection.m; sourceTree = "<group>"; };
+		C51A4A4E721CACE32A1A5750C9578CD6 /* LookinScreenshotFetchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinScreenshotFetchManager.h; path = Src/Shared/LookinScreenshotFetchManager.h; sourceTree = "<group>"; };
+		C6686D8A991DDADDBEEB127E25C562F9 /* LKS_AttrModificationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKS_AttrModificationHandler.m; path = Src/Server/Connection/RequestHandler/LKS_AttrModificationHandler.m; sourceTree = "<group>"; };
+		CBDC0400EE135683FE9B27E5FB8AEEC1 /* NSSet+Lookin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+Lookin.h"; path = "Src/Shared/Category/NSSet+Lookin.h"; sourceTree = "<group>"; };
+		CC5B18E0F974135B2872E8E328188A65 /* Lookin_PTUSBHub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Lookin_PTUSBHub.m; path = Src/Shared/Peertalk/Lookin_PTUSBHub.m; sourceTree = "<group>"; };
+		CFBC4C4854BA8C5C1CC26F3D62B94482 /* UITextView+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+LookinServer.m"; path = "Src/Server/Category/UITextView+LookinServer.m"; sourceTree = "<group>"; };
+		D1026F93C921BB931ABFBDE10CE70313 /* LookinCodingValueType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinCodingValueType.h; path = Src/Shared/LookinCodingValueType.h; sourceTree = "<group>"; };
+		D21F8C2B11017B3EB1A2714E8A901266 /* LookinEventHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinEventHandler.h; path = Src/Shared/LookinEventHandler.h; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D4EC6159B25DD84B63E742615371FA65 /* LookinMethodTraceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinMethodTraceRecord.h; path = Src/Shared/LookinMethodTraceRecord.h; sourceTree = "<group>"; };
+		D59B919119595FA11BA5DF641C7DCF14 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		D89BABD2E4AE621A29FF085CA5A9EBC7 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		DC069BBEE917396766D6AA254232C576 /* NSObject+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LookinServer.m"; path = "Src/Server/Category/NSObject+LookinServer.m"; sourceTree = "<group>"; };
+		DDC46BBF9AB7A7B96C6697B273C371F4 /* LookinConnectionAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinConnectionAttachment.m; path = Src/Shared/LookinConnectionAttachment.m; sourceTree = "<group>"; };
+		DE18C6C6AE85628FEE9878AC9A2BB604 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		DEEFD1606330101432038A24858D0F99 /* NSArray+Lookin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Lookin.m"; path = "Src/Shared/Category/NSArray+Lookin.m"; sourceTree = "<group>"; };
+		DF3A8C8538DCC350CBA811780C69C696 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		E3387CF5E24EC32E56A36D73658DD07B /* Lookin_PTPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Lookin_PTPrivate.h; path = Src/Shared/Peertalk/Lookin_PTPrivate.h; sourceTree = "<group>"; };
+		E3A3EAEEDC670F86CA2A290276B7CD53 /* UITableView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+LookinServer.h"; path = "Src/Server/Category/UITableView+LookinServer.h"; sourceTree = "<group>"; };
+		E44CCD3DDB7959E61794E8493B9DD75F /* LookinServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LookinServer-Info.plist"; sourceTree = "<group>"; };
+		E4C5F1E0D388019E8F33622D78CE3958 /* UIImageView+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+LookinServer.h"; path = "Src/Server/Category/UIImageView+LookinServer.h"; sourceTree = "<group>"; };
+		E58C8A21210B412684B05389C3AB3805 /* LKS_LocalInspectPanelLabelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_LocalInspectPanelLabelView.h; path = Src/Server/Inspect/LKS_LocalInspectPanelLabelView.h; sourceTree = "<group>"; };
+		E79C4D626467CF2AF4BC3A44CBCF3497 /* Lookin_PTProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Lookin_PTProtocol.m; path = Src/Shared/Peertalk/Lookin_PTProtocol.m; sourceTree = "<group>"; };
+		E817A3EB906A3C052B4E2C1F906B6E87 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		E9ACFF820233FE6B9EF3F0F9098780F6 /* UIImage+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LookinServer.h"; path = "Src/Server/Category/UIImage+LookinServer.h"; sourceTree = "<group>"; };
+		EA4737E10ADBD90107A88201E218CE3F /* LKS_AttrModificationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_AttrModificationHandler.h; path = Src/Server/Connection/RequestHandler/LKS_AttrModificationHandler.h; sourceTree = "<group>"; };
+		EA935FA1A7ABCE50EBF1DA3E09897549 /* LookinDashboardBlueprint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinDashboardBlueprint.h; path = Src/Shared/LookinDashboardBlueprint.h; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB33E9F5C72C356000C15FE75092DAD2 /* UITextField+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+LookinServer.h"; path = "Src/Server/Category/UITextField+LookinServer.h"; sourceTree = "<group>"; };
+		EC3367C09D9D3BDBC1350C5F2C12C76A /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		EC4C6592034435245217FDB8AAF61839 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		ECF89210405BFE2A8ACB00F770FC5208 /* LookinTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinTuple.m; path = Src/Shared/LookinTuple.m; sourceTree = "<group>"; };
+		ED0FBC170C9430B3CEECF687963386BD /* NSObject+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LookinServer.h"; path = "Src/Server/Category/NSObject+LookinServer.h"; sourceTree = "<group>"; };
+		ED588A27CB5536CBF4F6E5532772A349 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		EDCD128645B513A842831DB72126631E /* LKS_HierarchyDisplayItemsMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_HierarchyDisplayItemsMaker.h; path = Src/Server/Others/LKS_HierarchyDisplayItemsMaker.h; sourceTree = "<group>"; };
+		EE553E26C89B999B9C837725296FBCFC /* LookinHierarchyFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinHierarchyFile.h; path = Src/Shared/LookinHierarchyFile.h; sourceTree = "<group>"; };
+		F03FBE68DA4ED3B1445B15CD46A5F661 /* LKS_EventHandlerMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_EventHandlerMaker.h; path = Src/Server/Others/LKS_EventHandlerMaker.h; sourceTree = "<group>"; };
+		F1B6D8A84EDD88F6547A01CCC24DBC9F /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		F207BF635F9C7DBFB8030A25D6B346A4 /* LookinAttributesGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LookinAttributesGroup.h; path = Src/Shared/LookinAttributesGroup.h; sourceTree = "<group>"; };
+		F268A79E57AC4FBF4EF0F5DEE8CDDDB0 /* LKS_ConnectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_ConnectionManager.h; path = Src/Server/Connection/LKS_ConnectionManager.h; sourceTree = "<group>"; };
+		F6650EFA7151EE024B361AC5358CE931 /* LookinDisplayItemDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinDisplayItemDetail.m; path = Src/Shared/LookinDisplayItemDetail.m; sourceTree = "<group>"; };
+		F667F2900799D42CED85BA4A86272234 /* LookinServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LookinServer-umbrella.h"; sourceTree = "<group>"; };
+		F6A9754130A11FB82926E7FBCAF08301 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		F793A9BA3957623866A50180BA75BF37 /* LookinDashboardBlueprint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LookinDashboardBlueprint.m; path = Src/Shared/LookinDashboardBlueprint.m; sourceTree = "<group>"; };
+		F864CDB8A37E282AAE8E38AA1F7F356A /* LKS_LocalInspectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKS_LocalInspectManager.h; path = Src/Server/Inspect/LKS_LocalInspectManager.h; sourceTree = "<group>"; };
+		FA5AB8BAE77F8D29DFF9D16754D80580 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		509E39ABA2BB2AD15D36CD27138D3CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6B5DBAAAE279A7FF669A3DA0506684 /* Foundation.framework in Frameworks */,
+				DDC450E2D22CCF77A89E59F37D496C8E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986717F42C1B1B6A1376415265D84651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA20EF425FAB1A346C4F64E373FEA58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B30433E568C40FCE04D5188A9715448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA22C9F421C9E8C13009947816D8C82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F85F9E7123256A887FD4A93DF049EF3 /* Pods-StackedView-Test */ = {
+			isa = PBXGroup;
+			children = (
+				864F392293C5854F6A9ADD26B37A6199 /* Pods-StackedView-Test.modulemap */,
+				745EB4440874BFB494E129DA01E3828D /* Pods-StackedView-Test-acknowledgements.markdown */,
+				13CB3031AD2E7EC4AA8849F5E709A4A0 /* Pods-StackedView-Test-acknowledgements.plist */,
+				4BFCC006CB6E598FA7942138D023E8EA /* Pods-StackedView-Test-dummy.m */,
+				327CD2DE05E08F1D238364A701C75DD8 /* Pods-StackedView-Test-frameworks.sh */,
+				198F6512B24532017F7550401A688C72 /* Pods-StackedView-Test-Info.plist */,
+				501B53AAE5515991699BEAC319AE9F3F /* Pods-StackedView-Test-umbrella.h */,
+				A6155C38A278F662C672E3B33AE32F92 /* Pods-StackedView-Test.debug.xcconfig */,
+				23BA0F8C51E494E0DA34C53916CE2BE2 /* Pods-StackedView-Test.release.xcconfig */,
+			);
+			name = "Pods-StackedView-Test";
+			path = "Target Support Files/Pods-StackedView-Test";
+			sourceTree = "<group>";
+		};
+		2C68C3A967E71ED7211E2C03820BE67C /* LookinServer */ = {
+			isa = PBXGroup;
+			children = (
+				B66F2D021530AC9A30DE60674309EC91 /* CALayer+Lookin.h */,
+				222C6E5E07123DBBFBB102FCE16574CD /* CALayer+Lookin.m */,
+				0F1BB3A6CEB3AC68B72B92FBE6202072 /* CALayer+LookinServer.h */,
+				8185165E3916C0A67B5F4B0FDA6E9DBE /* CALayer+LookinServer.m */,
+				0ECE4FD4A1E0D2812A81D11E1C69DDDF /* LKS_AttrGroupsMaker.h */,
+				379707A52900B9AAE8051D3E1241C78F /* LKS_AttrGroupsMaker.m */,
+				EA4737E10ADBD90107A88201E218CE3F /* LKS_AttrModificationHandler.h */,
+				C6686D8A991DDADDBEEB127E25C562F9 /* LKS_AttrModificationHandler.m */,
+				AE6638238146DCC64850964EF581BCC6 /* LKS_AttrModificationPatchHandler.h */,
+				2B043AC5F9C2D9D03287FBAB207E8D21 /* LKS_AttrModificationPatchHandler.m */,
+				F268A79E57AC4FBF4EF0F5DEE8CDDDB0 /* LKS_ConnectionManager.h */,
+				120911C16C0262F3012C9CB4B8AD5C01 /* LKS_ConnectionManager.m */,
+				F03FBE68DA4ED3B1445B15CD46A5F661 /* LKS_EventHandlerMaker.h */,
+				252E053C9A4F5DD433D79EF0F9764EBA /* LKS_EventHandlerMaker.m */,
+				4C4B853A21FA088359082FD115A5DA25 /* LKS_ExportManager.h */,
+				058A943BFE30676D31C4E567335B5AA6 /* LKS_ExportManager.m */,
+				23A55ED94733FCCB4D33FC07D9E39507 /* LKS_Helper.h */,
+				62CF4506EB6E77A863ED1C83748A374F /* LKS_Helper.m */,
+				BD51ED9CE8193D88C7AE7779B76F442E /* LKS_HierarchyDetailsHandler.h */,
+				0BFCFF28AE3B1B09ED5E28E140AAEA16 /* LKS_HierarchyDetailsHandler.m */,
+				EDCD128645B513A842831DB72126631E /* LKS_HierarchyDisplayItemsMaker.h */,
+				37A5568C2520D7E138DBF81569AC6F46 /* LKS_HierarchyDisplayItemsMaker.m */,
+				F864CDB8A37E282AAE8E38AA1F7F356A /* LKS_LocalInspectManager.h */,
+				176E4B49C700527F1227A901FA2E62D6 /* LKS_LocalInspectManager.m */,
+				E58C8A21210B412684B05389C3AB3805 /* LKS_LocalInspectPanelLabelView.h */,
+				17694F044C76DB4EFE64376FC44B272A /* LKS_LocalInspectPanelLabelView.m */,
+				931E0C341ACDBB75E731246402D82303 /* LKS_LocalInspectViewController.h */,
+				39588E9E2016AEB6B7C7F8B253F6AC91 /* LKS_LocalInspectViewController.m */,
+				A2A0A2037C842F5DF395E1172DCE26AE /* LKS_MethodTraceManager.h */,
+				1305F8D364AD1B90EF8E38F6B4986B01 /* LKS_MethodTraceManager.m */,
+				9B447E5E0674EBF9D5F3B2EE01AA7C67 /* LKS_ObjectRegistry.h */,
+				7F39D3CBB8D95884772968B4A06B757E /* LKS_ObjectRegistry.m */,
+				5B7EC9E3513C4D2F871028DB83E99211 /* LKS_PerspectiveDataSource.h */,
+				127A2B0A519455F5CC05A645B06A6335 /* LKS_PerspectiveDataSource.m */,
+				B9B6E7ED092EA033DF7759FA641BB326 /* LKS_PerspectiveHierarchyCell.h */,
+				7981F1A09D82E44F3AB6EC9D27887E31 /* LKS_PerspectiveHierarchyCell.m */,
+				01197422786875D786996BB9F0EDF59A /* LKS_PerspectiveHierarchyView.h */,
+				AD106D8E597CBA4DD0943409B9555DFA /* LKS_PerspectiveHierarchyView.m */,
+				463E0CF819594D80D6D1726B1B9D0B1B /* LKS_PerspectiveItemLayer.h */,
+				7AD131D9C6054D7CD5626CEB726A8A42 /* LKS_PerspectiveItemLayer.m */,
+				4A4C0E17F1A74796AF80962F6945C080 /* LKS_PerspectiveLayer.h */,
+				1CAF88047DA1E376D48A12F46914A8A4 /* LKS_PerspectiveLayer.m */,
+				499800D3B97F05FA061430A9BB4931BD /* LKS_PerspectiveManager.h */,
+				917C3A5C4F9324F4EFBAC4AB5390BDEC /* LKS_PerspectiveManager.m */,
+				B46A39F1646474B1595F33D7E4A1B63B /* LKS_PerspectiveToolbarButtons.h */,
+				14E32FA26027024F07856B5F345573C8 /* LKS_PerspectiveToolbarButtons.m */,
+				084C4765C445D38FAD123E34457C270B /* LKS_PerspectiveViewController.h */,
+				6ACF3439339F398137F7E8308D9ACF2A /* LKS_PerspectiveViewController.m */,
+				3A7AFB8A750A2CE4F3503AEFA774A39D /* LKS_RequestHandler.h */,
+				0930298C7624FD32E0574D181B4B3D7B /* LKS_RequestHandler.m */,
+				401D85EB20E657C3AB28BE1B0D2CC2A0 /* LKS_TraceManager.h */,
+				A0569B2ACE35F083470F19162CDE302A /* LKS_TraceManager.m */,
+				124010AA2F1EAE55E2119A7AB81487F9 /* Lookin_PTChannel.h */,
+				4D708560F15FD448805814AC2E8A83BC /* Lookin_PTChannel.m */,
+				E3387CF5E24EC32E56A36D73658DD07B /* Lookin_PTPrivate.h */,
+				98010E3431B207716C3819416F0C4C55 /* Lookin_PTProtocol.h */,
+				E79C4D626467CF2AF4BC3A44CBCF3497 /* Lookin_PTProtocol.m */,
+				5999AC58EEB7FCC226B799BF6E5DF58C /* Lookin_PTUSBHub.h */,
+				CC5B18E0F974135B2872E8E328188A65 /* Lookin_PTUSBHub.m */,
+				6F0A91460407C27D7534F73FF10BF443 /* LookinAppInfo.h */,
+				35A862C46834F4D08EE4249CF25B0AEC /* LookinAppInfo.m */,
+				A380E2E838A2029C0CCCD35E2B584439 /* LookinAttribute.h */,
+				214CE878D8285EF0DDBCCB3E5218DB55 /* LookinAttribute.m */,
+				4289BD2AF33858C00378B00BB8A05B95 /* LookinAttributeModification.h */,
+				392ED2E94B4E8D467F892AA6144CCD32 /* LookinAttributeModification.m */,
+				F207BF635F9C7DBFB8030A25D6B346A4 /* LookinAttributesGroup.h */,
+				9028A3C999E43213EA2F5B0D9C77ADF8 /* LookinAttributesGroup.m */,
+				BAC873458E9037649E90D1388E79A966 /* LookinAttributesSection.h */,
+				C46B98073E85B0F6AF484AA3DA9B53A3 /* LookinAttributesSection.m */,
+				01A9D3A6118A974E0260A6F103BD2800 /* LookinAttrIdentifiers.h */,
+				7D2199866BFA002001A70EBA3E3B4C87 /* LookinAttrIdentifiers.m */,
+				78A832654E55409C421786625B849599 /* LookinAttrType.h */,
+				91342AC9D7E3C59FCA11E94C7678FE0A /* LookinAutoLayoutConstraint.h */,
+				876C4CB70E695C6746E363CC499E13E9 /* LookinAutoLayoutConstraint.m */,
+				D1026F93C921BB931ABFBDE10CE70313 /* LookinCodingValueType.h */,
+				171620B4E3E45BE7FD5B574236BCC42C /* LookinConnectionAttachment.h */,
+				DDC46BBF9AB7A7B96C6697B273C371F4 /* LookinConnectionAttachment.m */,
+				9004D8305E1BDD344394F1129EC2D934 /* LookinConnectionResponseAttachment.h */,
+				5E2B17AA1E4E8EE204B55EDDCF875B87 /* LookinConnectionResponseAttachment.m */,
+				EA935FA1A7ABCE50EBF1DA3E09897549 /* LookinDashboardBlueprint.h */,
+				F793A9BA3957623866A50180BA75BF37 /* LookinDashboardBlueprint.m */,
+				A5E2276973C58A5EDFB83879B41372CD /* LookinDefines.h */,
+				7CF0884AA8058CD0A6548041EF9C20D0 /* LookinDisplayItem.h */,
+				B18952F5158227820E7FED9E95951CEC /* LookinDisplayItem.m */,
+				4F229A02C4CDF2A0A5EB83B350AE5D0E /* LookinDisplayItemDetail.h */,
+				F6650EFA7151EE024B361AC5358CE931 /* LookinDisplayItemDetail.m */,
+				D21F8C2B11017B3EB1A2714E8A901266 /* LookinEventHandler.h */,
+				49636914A83BD3C0FFC7DF216DC92556 /* LookinEventHandler.m */,
+				EE553E26C89B999B9C837725296FBCFC /* LookinHierarchyFile.h */,
+				24587BC1F4266C75C00B56E67B0266AD /* LookinHierarchyFile.m */,
+				8FAC24A9C9D13974A3971F6D9F0AF344 /* LookinHierarchyInfo.h */,
+				86C12DC64C5F98BA184539478A72EAD2 /* LookinHierarchyInfo.m */,
+				6273790F26B23B1EE3196C0B6FC6556F /* LookinIvarTrace.h */,
+				B22036F6494D99FF92FFE91C4279BAF4 /* LookinIvarTrace.m */,
+				D4EC6159B25DD84B63E742615371FA65 /* LookinMethodTraceRecord.h */,
+				84265F0E9A22C0295F830CA2C5FBF229 /* LookinMethodTraceRecord.m */,
+				2DA0EED4B7E0B3A8CA1FDC5B0801E99B /* LookinMsgAttribute.h */,
+				BFDC0CA4E70AA3F04F47F618036B8AB4 /* LookinMsgAttribute.m */,
+				70C759BCE3AD76E113E39BF55259158E /* LookinMsgTargetAction.h */,
+				A0FC51F5ABAB45D1F7D07410FBCF8616 /* LookinMsgTargetAction.m */,
+				A2DF32D9A9554DBC43A7B729BD6A77EA /* LookinObject.h */,
+				96C874F9485631A1EE8097951B794CAA /* LookinObject.m */,
+				C51A4A4E721CACE32A1A5750C9578CD6 /* LookinScreenshotFetchManager.h */,
+				0D8130E740E7DCC38B40BF1B7352AC7C /* LookinServer.h */,
+				1D36C5D03B948C8894EA3CD8ED91260E /* LookinServerDefines.h */,
+				9AEAD2D54F791D43087675F775E695A6 /* LookinStaticAsyncUpdateTask.h */,
+				6417EFB517F006C1DC60B60CF28FAA2C /* LookinStaticAsyncUpdateTask.m */,
+				681BD5941061CC5EA28CA4B19C8961D4 /* LookinTuple.h */,
+				ECF89210405BFE2A8ACB00F770FC5208 /* LookinTuple.m */,
+				8DCC7D24ECC0FC44DC53623BF860FC16 /* LookinWeakContainer.h */,
+				416544BDACD94712652536BA80D76B8F /* LookinWeakContainer.m */,
+				28EDB5280C14230A1E332F3D340E9E7F /* NSArray+Lookin.h */,
+				DEEFD1606330101432038A24858D0F99 /* NSArray+Lookin.m */,
+				0B5E3ABBD8950824BE2B847D16110FFE /* NSObject+Lookin.h */,
+				845BF2348315C4D1443307EB38603CAA /* NSObject+Lookin.m */,
+				ED0FBC170C9430B3CEECF687963386BD /* NSObject+LookinServer.h */,
+				DC069BBEE917396766D6AA254232C576 /* NSObject+LookinServer.m */,
+				CBDC0400EE135683FE9B27E5FB8AEEC1 /* NSSet+Lookin.h */,
+				C409C18F928AF67FF4DDC341AE188C0D /* NSSet+Lookin.m */,
+				37CA86BD8B7CEBBE81FA8D3CA980B284 /* NSString+Lookin.h */,
+				32E0B8116D1681DF3AAB08567239B15C /* NSString+Lookin.m */,
+				A10461A697C0F7142165D32A7BB305C7 /* Peertalk.h */,
+				40B8EABFC09ED2BFE3CE80695B51C6F9 /* UIBlurEffect+LookinServer.h */,
+				7278B36A56135F0FE0BDA9E0AF456D4E /* UIBlurEffect+LookinServer.m */,
+				BC7EB7C16C6FF495F18681492311A49F /* UIColor+LookinServer.h */,
+				BED2133AE45FBCE8FE40FC36F57F6C8B /* UIColor+LookinServer.m */,
+				BA9F47E1A32275A1E8CC643C025D35C6 /* UIGestureRecognizer+LookinServer.h */,
+				2B3D3B3EEA3C1CF33B43FAFF545A6B9A /* UIGestureRecognizer+LookinServer.m */,
+				E9ACFF820233FE6B9EF3F0F9098780F6 /* UIImage+LookinServer.h */,
+				5BFD59878AE3FE0F2C86902BECFE03A9 /* UIImage+LookinServer.m */,
+				E4C5F1E0D388019E8F33622D78CE3958 /* UIImageView+LookinServer.h */,
+				952B6C19AA1A426181AEFE06383B3096 /* UIImageView+LookinServer.m */,
+				9E2339353B94F2DBB0A8179AFF4AACFC /* UILabel+LookinServer.h */,
+				1897E93277EE877020F518A60BBEBE42 /* UILabel+LookinServer.m */,
+				E3A3EAEEDC670F86CA2A290276B7CD53 /* UITableView+LookinServer.h */,
+				8715D1D1F8892774AC08E18912376A10 /* UITableView+LookinServer.m */,
+				EB33E9F5C72C356000C15FE75092DAD2 /* UITextField+LookinServer.h */,
+				458ED3A54B0BD368267E225586291441 /* UITextField+LookinServer.m */,
+				3F48D6576936A9314E5D643F5BA70D3F /* UITextView+LookinServer.h */,
+				CFBC4C4854BA8C5C1CC26F3D62B94482 /* UITextView+LookinServer.m */,
+				2C120E691227B460D2A9179A1080D203 /* UIView+LookinServer.h */,
+				9B260CC821BC2DFA61171351DC62EAC7 /* UIView+LookinServer.m */,
+				8B721CF12C7F69DDBB5E68585BC76B01 /* UIViewController+LookinServer.h */,
+				22DE618CDC7DD26E3304D9E837A4EC35 /* UIViewController+LookinServer.m */,
+				56DBBEFB382AE9AFF3678F1B62A439CA /* UIVisualEffectView+LookinServer.h */,
+				9911CCA08D1DFC3E4570054FD0F048B0 /* UIVisualEffectView+LookinServer.m */,
+				F4EE0ECC0B54544FA256080094239B7A /* Support Files */,
+			);
+			name = LookinServer;
+			path = LookinServer;
+			sourceTree = "<group>";
+		};
+		542B0E0166D80F5F21E6A5F14089DE2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25664483ABF4DC8EC03E7472AA04333B /* LookinServer */,
+				31A737D4A99DEF7D175C93D1A4425A3A /* Pods-StackedView-Test */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		586BD453D929F01FBB475A2FA5AA7D66 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F85F9E7123256A887FD4A93DF049EF3 /* Pods-StackedView-Test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72420DD96D9EF4CB33FD71B8851D7C26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				687115C17801ED2554B67FAADDAC4FA7 /* SnapKit.modulemap */,
+				15B166DF38ACD06CCB209106EE25832D /* SnapKit-dummy.m */,
+				DF3A8C8538DCC350CBA811780C69C696 /* SnapKit-Info.plist */,
+				F1B6D8A84EDD88F6547A01CCC24DBC9F /* SnapKit-prefix.pch */,
+				24379597CA106305950E5C1EC07D5F3A /* SnapKit-umbrella.h */,
+				85556D0E25F528141071B9CDB3285FEE /* SnapKit.debug.xcconfig */,
+				E817A3EB906A3C052B4E2C1F906B6E87 /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		981848689B08D34133378C4E36769F0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C68C3A967E71ED7211E2C03820BE67C /* LookinServer */,
+				B2C063C75D526C5D82E17B29454E087A /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2C063C75D526C5D82E17B29454E087A /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				6F0C3383F4432E9ED30AB912BF24358A /* Constraint.swift */,
+				9FD04D0D1C8E9FAD5920CBAB9BB6282B /* ConstraintAttributes.swift */,
+				A54DC890CDF0C8BE56D8C88DAE02C0A6 /* ConstraintConfig.swift */,
+				30D25991435DB5E69C3845C5BEA01FDB /* ConstraintConstantTarget.swift */,
+				7525C66C9A0E160AA4F0DAD3507BE6BD /* ConstraintDescription.swift */,
+				FA5AB8BAE77F8D29DFF9D16754D80580 /* ConstraintDirectionalInsets.swift */,
+				6B4A80DC64C5E892A6765CD0EAA8DFEA /* ConstraintDirectionalInsetTarget.swift */,
+				840550466C18216C31CDB376ED84AFE7 /* ConstraintDSL.swift */,
+				61C2D702F5241492BD40D7C82B4033F9 /* ConstraintInsets.swift */,
+				08DF48CA424B64C98384FC8A35C5FAAF /* ConstraintInsetTarget.swift */,
+				404C4D14029328827769F16D9EDD0A6E /* ConstraintItem.swift */,
+				06618D378CFFB3197B3419B4949EA272 /* ConstraintLayoutGuide.swift */,
+				6356AD094A317AF0FE1A176E2EDD696A /* ConstraintLayoutGuide+Extensions.swift */,
+				3CBF989F73D91C15CACC2E0C11365589 /* ConstraintLayoutGuideDSL.swift */,
+				F6A9754130A11FB82926E7FBCAF08301 /* ConstraintLayoutSupport.swift */,
+				BFCD5B605FD4C1B57848F3750FD735A9 /* ConstraintLayoutSupportDSL.swift */,
+				3DA33E3B4105065642170437BFAB742D /* ConstraintMaker.swift */,
+				D89BABD2E4AE621A29FF085CA5A9EBC7 /* ConstraintMakerEditable.swift */,
+				D59B919119595FA11BA5DF641C7DCF14 /* ConstraintMakerExtendable.swift */,
+				4EF70A04512B4111EF85B5A64DD11BFD /* ConstraintMakerFinalizable.swift */,
+				AF74E26EC5BD128A93E90C49ED36870D /* ConstraintMakerPriortizable.swift */,
+				081AAE6997D819545925B1A6A4A18C83 /* ConstraintMakerRelatable.swift */,
+				35425503786F096792D4D4C6C54F2EA3 /* ConstraintMultiplierTarget.swift */,
+				7304C1FA87607B6EACB38E7170E9CC59 /* ConstraintOffsetTarget.swift */,
+				6AABF71A30210CA3EB5C9B2806FE6CF3 /* ConstraintPriority.swift */,
+				7D6802D84B4D25351887039A44FFC300 /* ConstraintPriorityTarget.swift */,
+				6B0EB8C11EC14C090353C612C5BA4B68 /* ConstraintRelatableTarget.swift */,
+				5185A5AC25FA311650FB2743D21D2F2C /* ConstraintRelation.swift */,
+				23DAD19784F4B78217662A792D9258FF /* ConstraintView.swift */,
+				DE18C6C6AE85628FEE9878AC9A2BB604 /* ConstraintView+Extensions.swift */,
+				EC4C6592034435245217FDB8AAF61839 /* ConstraintViewDSL.swift */,
+				4C3FFF24B3A8C060D4A5C4495EE8313D /* Debugging.swift */,
+				EC3367C09D9D3BDBC1350C5F2C12C76A /* LayoutConstraint.swift */,
+				ED588A27CB5536CBF4F6E5532772A349 /* LayoutConstraintItem.swift */,
+				B16E96C8683658BB59A9B01060804404 /* Typealiases.swift */,
+				7B559BA6DDB4D9EA37A3BECD5C4DD210 /* UILayoutSupport+Extensions.swift */,
+				72420DD96D9EF4CB33FD71B8851D7C26 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				981848689B08D34133378C4E36769F0D /* Pods */,
+				542B0E0166D80F5F21E6A5F14089DE2E /* Products */,
+				586BD453D929F01FBB475A2FA5AA7D66 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F4EE0ECC0B54544FA256080094239B7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB6D2FF47E787290AD19E78014E86B /* LookinServer.modulemap */,
+				B9746D102CA6771115F2412FEFA9BBC4 /* LookinServer-dummy.m */,
+				E44CCD3DDB7959E61794E8493B9DD75F /* LookinServer-Info.plist */,
+				B7BB1DA311EA938174639447D87B7C0B /* LookinServer-prefix.pch */,
+				F667F2900799D42CED85BA4A86272234 /* LookinServer-umbrella.h */,
+				77386BF3E8F84799B8FD9AEC1457EC0B /* LookinServer.debug.xcconfig */,
+				C253F3CA821C70CCC4A1D2DD270054A2 /* LookinServer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LookinServer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B921547E999920F44EBD58F955423CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4467357581E8345DD348683CC4111AF /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C0B2ABC3AFDFAAEA0565731DC142CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEE1FA08BFF107B475979E5CF2C8B58 /* Pods-StackedView-Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0189AD111D7F8E86D09DB8AD4456CB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF3D6B15FDEFA5E4DC336B2212E0C28 /* CALayer+Lookin.h in Headers */,
+				D294ABC5FA65CCCAE9ED0068C667C6B7 /* CALayer+LookinServer.h in Headers */,
+				ADE192393CAEBB85F13F0832C3BA26F3 /* LKS_AttrGroupsMaker.h in Headers */,
+				A90F277695DB9C1A129FF7FF822584AF /* LKS_AttrModificationHandler.h in Headers */,
+				BD1BFF9A06BDFC1FDD855487EB54BDA5 /* LKS_AttrModificationPatchHandler.h in Headers */,
+				ECEE88B7624D9122A8262082EC1CD2EE /* LKS_ConnectionManager.h in Headers */,
+				D1ECD144D947F12B4D9351311E988E1E /* LKS_EventHandlerMaker.h in Headers */,
+				D22A666FEA2D3D20B082BABAFC37C550 /* LKS_ExportManager.h in Headers */,
+				D417AD41278036C34B907FDFA873EDFB /* LKS_Helper.h in Headers */,
+				99D123362DB5E34BB6554DF86612FAD0 /* LKS_HierarchyDetailsHandler.h in Headers */,
+				DFF297547CF5DDBA9A99BA9C1E0752B3 /* LKS_HierarchyDisplayItemsMaker.h in Headers */,
+				40923F83F6316BD09BE17D948FEC859E /* LKS_LocalInspectManager.h in Headers */,
+				F8142E2AFA245DE02D9254BA6DFE72B3 /* LKS_LocalInspectPanelLabelView.h in Headers */,
+				5B4FFAAF661C67295F7ECF33461C59F2 /* LKS_LocalInspectViewController.h in Headers */,
+				EE179D8C4AF4D7BE89C4331C32936B7F /* LKS_MethodTraceManager.h in Headers */,
+				62FBB4F9E6D1BC4D8CFBA680CD560187 /* LKS_ObjectRegistry.h in Headers */,
+				DD2F8CFFB101BB67DF911732C4C20F8B /* LKS_PerspectiveDataSource.h in Headers */,
+				F1CEDEB3B1605A99E18D611CA8947329 /* LKS_PerspectiveHierarchyCell.h in Headers */,
+				684BCC2767ACD18C6296262F72625A75 /* LKS_PerspectiveHierarchyView.h in Headers */,
+				454E957972B385ECF0A280D5D7253E1A /* LKS_PerspectiveItemLayer.h in Headers */,
+				4BFC1246EB7670A3C240B230824051EB /* LKS_PerspectiveLayer.h in Headers */,
+				0DC458AD11C123C5D31B9A032419B2E2 /* LKS_PerspectiveManager.h in Headers */,
+				37AC054C6BBB2030046786AD439A17BF /* LKS_PerspectiveToolbarButtons.h in Headers */,
+				728B602F49C7F0A218BB33FB56BEA14D /* LKS_PerspectiveViewController.h in Headers */,
+				2B3B5969C4F22A4FA1850148862F9238 /* LKS_RequestHandler.h in Headers */,
+				5126F1CC926C1A0738D99A43601FC404 /* LKS_TraceManager.h in Headers */,
+				CBBD077748392BA773D27728AB4C78EE /* Lookin_PTChannel.h in Headers */,
+				A7346A12779846B8588353BBCDF68879 /* Lookin_PTPrivate.h in Headers */,
+				E7FE920865C876303B95DD89F6A9CD79 /* Lookin_PTProtocol.h in Headers */,
+				72A369CD11949C5F728006B717F78AB8 /* Lookin_PTUSBHub.h in Headers */,
+				6FAAC507FC1F2061CDD947F9B96082C6 /* LookinAppInfo.h in Headers */,
+				C2F49CCD8CF765D821A65DE9614B0957 /* LookinAttribute.h in Headers */,
+				938BCEFB0FC490D8373677932BC2212D /* LookinAttributeModification.h in Headers */,
+				7A886F242E9D28E6F303FAD730C9B3E1 /* LookinAttributesGroup.h in Headers */,
+				5B9CF3FFC08A102493AE1BCF47C301EF /* LookinAttributesSection.h in Headers */,
+				3F578E03408DCDFA780C342A175B1B25 /* LookinAttrIdentifiers.h in Headers */,
+				CABFD52195604506BAD68054E2CAD0DD /* LookinAttrType.h in Headers */,
+				33E2A39DEB2044A48D9AF859E88A7F29 /* LookinAutoLayoutConstraint.h in Headers */,
+				DEBFD4BE8A82D4AD4AEBB135C0EB9D6A /* LookinCodingValueType.h in Headers */,
+				0C2D17BF155C9799DF20B2F1610966F9 /* LookinConnectionAttachment.h in Headers */,
+				329AA42990F5351A302680586D777CE9 /* LookinConnectionResponseAttachment.h in Headers */,
+				94D5271C8067112E7EE6C6C84BE02BCA /* LookinDashboardBlueprint.h in Headers */,
+				C55D49FD96C4BBFF2F1DF6B8CEC991E7 /* LookinDefines.h in Headers */,
+				E6078736263A2CF0ED86D9EE62510940 /* LookinDisplayItem.h in Headers */,
+				048AC967262484E89BA9F549919BBC0A /* LookinDisplayItemDetail.h in Headers */,
+				5B0A6E9EFD3896BB196CB66201964921 /* LookinEventHandler.h in Headers */,
+				1793CF86F28244A8CAB175559106AF23 /* LookinHierarchyFile.h in Headers */,
+				B51697A75840C57795CB11BECD33561D /* LookinHierarchyInfo.h in Headers */,
+				D89B48F6B3E6447590AE09C2E15FE5C5 /* LookinIvarTrace.h in Headers */,
+				64D9CF748FDC921681A22FC228E48E7E /* LookinMethodTraceRecord.h in Headers */,
+				EC93F5DA0A8454FABCE5ECFB6E89F1D9 /* LookinMsgAttribute.h in Headers */,
+				92F2DEA6B92CE7A48443522D74B86933 /* LookinMsgTargetAction.h in Headers */,
+				BA0B5D652B7C46A5CBAB8DD5600841C2 /* LookinObject.h in Headers */,
+				E589C990E7292928BE021A763F01F533 /* LookinScreenshotFetchManager.h in Headers */,
+				1E1256080858163EDA333AA3C93B13AF /* LookinServer.h in Headers */,
+				C86CA6E3BD61E100DF13516CBBAE1337 /* LookinServer-umbrella.h in Headers */,
+				640E1EF7D7D8B5E63C6969F69CC9037D /* LookinServerDefines.h in Headers */,
+				281E9317C60F07C173E6743ACA048E7F /* LookinStaticAsyncUpdateTask.h in Headers */,
+				6141333C117515CBB08A9A7BD403CAD2 /* LookinTuple.h in Headers */,
+				D5CDDCBF33CC03592FB786D3F8020E91 /* LookinWeakContainer.h in Headers */,
+				49681ECA97871B31798316FB2CACADA2 /* NSArray+Lookin.h in Headers */,
+				F6017FCB86175E439D726F03A7051D26 /* NSObject+Lookin.h in Headers */,
+				F46939A65E58657B645FA69F5077C666 /* NSObject+LookinServer.h in Headers */,
+				968A4F2A23743B92E2FC071DDF63F941 /* NSSet+Lookin.h in Headers */,
+				5E2081FDA36E41E3E5DEA7BD0B3F2C8A /* NSString+Lookin.h in Headers */,
+				A93A14533952DCC5F6B1690C312C7DAF /* Peertalk.h in Headers */,
+				0E117261C635A5D11D9E36120232C887 /* UIBlurEffect+LookinServer.h in Headers */,
+				701C371FFBF87A0C09B2B033D86AA87E /* UIColor+LookinServer.h in Headers */,
+				2E97AEB0E8309008CA533076EA4AA858 /* UIGestureRecognizer+LookinServer.h in Headers */,
+				D35D2BCE0069B0C7CDE3B7621D63C69C /* UIImage+LookinServer.h in Headers */,
+				F3E57DCF1FD7A56820BD9A022938C4ED /* UIImageView+LookinServer.h in Headers */,
+				934F78AB232B6A848CEE5446B553224C /* UILabel+LookinServer.h in Headers */,
+				324ED3F2423F54079429E00A0220C6C4 /* UITableView+LookinServer.h in Headers */,
+				43642CBC57D851B4139C2669701EBD3B /* UITextField+LookinServer.h in Headers */,
+				7FFCE5BD6BF0DF76737B57E2228A15B0 /* UITextView+LookinServer.h in Headers */,
+				784CC971C67E2E2B60CE847D5A3220E4 /* UIView+LookinServer.h in Headers */,
+				0BF94AA0077D14AF73CFA3402092A5DC /* UIViewController+LookinServer.h in Headers */,
+				3F0206142FD693C918278219C0F67D49 /* UIVisualEffectView+LookinServer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4949A940CD53B7E293859B71C91C88F3 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				3B921547E999920F44EBD58F955423CC /* Headers */,
+				06A02EF810C9B8F84BA558BBDB9E5D6E /* Sources */,
+				9B30433E568C40FCE04D5188A9715448 /* Frameworks */,
+				DBFBC99C6F5D9B1D57CC9D1C6E9209EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57823AF753E1F7DB1BEAC858C9D7F70D /* Build configuration list for PBXNativeTarget "LookinServer" */;
+			buildPhases = (
+				C0189AD111D7F8E86D09DB8AD4456CB2 /* Headers */,
+				A6428797FAA3DAC89B0043CC736DD16B /* Sources */,
+				509E39ABA2BB2AD15D36CD27138D3CB1 /* Frameworks */,
+				B8E72CA88999BF5B40597B7023580F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LookinServer;
+			productName = LookinServer;
+			productReference = 25664483ABF4DC8EC03E7472AA04333B /* LookinServer */;
+			productType = "com.apple.product-type.framework";
+		};
+		B01D8971A883FC6ED4FEF6F4EA697035 /* Pods-StackedView-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A817640A58FB77E95073B7BF193BC350 /* Build configuration list for PBXNativeTarget "Pods-StackedView-Test" */;
+			buildPhases = (
+				86C0B2ABC3AFDFAAEA0565731DC142CF /* Headers */,
+				95E11AC701E82AE69D2C4BE3B07306AD /* Sources */,
+				986717F42C1B1B6A1376415265D84651 /* Frameworks */,
+				625B027C0C381BAD7AC1E0F5A6571438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29DB163678B17B409E0B9EC254188692 /* PBXTargetDependency */,
+				26ADCA5C3E1D57EF80FCCAA71C0E98EF /* PBXTargetDependency */,
+			);
+			name = "Pods-StackedView-Test";
+			productName = Pods_StackedView_Test;
+			productReference = 31A737D4A99DEF7D175C93D1A4425A3A /* Pods-StackedView-Test */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 542B0E0166D80F5F21E6A5F14089DE2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */,
+				B01D8971A883FC6ED4FEF6F4EA697035 /* Pods-StackedView-Test */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		625B027C0C381BAD7AC1E0F5A6571438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E72CA88999BF5B40597B7023580F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFBC99C6F5D9B1D57CC9D1C6E9209EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A02EF810C9B8F84BA558BBDB9E5D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A4A1046676D304410544EB56732A49 /* Constraint.swift in Sources */,
+				7580FAAB1BDA52F5A969E5571D1A5973 /* ConstraintAttributes.swift in Sources */,
+				B543FD108C1C6AF6129CB4991553218B /* ConstraintConfig.swift in Sources */,
+				C61D3BC32A28A405C934C00039AD2583 /* ConstraintConstantTarget.swift in Sources */,
+				8FD9CD608C4EAAFDE6AC7B8B9EF0FF5E /* ConstraintDescription.swift in Sources */,
+				A0F754C88A64972A40A9008B0AD52109 /* ConstraintDirectionalInsets.swift in Sources */,
+				7764AA5F6BBFC6ECE43959923DD007D3 /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				90FD5AE525E138A473723FD79AF73273 /* ConstraintDSL.swift in Sources */,
+				8C6546C1EF4F153DF3795CC6FE189E5B /* ConstraintInsets.swift in Sources */,
+				BEBF920FEB959B46A76BAADF22E5CD15 /* ConstraintInsetTarget.swift in Sources */,
+				BD333CDBCF5D2FD55920336FC271DF33 /* ConstraintItem.swift in Sources */,
+				EE6C364198A763EBBF49237035D86439 /* ConstraintLayoutGuide.swift in Sources */,
+				3DEDFA52B3A196F6D3E1F0937617628A /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				8449EB1DFD43E222D687D5A8D2088D2D /* ConstraintLayoutGuideDSL.swift in Sources */,
+				3B60C02F6E42FD06B128473E00A94224 /* ConstraintLayoutSupport.swift in Sources */,
+				274DF0E2BF04F6F4F9F1E70CF513A4F2 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				CB194156C900B767B0160AF72EDF354D /* ConstraintMaker.swift in Sources */,
+				A53D3AF15CE8D348306EF11619C5D166 /* ConstraintMakerEditable.swift in Sources */,
+				825062025906CE93C5D124E1FD9A811E /* ConstraintMakerExtendable.swift in Sources */,
+				D13D417B236E736EEAE7217B5CE3EC5C /* ConstraintMakerFinalizable.swift in Sources */,
+				F2C817C166B2DE613222C41015A586C9 /* ConstraintMakerPriortizable.swift in Sources */,
+				CB8E4BF0D710970BE2CB4C87ED1043E4 /* ConstraintMakerRelatable.swift in Sources */,
+				17BE0F4E51B0FB968125F1A520607FD8 /* ConstraintMultiplierTarget.swift in Sources */,
+				62F299B4704A7C95FB5866C6CDE2E2FD /* ConstraintOffsetTarget.swift in Sources */,
+				F343BA4E457FFDB0165492AECAEF0BCC /* ConstraintPriority.swift in Sources */,
+				E36244E8BF4AC941E82DAF16DDF4BBC2 /* ConstraintPriorityTarget.swift in Sources */,
+				E8EAADACF3BAE33BDECBC7214EAE9CD2 /* ConstraintRelatableTarget.swift in Sources */,
+				D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */,
+				F24D06C23DAB2F52A30C886A7A8177C7 /* ConstraintView.swift in Sources */,
+				1E9EEA756F2774D73347F1660EEFE3E9 /* ConstraintView+Extensions.swift in Sources */,
+				5E8BA529DFB4529006967624044FEC1C /* ConstraintViewDSL.swift in Sources */,
+				F10586462FB54CEA169A1A7A469A926D /* Debugging.swift in Sources */,
+				43863B6D6A0E47B6648BB7B469736EDD /* LayoutConstraint.swift in Sources */,
+				4CA13A0527BC57DE2C54A0F3B5ED8652 /* LayoutConstraintItem.swift in Sources */,
+				968B4874A9F12D67C8B901136C9C8157 /* SnapKit-dummy.m in Sources */,
+				3CD5FAFC746A76D73C3F501734199DFF /* Typealiases.swift in Sources */,
+				144DA93A55A598F5197F10C729FBDD69 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E11AC701E82AE69D2C4BE3B07306AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945DE3FA63E9F350AAC304E42A86F84F /* Pods-StackedView-Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6428797FAA3DAC89B0043CC736DD16B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403C9C264790622785C76CCEF72175AB /* CALayer+Lookin.m in Sources */,
+				DA7C84FB7CC192CB1C6F7490D3CCB152 /* CALayer+LookinServer.m in Sources */,
+				4738D9AAC45B0B04FD7CEB849C6F135F /* LKS_AttrGroupsMaker.m in Sources */,
+				14B70AE27E27E9C2D49D2E3E9D22647A /* LKS_AttrModificationHandler.m in Sources */,
+				16343BE26CDF5033F53967839E485F69 /* LKS_AttrModificationPatchHandler.m in Sources */,
+				385A638DB850C5625E292272673B6840 /* LKS_ConnectionManager.m in Sources */,
+				410292528B9C3F710A53EB6F0E83E850 /* LKS_EventHandlerMaker.m in Sources */,
+				6EE923993B3054322CAA6A6539B97FA7 /* LKS_ExportManager.m in Sources */,
+				41D5DBA52B641F93FA74055D383BFEAF /* LKS_Helper.m in Sources */,
+				6910EB4B9CD4D3E842F68BEE03A34B54 /* LKS_HierarchyDetailsHandler.m in Sources */,
+				D5E45DD66CDCB80B90E87E4D589BE3A2 /* LKS_HierarchyDisplayItemsMaker.m in Sources */,
+				78DC9C9883DF130E3FEFDFAAAE3C49D5 /* LKS_LocalInspectManager.m in Sources */,
+				590B0184F8A340D6BE2426CBE2726407 /* LKS_LocalInspectPanelLabelView.m in Sources */,
+				27EF2D6B3D8BF3C973CB52372440D71B /* LKS_LocalInspectViewController.m in Sources */,
+				502363FC4EEDF7BAEB968E18BE19DDA2 /* LKS_MethodTraceManager.m in Sources */,
+				1817D2EF45CBFC7D2EDCA08379EC7758 /* LKS_ObjectRegistry.m in Sources */,
+				CA5ED9455F10FFD1D3A2E3F9FE3C8638 /* LKS_PerspectiveDataSource.m in Sources */,
+				4973FE438A6137AC1B2F9F5FD637C0F0 /* LKS_PerspectiveHierarchyCell.m in Sources */,
+				25A49586C3FFDB97EB2F8B460289D9F5 /* LKS_PerspectiveHierarchyView.m in Sources */,
+				1476F6C30AE5A0C94A8CFF5A2748991E /* LKS_PerspectiveItemLayer.m in Sources */,
+				03811E3B4A9B3BB5696BBD7BBA2713EA /* LKS_PerspectiveLayer.m in Sources */,
+				744BB44C6E303E126D31836FBF2E9BE7 /* LKS_PerspectiveManager.m in Sources */,
+				E1C9C496941C8445708E2520699AC34D /* LKS_PerspectiveToolbarButtons.m in Sources */,
+				2F93EEC2BA739FFC77C7F72BE38E52D7 /* LKS_PerspectiveViewController.m in Sources */,
+				C905410DDC3788424F5E08A43679F17C /* LKS_RequestHandler.m in Sources */,
+				DC6535767C1011B419A4CFC1D84C7974 /* LKS_TraceManager.m in Sources */,
+				8FE9A3D92BEA184BD27AD12196DBF63B /* Lookin_PTChannel.m in Sources */,
+				4A5F39602123A4110F15852401E9DA33 /* Lookin_PTProtocol.m in Sources */,
+				C73F574BE2137C917E1845A8B740601B /* Lookin_PTUSBHub.m in Sources */,
+				F985F79B74797C4EE4F89E6ED3710A3F /* LookinAppInfo.m in Sources */,
+				ADBA51573963DE2BAA2B944BC9303F85 /* LookinAttribute.m in Sources */,
+				AD6C568E65FD36A3204EBC45BCD11355 /* LookinAttributeModification.m in Sources */,
+				608DA87B93885E70DD3CD1DF6F2F91CA /* LookinAttributesGroup.m in Sources */,
+				E997ED14F55883B2C21218BE367C4ED7 /* LookinAttributesSection.m in Sources */,
+				4A29FDAB7A26E107CD4DE7A868B19736 /* LookinAttrIdentifiers.m in Sources */,
+				8B845B5FD55A425B926802D295313650 /* LookinAutoLayoutConstraint.m in Sources */,
+				1DBC652ADBF8CE5D91DA5D79B88A372F /* LookinConnectionAttachment.m in Sources */,
+				F3FB6B3A35A161153E8C57989ABEF0F5 /* LookinConnectionResponseAttachment.m in Sources */,
+				7FFEF21A78F46B8F1632AF470F63451C /* LookinDashboardBlueprint.m in Sources */,
+				DEE380EC285FD378EA455C0FBF612F62 /* LookinDisplayItem.m in Sources */,
+				EB8750018D86CC6EDC37DB0B1B8FB2BD /* LookinDisplayItemDetail.m in Sources */,
+				D8666E74AB90D08409A0868C75644001 /* LookinEventHandler.m in Sources */,
+				B4CAA981A4765F6EFBA2E3FECA224E00 /* LookinHierarchyFile.m in Sources */,
+				B63CC43E9235A22DE734AEC350F84E5B /* LookinHierarchyInfo.m in Sources */,
+				A9696897369FEA03FC934EACBE1C3876 /* LookinIvarTrace.m in Sources */,
+				D2FFAB1EB448EC217DCEE2BD455328FA /* LookinMethodTraceRecord.m in Sources */,
+				2BF0DF94821F0D34834CEDC9AF179797 /* LookinMsgAttribute.m in Sources */,
+				7261DE4EFF91D2F1D14D480DB1B286CC /* LookinMsgTargetAction.m in Sources */,
+				8363CA5E16D942E4C79991421B5D92B4 /* LookinObject.m in Sources */,
+				D67D6E5A8C67310AE01AD699B2D746EC /* LookinServer-dummy.m in Sources */,
+				CB8BA56F4E6C6921386E9B28B9CCB507 /* LookinStaticAsyncUpdateTask.m in Sources */,
+				84D62BAA1201F3C9641830FFCF24D0A2 /* LookinTuple.m in Sources */,
+				B5B8BF2257F3C2378BE4E68FE500E77C /* LookinWeakContainer.m in Sources */,
+				41A60CCCE9053CDC10A31892397C96BA /* NSArray+Lookin.m in Sources */,
+				D8EEE5F53171200B5B41FF30591AE568 /* NSObject+Lookin.m in Sources */,
+				E6ED30CA68340631C80D4B887FA7E51E /* NSObject+LookinServer.m in Sources */,
+				6D9E19D696D4EE7D97C6BC96C52222EB /* NSSet+Lookin.m in Sources */,
+				42A93C4A4C47A29779C607280110B868 /* NSString+Lookin.m in Sources */,
+				EAC37AB4C5CA15A71B118A4419511793 /* UIBlurEffect+LookinServer.m in Sources */,
+				7757D63F2F1B2CE9B2C014D11540D4A6 /* UIColor+LookinServer.m in Sources */,
+				0754C66FAD5CC60F7CB29B90E9B84360 /* UIGestureRecognizer+LookinServer.m in Sources */,
+				2FF23B9103373CA713373CD79CCE826B /* UIImage+LookinServer.m in Sources */,
+				D4FBC927D9BE85854154D035BC90F9F4 /* UIImageView+LookinServer.m in Sources */,
+				D43BD311230D4C9BA635B37C7EFF2F7F /* UILabel+LookinServer.m in Sources */,
+				6DCD22681491D23D8ED8FB924F1B0E57 /* UITableView+LookinServer.m in Sources */,
+				DA062DFF75D1783B9BC1838E5FB231C9 /* UITextField+LookinServer.m in Sources */,
+				0D23294CDA03CF545A45B0334A9F1D6D /* UITextView+LookinServer.m in Sources */,
+				D0E40BF67796421524917B79652F83A9 /* UIView+LookinServer.m in Sources */,
+				690030F3B557B2AA4864525D8513E4AC /* UIViewController+LookinServer.m in Sources */,
+				113D28F8D28B4ACF30EF6C78EED6276B /* UIVisualEffectView+LookinServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26ADCA5C3E1D57EF80FCCAA71C0E98EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 98BC5E143B2B471FD8F6B1FE3F9112BB /* PBXContainerItemProxy */;
+		};
+		29DB163678B17B409E0B9EC254188692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LookinServer;
+			target = 638FEAAFC575BB76BC6AC055CDDA3506 /* LookinServer */;
+			targetProxy = 2CADA6E009209ED689997B774B865864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F218034995F5D34B7E23F6693FA49A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C253F3CA821C70CCC4A1D2DD270054A2 /* LookinServer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LookinServer/LookinServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LookinServer/LookinServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LookinServer/LookinServer.modulemap";
+				PRODUCT_MODULE_NAME = LookinServer;
+				PRODUCT_NAME = LookinServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BAE21A5048C32A2E42A9AB3E2CFF13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6155C38A278F662C672E3B33AE32F92 /* Pods-StackedView-Test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StackedView-Test/Pods-StackedView-Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackedView-Test/Pods-StackedView-Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D79D01CD120C9C3D186EECAB4E14456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BA0F8C51E494E0DA34C53916CE2BE2 /* Pods-StackedView-Test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StackedView-Test/Pods-StackedView-Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackedView-Test/Pods-StackedView-Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E2BB241F9B2A9952F9E1F71EDDE8D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77386BF3E8F84799B8FD9AEC1457EC0B /* LookinServer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LookinServer/LookinServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LookinServer/LookinServer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LookinServer/LookinServer.modulemap";
+				PRODUCT_MODULE_NAME = LookinServer;
+				PRODUCT_NAME = LookinServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CB8A79F7382B0A1227C38D59E7968EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85556D0E25F528141071B9CDB3285FEE /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFFD31690F9CC8449FD1F803388E1D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E817A3EB906A3C052B4E2C1F906B6E87 /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934ED2B84836A780113D1F63484628B2 /* Debug */,
+				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4949A940CD53B7E293859B71C91C88F3 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8A79F7382B0A1227C38D59E7968EEA /* Debug */,
+				DFFD31690F9CC8449FD1F803388E1D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57823AF753E1F7DB1BEAC858C9D7F70D /* Build configuration list for PBXNativeTarget "LookinServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2BB241F9B2A9952F9E1F71EDDE8D9B /* Debug */,
+				3F218034995F5D34B7E23F6693FA49A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A817640A58FB77E95073B7BF193BC350 /* Build configuration list for PBXNativeTarget "Pods-StackedView-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAE21A5048C32A2E42A9AB3E2CFF13A /* Debug */,
+				7D79D01CD120C9C3D186EECAB4E14456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

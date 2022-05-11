@@ -1,0 +1,45 @@
+{
+    "name": "Simple",
+    "styles": {
+        "h1": {
+            "font": "LXGW WenKai Bold",
+            "color": "#3B6D8F",
+            "size": 25
+        },
+        "h2": {
+            "font": "LXGW WenKai Bold",
+            "color": "#3B6D8F",
+            "size": 21
+        },
+        "h3": {
+            "font": "LXGW WenKai Bold",
+            "color": "#3B6D8F",
+            "size": 17
+        },
+        "body": {
+            "font": "LXGW WenKai",
+            "size": 15,
+            "color": "#1D1D1D"
+        },
+        "bold": {
+            "font": "LXGW WenKai Bold",
+            "color": "#3B6D8F"
+        },
+        "italic": {
+            "font": "Menlo-Italic",
+            "color": "#856D96"
+        },
+        "code": {
+            "color": "#751410"
+        },
+        "codeBlock": {
+            "color": "#A73A2A"
+        },
+        "url": {
+            "color": "#36698D"
+        },
+        "image": {
+            "color": "#36698D"
+        }
+    }
+}

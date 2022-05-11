@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C64879AFF2D501168F51486F"
+               BuildableName = "SeparatedController-Test.app"
+               BlueprintName = "SeparatedController-Test"
+               ReferencedContainer = "container:SeparatedController-Test.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C64879AFF2D501168F51486F"
+            BuildableName = "SeparatedController-Test.app"
+            BlueprintName = "SeparatedController-Test"
+            ReferencedContainer = "container:SeparatedController-Test.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "markdownview",
+      "kind" : "remoteSourceControl",
+      "location" : "git@gitee.com:lagrange1813/MarkdownView.git",
+      "state" : {
+        "revision" : "5e62a27f1002cd63c350ef1a4c640ddcd1f1ed48",
+        "version" : "1.9.1"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "git@gitee.com:lagrange1813/RxSwift.git",
+      "state" : {
+        "revision" : "b4307ba0b6425c0ba4178e138799946c3da594f8",
+        "version" : "6.5.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "git@gitee.com:lagrange1813/SnapKit.git",
+      "state" : {
+        "revision" : "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+        "version" : "5.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

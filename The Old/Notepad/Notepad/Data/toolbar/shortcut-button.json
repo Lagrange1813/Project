@@ -1,0 +1,47 @@
+{
+  "indent": {
+    "image": "increase.indent",
+    "content": "\t",
+    "retreat": 0
+  },
+  "comma": {
+    "image": "",
+    "content": "，",
+    "retreat": 0
+  },
+  "period": {
+    "image": "",
+    "content": "。",
+    "retreat": 0
+  },
+  "dayton": {
+    "image": "",
+    "content": "、",
+    "retreat": 0
+  },
+  "question": {
+    "image": "",
+    "content": "？",
+    "retreat": 0
+  },
+  "colon": {
+    "image": "",
+    "content": "：",
+    "retreat": 0
+  },
+  "quotes": {
+    "image": "",
+    "content": "“”",
+    "retreat": 1
+  },
+  "sqrBrackets": {
+    "image": "",
+    "content": "「」",
+    "retreat": 1
+  },
+  "guillemets": {
+    "image": "",
+    "content": "《》",
+    "retreat": 1
+  }
+}

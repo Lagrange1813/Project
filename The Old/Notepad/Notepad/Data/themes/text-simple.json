@@ -1,0 +1,68 @@
+{
+  "name": "Text Simple",
+  "variable":1,
+  "main": {
+    "name":"Text Simple Light",
+    "editor": {
+      "type": "Text",
+      "background": "#F7F6F4",
+      "counterText": "#FFFFFF",
+      "counterBackground": "#000000",
+      "frostedGlass": 0,
+      "doubleBarText":"#000000",
+      "doubleBarBackground":"#EDECE8"
+    },
+    "styles": {
+      "title": {
+        "name": "LXGW WenKai Bold",
+        "size": 18,
+        "color": "#000000",
+        "lineSpacing": 0,
+        "paragraphSpacing": 20,
+        "firstLineHeadIndent": 0,
+        "alignment": "center"
+      },
+      "body": {
+        "name": "LXGW WenKai",
+        "size": 15,
+        "color": "#000000",
+        "lineSpacing": 7,
+        "paragraphSpacing": 14,
+        "firstLineHeadIndent": 1,
+        "alignment": "justified"
+      }
+    }
+  },
+  "secondary": {
+    "name":"Text Simple Dark",
+    "editor": {
+      "type": "Text",
+      "background": "#282828",
+      "counterText": "#FFFFFF",
+      "counterBackground": "#99222222",
+      "frostedGlass": 0,
+      "doubleBarText":"#000000",
+      "doubleBarBackground":"#000000"
+    },
+    "styles": {
+      "title": {
+        "name": "LXGW WenKai Bold",
+        "size": 18,
+        "color": "#E6E6E6",
+        "lineSpacing": 0,
+        "paragraphSpacing": 20,
+        "firstLineHeadIndent": 0,
+        "alignment": "center"
+      },
+      "body": {
+        "name": "LXGW WenKai",
+        "size": 15,
+        "color": "#E6E6E6",
+        "lineSpacing": 7,
+        "paragraphSpacing": 14,
+        "firstLineHeadIndent": 1,
+        "alignment": "justified"
+      }
+    }
+  }
+}

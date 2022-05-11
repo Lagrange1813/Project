@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E230" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Book" representedClassName="Book" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="firstEditTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastEditTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="text" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Text" inverseName="book" inverseEntity="Text"/>
+    </entity>
+    <entity name="Text" representedClassName="Text" syncable="YES" codeGenerationType="class">
+        <attribute name="body" optional="YES" attributeType="String"/>
+        <attribute name="firstEditTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="lastEditTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="book" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="text" inverseEntity="Book"/>
+    </entity>
+    <elements>
+        <element name="Book" positionX="-63" positionY="-18" width="128" height="104"/>
+        <element name="Text" positionX="-54" positionY="-9" width="128" height="134"/>
+    </elements>
+</model>

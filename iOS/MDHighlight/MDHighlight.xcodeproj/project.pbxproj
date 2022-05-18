@@ -15,14 +15,15 @@
 		7A0015F828212F460087D1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0015F628212F460087D1C8 /* LaunchScreen.storyboard */; };
 		7A00160028212F9F0087D1C8 /* MDHighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0015FF28212F9F0087D1C8 /* MDHighlightView.swift */; };
 		7A0016022821304B0087D1C8 /* HighlightStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0016012821304B0087D1C8 /* HighlightStorage.swift */; };
-		7A52C4C12821428500192187 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 7A52C4C02821428500192187 /* ArgumentParser */; };
-		7A52C4C52821430700192187 /* Markdown in Frameworks */ = {isa = PBXBuildFile; productRef = 7A52C4C42821430700192187 /* Markdown */; };
 		7A52C4C7282145AF00192187 /* TestTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C4C6282145AF00192187 /* TestTextView.swift */; };
-		7A52C4CA2821461600192187 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7A52C4C92821461600192187 /* SnapKit */; };
 		7A52C4CC2821470400192187 /* LXGWWenKai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A52C4CB2821469000192187 /* LXGWWenKai-Regular.ttf */; };
 		7A52C4CE2821547100192187 /* SelectionRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C4CD2821547100192187 /* SelectionRect.swift */; };
 		7A52C4D02821550B00192187 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C4CF2821550B00192187 /* CustomTextView.swift */; };
 		7A52C4D22822534F00192187 /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52C4D12822534F00192187 /* Reference.swift */; };
+		7A8F7D7D28323AD2007C4D76 /* cmark-gfm in Frameworks */ = {isa = PBXBuildFile; productRef = 7A8F7D7C28323AD2007C4D76 /* cmark-gfm */; };
+		7A8F7D7F28323AD2007C4D76 /* cmark-gfm-extensions in Frameworks */ = {isa = PBXBuildFile; productRef = 7A8F7D7E28323AD2007C4D76 /* cmark-gfm-extensions */; };
+		7A8F7D8228323B07007C4D76 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 7A8F7D8128323B07007C4D76 /* ArgumentParser */; };
+		7ADEFA6E28323CE300EA38F5 /* Markdown in Frameworks */ = {isa = PBXBuildFile; productRef = 7ADEFA6D28323CE300EA38F5 /* Markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		7A0015F928212F460087D1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A0015FF28212F9F0087D1C8 /* MDHighlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDHighlightView.swift; sourceTree = "<group>"; };
 		7A0016012821304B0087D1C8 /* HighlightStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightStorage.swift; sourceTree = "<group>"; };
+		7A21F7A828324003000B896B /* MDHighlight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MDHighlight.entitlements; sourceTree = "<group>"; };
 		7A52C4C6282145AF00192187 /* TestTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextView.swift; sourceTree = "<group>"; };
 		7A52C4CB2821469000192187 /* LXGWWenKai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LXGWWenKai-Regular.ttf"; sourceTree = "<group>"; };
 		7A52C4CD2821547100192187 /* SelectionRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionRect.swift; sourceTree = "<group>"; };
@@ -50,9 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A52C4C12821428500192187 /* ArgumentParser in Frameworks */,
-				7A52C4C52821430700192187 /* Markdown in Frameworks */,
-				7A52C4CA2821461600192187 /* SnapKit in Frameworks */,
+				7A8F7D7D28323AD2007C4D76 /* cmark-gfm in Frameworks */,
+				7A8F7D7F28323AD2007C4D76 /* cmark-gfm-extensions in Frameworks */,
+				7ADEFA6E28323CE300EA38F5 /* Markdown in Frameworks */,
+				7A8F7D8228323B07007C4D76 /* ArgumentParser in Frameworks */,
 				4CF6FA1EE30023A1D9F51D3F /* Pods_MDHighlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +93,7 @@
 		7A0015EA28212F430087D1C8 /* MDHighlight */ = {
 			isa = PBXGroup;
 			children = (
+				7A21F7A828324003000B896B /* MDHighlight.entitlements */,
 				7A0015EB28212F430087D1C8 /* AppDelegate.swift */,
 				7A0015ED28212F430087D1C8 /* SceneDelegate.swift */,
 				7A0015EF28212F430087D1C8 /* ViewController.swift */,
@@ -134,9 +138,10 @@
 			);
 			name = MDHighlight;
 			packageProductDependencies = (
-				7A52C4C02821428500192187 /* ArgumentParser */,
-				7A52C4C42821430700192187 /* Markdown */,
-				7A52C4C92821461600192187 /* SnapKit */,
+				7A8F7D7C28323AD2007C4D76 /* cmark-gfm */,
+				7A8F7D7E28323AD2007C4D76 /* cmark-gfm-extensions */,
+				7A8F7D8128323B07007C4D76 /* ArgumentParser */,
+				7ADEFA6D28323CE300EA38F5 /* Markdown */,
 			);
 			productName = MDHighlight;
 			productReference = 7A0015E828212F430087D1C8 /* MDHighlight.app */;
@@ -167,10 +172,10 @@
 			);
 			mainGroup = 7A0015DF28212F430087D1C8;
 			packageReferences = (
-				7A52C4BF2821428500192187 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
-				7A52C4C22821429700192187 /* XCRemoteSwiftPackageReference "swift-docc-plugin" */,
-				7A52C4C32821430700192187 /* XCRemoteSwiftPackageReference "swift-markdown" */,
-				7A52C4C82821461600192187 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				7A8F7D7B28323AD2007C4D76 /* XCRemoteSwiftPackageReference "swift-cmark" */,
+				7A8F7D8028323B07007C4D76 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				7A8F7D8328323B20007C4D76 /* XCRemoteSwiftPackageReference "swift-docc-plugin" */,
+				7ADEFA6C28323CE300EA38F5 /* XCRemoteSwiftPackageReference "swift-markdown" */,
 			);
 			productRefGroup = 7A0015E928212F430087D1C8 /* Products */;
 			projectDirPath = "";
@@ -387,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MDHighlight/MDHighlight.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J848DTSBF7;
@@ -404,6 +410,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lagrange1813.MDHighlight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MDHighlight/MDHighlight.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J848DTSBF7;
@@ -433,6 +441,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lagrange1813.MDHighlight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,55 +472,60 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7A52C4BF2821428500192187 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+		7A8F7D7B28323AD2007C4D76 /* XCRemoteSwiftPackageReference "swift-cmark" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@gitee.com:lagrange1813/swift-cmark.git";
+			requirement = {
+				branch = gfm;
+				kind = branch;
+			};
+		};
+		7A8F7D8028323B07007C4D76 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@gitee.com:lagrange1813/swift-argument-parser.git";
 			requirement = {
-				kind = exactVersion;
-				version = 1.1.2;
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.1.0;
 			};
 		};
-		7A52C4C22821429700192187 /* XCRemoteSwiftPackageReference "swift-docc-plugin" */ = {
+		7A8F7D8328323B20007C4D76 /* XCRemoteSwiftPackageReference "swift-docc-plugin" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@gitee.com:lagrange1813/swift-docc-plugin.git";
 			requirement = {
-				kind = exactVersion;
-				version = 1.0.0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
-		7A52C4C32821430700192187 /* XCRemoteSwiftPackageReference "swift-markdown" */ = {
+		7ADEFA6C28323CE300EA38F5 /* XCRemoteSwiftPackageReference "swift-markdown" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@gitee.com:lagrange1813/swift-markdown.git";
+			repositoryURL = "https://gitee.com/lagrange1813/swift-markdown.git";
 			requirement = {
 				branch = main;
 				kind = branch;
 			};
 		};
-		7A52C4C82821461600192187 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@gitee.com:lagrange1813/SnapKit.git";
-			requirement = {
-				kind = exactVersion;
-				version = 5.0.1;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7A52C4C02821428500192187 /* ArgumentParser */ = {
+		7A8F7D7C28323AD2007C4D76 /* cmark-gfm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A52C4BF2821428500192187 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			package = 7A8F7D7B28323AD2007C4D76 /* XCRemoteSwiftPackageReference "swift-cmark" */;
+			productName = "cmark-gfm";
+		};
+		7A8F7D7E28323AD2007C4D76 /* cmark-gfm-extensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A8F7D7B28323AD2007C4D76 /* XCRemoteSwiftPackageReference "swift-cmark" */;
+			productName = "cmark-gfm-extensions";
+		};
+		7A8F7D8128323B07007C4D76 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A8F7D8028323B07007C4D76 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = ArgumentParser;
 		};
-		7A52C4C42821430700192187 /* Markdown */ = {
+		7ADEFA6D28323CE300EA38F5 /* Markdown */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A52C4C32821430700192187 /* XCRemoteSwiftPackageReference "swift-markdown" */;
+			package = 7ADEFA6C28323CE300EA38F5 /* XCRemoteSwiftPackageReference "swift-markdown" */;
 			productName = Markdown;
-		};
-		7A52C4C92821461600192187 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7A52C4C82821461600192187 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

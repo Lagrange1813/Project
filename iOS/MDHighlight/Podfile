@@ -7,6 +7,7 @@ target 'MDHighlight' do
 
   # Pods for MDHighlight
 
+  pod 'SnapKit', '~> 5.0.0'
   pod 'LookinServer', :configurations => ['Debug']
 
 end

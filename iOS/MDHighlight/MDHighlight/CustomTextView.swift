@@ -35,6 +35,12 @@ class CustomTextView: UITextView {
                                                                    rects[rects.count - 3]._rect.size.height)
                     rects[rects.count - 3]._rect.origin.y = rects[rects.count - 1]._rect.origin.y
                 }
+                
+                if rects[rects.count - 3]._rect.origin.y > rects[rects.count - 2]._rect.origin.y + 10 {
+                    rects[rects.count - 3]._rect.size.height = rects[rects.count - 1]._rect.origin.y
+                                                                - rects[rects.count - 2]._rect.origin.y
+                                                                - rects[rects.count - 2]._rect.height + 2
+                }
             }
 
             if rects.count >= 5 {
@@ -44,6 +50,13 @@ class CustomTextView: UITextView {
                 if abs(rects[rects.count - 3]._rect.origin.y - rects[rects.count - 1]._rect.origin.y) < 10 {
                     rects[rects.count - 3]._rect.size.height = rects[rects.count - 1]._rect.size.height
                 }
+                
+//                let gap = rects[rects.count - 1]._rect.origin.y
+//                - rects[rects.count - 2]._rect.origin.y
+//                - rects[rects.count - 3]._rect.height
+//                - rects[rects.count - 4]._rect.height
+//                
+//                rects[rects.count - 3]._rect.size.height += gap
             }
 
             if rects.count == 4 {
@@ -55,6 +68,12 @@ class CustomTextView: UITextView {
 
                 if abs(rects[0]._rect.origin.y - rects[rects.count - 2]._rect.origin.y) < 10 {
                     rects[0]._rect.origin.y = rects[rects.count - 2]._rect.origin.y
+                }
+                
+                if rects[rects.count - 1]._rect.origin.y > rects[rects.count - 3]._rect.origin.y + 10 {
+                    rects[rects.count - 3]._rect.size.height = rects[rects.count - 1]._rect.origin.y
+                                                                - rects[rects.count - 2]._rect.origin.y
+                                                                - rects[rects.count - 2]._rect.height + 2
                 }
             }
 

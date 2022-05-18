@@ -1,0 +1,11 @@
+# SwiftSenpai-UICollectionView-List
+- Sample project for article '[Building a List with UICollectionView in Swift](https://swiftsenpai.com/development/uicollectionview-list-basic/)'.
+- Sample project for article '[UICollectionView List with Custom Cell and Custom Configuration](https://swiftsenpai.com/development/uicollectionview-list-custom-cell/)'.
+- Sample project for article '[Designing Custom UICollectionViewListCell in Interface Builder](https://swiftsenpai.com/development/custom-uicollectionviewlistcell-in-ib/)'.
+- Sample project for article '[Building an Expandable List Using UICollectionView: Part 1](https://swiftsenpai.com/development/collectionview-expandable-list-part1/)'.
+- Sample project for article '[Building an Expandable List Using UICollectionView: Part 2](https://swiftsenpai.com/development/collectionview-expandable-list-part2/)'.
+- Sample project for article '[The Modern Ways to Reload Your Table and Collection View Cells](https://swiftsenpai.com/development/modern-ways-reload-cells/)'
+- Sample project for article '[Declarative UICollectionView List Header and Footer](https://swiftsenpai.com/development/declarative-list-header-footer/)'
+- Sample project for article '[UICollectionView List with Interactive Custom Header](https://swiftsenpai.com/development/list-interactive-custom-header/)'
+- Sample project for article '[Replicate the Expandable Date Picker Using UICollectionView List](https://swiftsenpai.com/development/expandable-date-picker-list/)'
+- Sample project for article '[How to Reload the Diffable Section Header](https://swiftsenpai.com/development/reload-diffable-section-header/)'

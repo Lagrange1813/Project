@@ -1,15 +1,6 @@
 {
   "pins" : [
     {
-      "identity" : "snapkit",
-      "kind" : "remoteSourceControl",
-      "location" : "git@gitee.com:lagrange1813/SnapKit.git",
-      "state" : {
-        "revision" : "d458564516e5676af9c70b4f4b2a9178294f1bc6",
-        "version" : "5.0.1"
-      }
-    },
-    {
       "identity" : "swift-argument-parser",
       "kind" : "remoteSourceControl",
       "location" : "git@gitee.com:lagrange1813/swift-argument-parser.git",
@@ -21,7 +12,7 @@
     {
       "identity" : "swift-cmark",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-cmark.git",
+      "location" : "git@gitee.com:lagrange1813/swift-cmark.git",
       "state" : {
         "branch" : "gfm",
         "revision" : "792c1c3326327515ce9bf64c44196b7f4daab9a6"
@@ -39,7 +30,7 @@
     {
       "identity" : "swift-markdown",
       "kind" : "remoteSourceControl",
-      "location" : "git@gitee.com:lagrange1813/swift-markdown.git",
+      "location" : "https://gitee.com/lagrange1813/swift-markdown.git",
       "state" : {
         "branch" : "main",
         "revision" : "36cf89e36e94b025dbe37d82fe2a7da3f39d4204"

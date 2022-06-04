@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     let view4 = UIView(frame: CGRect(x: 120, y: 80, width: 100, height: 100))
     view4.backgroundColor = .blue
     view.insertSubview(view4, at: 0)
-    view.inser
+//    view.inser
     
 //    view1.removeFromSuperview()
 //

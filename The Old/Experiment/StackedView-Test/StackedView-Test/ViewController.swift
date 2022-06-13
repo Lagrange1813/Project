@@ -19,8 +19,6 @@ class ViewController: UIViewController {
     view1.backgroundColor = .red
     view.addSubview(view1)
     
-//    view1.removeFromSuperview()
-    
     let view2 = UIView(frame: CGRect(x: 130, y: 130, width: 100, height: 100))
     view2.backgroundColor = .yellow
     view.insertSubview(view2, belowSubview: view1)
